@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SURTRIB</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../public/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="../public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../public/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link type="image/x-icon" href="favicon.png" rel="shortcut icon"/>
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <b>Alcaldía Bolivariana de Libertador</b>
+    <br>
+    <a> Sistema único de Recaudación Tributaria</a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Entrar al Sistema</p>
+
+      <form id="frmAcceso" method="post">
+	   
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="logina" name="logina" placeholder="Usuario">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" id="clavea" name="clavea" placeholder="Password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock" id="candado"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember">
+              <label for="remember">
+                Recordar
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+          </div>
+          <!-- /.col -->
+          <div class="col-8 container mt-5">
+            <a href="../reportesPDF/ordenanzaspdf.pdf" download="ordenanzas.pdf" class="btn btn-l btn-block text-sm  btn-secondary " id="btnGuardar" > DESCARGAR ORDENANZAS</a>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+
+      <div class="social-auth-links text-center mb-3">
+        <p>______________________</p>
+        <td style="text-align:left"><img src="../public/images/libertador2.jpg" width="210" height="100"/></td>
+                                      
+                                      
+									 <p align="center">&nbsp;</p>
+      </div>
+      <!-- /.social-auth-links -->
+
+     
+      <p class="login-box-msg">
+        <a href="register.php" class="text-center">Registro de Nuevo Usuario</a>
+       
+      </p>
+    </div>
+    <!-- /.login-card-body -->
+  </div>
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="../public/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../public/dist/js/adminlte.min.js"></script>
+
+<script src="../public/js/bootbox.all.min.js"></script>
+
+<script src="scripts/login.js"></script>
+</body>
+</html>

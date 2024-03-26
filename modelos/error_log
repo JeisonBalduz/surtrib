@@ -1,0 +1,230 @@
+[05-Feb-2024 00:27:16 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[05-Feb-2024 00:27:16 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:10:42 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Warning:  Undefined variable $pdo in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
+[29-Feb-2024 09:45:12 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/surtribc/public_html/modelos/Insertarcvs.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/modelos/Insertarcvs.php on line 36
