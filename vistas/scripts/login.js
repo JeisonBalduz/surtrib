@@ -11,12 +11,8 @@ $("#frmAcceso").on('submit',function(e)
     {
         if (data!="null")
         {
-            data2 = JSON.parse(data);
-           if (data2.nivel == 2) {
-                console.log("es nivel contribuyente")
-           } else {
-            console.log("no es nivel contribuyente")
-           }
+          
+           $(location).attr("href","concepto.php "); 
            
         }
         else

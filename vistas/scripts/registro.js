@@ -306,7 +306,7 @@ function ValidarCantidadClave(input) {
     // Obtenemos el valor del input
     const valor = input.value;
     // Obtenemos el valor original del input
-    const valorOriginal = input.value.slice(0, 11);
+    const valorOriginal = input.value.slice(0, 10);
     // Si la longitud del valor ha cambiado y ahora es mayor que 10, establecemos el valor del input al valor original
     if (valor !== valorOriginal) {
       input.value = valorOriginal;

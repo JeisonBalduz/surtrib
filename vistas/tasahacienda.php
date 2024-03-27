@@ -39,11 +39,11 @@ if ($_SESSION['Escritorio']==1)
                                           <thead>
                                                 <tr>
                                                       <th>Opciones</th>
-                                                      <th>Codigo Tasa</th>
+                                                      <th>Código Tasa</th>
                                                       <th>Concepto</th>
                                                       <th>ITM</th>
                                                       <th>Partida</th>
-                                                      <th>Observacion</th>
+                                                      <th>Observación</th>
                                                      
 
                                                 </tr>
@@ -54,11 +54,11 @@ if ($_SESSION['Escritorio']==1)
                                           <tfoot>
                                                 <tr>
                                                 <th>Opciones</th>
-                                                      <th>Codigo Tasa</th>
+                                                      <th>Código Tasa</th>
                                                       <th>Concepto</th>
                                                       <th>ITM</th>
                                                       <th>Partida</th>
-                                                      <th>Observacion</th>
+                                                      <th>Observación</th>
                                                       
                                                     
                                                 </tr>     					
@@ -80,7 +80,7 @@ if ($_SESSION['Escritorio']==1)
                         <div class="card-body"> 
 			            <div class="row">
                                     <div class="form-group col-sm-4 col-xs-4">
-                                          <label>Codigo Tasa</label>
+                                          <label>Código Tasa</label>
                                                 <input type="hidden" name="id" id="id" class="form-control">
                                                 <input type="text" name="idt" id="idt" class="form-control" placeholder="Ingrese Tipo de Ramo" >
                                     </div>

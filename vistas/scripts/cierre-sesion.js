@@ -4,7 +4,7 @@ var tiempoAlerta = 5; // Tiempo en segundos para mostrar la alerta
 var intervaloAlerta = null;
 var tiempoCierreAutomatico = 60; // Tiempo en segundos para el cierre automático
 var intervaloCierreAutomatico = null;
-var op = "salir";
+var op = 'salir';
 
 function reiniciarTemporizador() {
   tiempoInactividad = 0;
@@ -16,8 +16,7 @@ function iniciarTemporizador() {
 
 function verificarInactividad() {
   tiempoInactividad++;
-
-  console.log("Tiempo inactivo: " + tiempoInactividad + " segundos");
+  //console.log("Tiempo inactivo: " + tiempoInactividad + " segundos");
   if (tiempoInactividad >= 300) {
     clearInterval(intervaloInactividad);
     mostrarAlerta();
@@ -28,7 +27,7 @@ function mostrarAlerta() {
   clearInterval(intervaloAlerta);
   var contador = tiempoCierreAutomatico;
   console.log("Alerta mostrada");
-  // console.log("Cierre automático en " + contador + " segundos");
+ // console.log("Cierre automático en " + contador + " segundos");
 
   intervaloAlerta = setInterval(function () {
     contador--;
@@ -57,7 +56,7 @@ function mostrarAlerta() {
       if (result) {
         // Redirigir al usuario a la página de cierre de sesión automatico
         console.log("Sesión cerrada automáticamente");
-
+        
         $.ajax({
           type: "POST",
           url: "../ajax/usuarios.php?op=" + op,

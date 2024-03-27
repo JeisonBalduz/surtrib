@@ -196,29 +196,44 @@ public function resumendeingresosdetalleTrranferencia($comodinbusqueda,$comodinb
 		return ejecutarConsulta($sql);		
 	}
 
-public function ingresosDeclarados($comodinbusqueda)//
+public function ingresosDeclarados($comodinbusqueda,$comodinbusqueda2)//
 	{
       
-    $fechaINI=explode("-",$comodinbusqueda);
-    $fecha=$fechaINI[0].'-'.$fechaINI[1];
+   // $fechaINI=explode("-",$comodinbusqueda);
+   // $fecha=$fechaINI[0].'-'.$fechaINI[1];
+		if($comodinbusqueda==$comodinbusqueda2){ 
 
-     $sql="SELECT COUNT(c.rfc) AS cuantosdeclararon,SUM(cc.income) AS TingresosDeclarados,SUM(cc.tax) AS CuantoApagar FROM companye c LEFT JOIN companyeib cc ON c.id=cc.idrelcompanye WHERE c.rfc<>1 AND c.rfc<>11007 AND c.rfc<>0 AND DATE_FORMAT(c.moment,'%Y-%m')='$fecha'";
+     $sql="SELECT COUNT(c.rfc) AS cuantosdeclararon,SUM(cc.income) AS TingresosDeclarados,SUM(cc.tax) AS CuantoApagar FROM companye c LEFT JOIN companyeib cc ON c.id=cc.idrelcompanye WHERE c.rfc<>1 AND c.rfc<>11007 AND c.rfc<>0 AND DATE_FORMAT(c.moment,'%Y-%m-%d')='$comodinbusqueda'";
+     }
+      else{ 
+           
+           $sql="SELECT COUNT(c.rfc) AS cuantosdeclararon,SUM(cc.income) AS TingresosDeclarados,SUM(cc.tax) AS CuantoApagar FROM companye c LEFT JOIN companyeib cc ON c.id=cc.idrelcompanye WHERE c.rfc<>1 AND c.rfc<>11007 AND c.rfc<>0 AND DATE_FORMAT(c.moment,'%Y-%m-%d') BETWEEN '$comodinbusqueda' AND '$comodinbusqueda2'";
 
-		//die($sql);
+      }
+	//	die($sql);
 		return ejecutarConsulta($sql);		
 	}
 
-public function ingresosDeclaradosPagados($comodinbusqueda)//
+public function ingresosDeclaradosPagados($comodinbusqueda,$comodinbusqueda2)//
 	{
       
-    $fechaINI=explode("-",$comodinbusqueda);
-    $fecha=$fechaINI[0].'-'.$fechaINI[1];
-
+   // $fechaINI=explode("-",$comodinbusqueda);
+  //  $fecha=$fechaINI[0].'-'.$fechaINI[1];
+   if($comodinbusqueda==$comodinbusqueda2){ 
      $sql="SELECT COUNT(c.rfc) as Cuantospagaron 
 FROM companye c LEFT JOIN companyeib cc ON c.id=cc.idrelcompanye 
 LEFT JOIN mayor m ON c.tramite=m.tramite 
-WHERE m.idt=1024 AND (m.mcondition='C' OR m.mcondition='P') AND c.rfc<>1 AND c.rfc<>11007 AND c.rfc<>0 AND DATE_FORMAT(m.fpagado,'%Y-%m')='$fecha';";
+WHERE m.idt=1024 AND (m.mcondition='C' OR m.mcondition='P') AND c.rfc<>1 AND c.rfc<>11007 AND c.rfc<>0 AND DATE_FORMAT(m.fpagado,'%Y-%m-%d')='$comodinbusqueda';";
+ 
+  }else{ 
+    
+     $sql="SELECT COUNT(c.rfc) as Cuantospagaron 
+FROM companye c LEFT JOIN companyeib cc ON c.id=cc.idrelcompanye 
+LEFT JOIN mayor m ON c.tramite=m.tramite 
+WHERE m.idt=1024 AND (m.mcondition='C' OR m.mcondition='P') AND c.rfc<>1 AND c.rfc<>11007 AND c.rfc<>0 AND DATE_FORMAT(m.fpagado,'%Y-%m-%d')  BETWEEN '$comodinbusqueda' AND '$comodinbusqueda2';";
+ 
 
+      }
 	//	die($sql);
 		return ejecutarConsulta($sql);		
 	}

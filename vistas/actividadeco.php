@@ -31,26 +31,26 @@ if (empty($idact) )
                   <div class="col-12">
                         <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Registro de Actividad Economica</h3>
+                                    <h3 class="card-title">Registro de Actividad Económica</h3>
                                     <h3></h3>
                               </div>
 			            <div class="card-header">
 			                  <div class="row">
                                           <div class="form-group col-md-12 col-sm-12 col-xs-1">
-						           <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Registrar de Actividad Economica</button>
+						           <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Registrar de Actividad Económica</button>
 				                        <a href="actividadeco.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                           </div>
 				            </div>
 				      </div>
                               <div class="card-header">
-                                    <h3 class="card-title">Listado de Actividades Economicas Registradas</h3>
+                                    <h3 class="card-title">Listado de Actividades Económicas Registradas</h3>
                               </div>
                               <div class="card-body" id="lista">
                                     <table id="tbllistado" class="table table-bordered table-hover">
                                           <thead>
                                                 <tr>
                                                       
-                                                      <th>Codigo</th>
+                                                      <th>Código</th>
                                                       <th>Detalle</th>
                                           
                                                      
@@ -63,7 +63,7 @@ if (empty($idact) )
                                           <tfoot>
                                                 <tr>
                                                 
-                                                      <th>Codigo</th>
+                                                      <th>Código</th>
                                                       <th>Detalle</th>
                                                       
                                                       
@@ -81,7 +81,7 @@ if (empty($idact) )
 
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro de Actividad Economica</h3>
+                        <h3 class="card-title">Formulario de Registro de Actividad Económica</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
@@ -92,7 +92,7 @@ if (empty($idact) )
                                     <div class="form-group col-sm-12 col-xs-12">
                                     <label>Selecciones Actividad</label>
                                     <input type="hidden" name="id" id="id" class="form-control">
-                                        <select name="actividad" id="actividad" class="form-control" data-live-search="true" required>Seleccione un Actividad Economica</select>
+                                        <select name="actividad" id="actividad" class="form-control" data-live-search="true" required>Seleccione un Actividad Económica</select>
                                           
                                     </div>  
                               </div>

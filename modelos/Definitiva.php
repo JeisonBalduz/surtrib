@@ -85,7 +85,7 @@ Class Definitiva
 
 	public function listar()
 	{
-		$sql="SELECT d.correlativo,u.name,u.rif,u.rfc,d.id,d.montobruto,d.representante,d.rcedula,d.rtelefono FROM `definitiva` d LEFT JOIN users u ON d.rfc=u.rfc GROUP BY d.id";
+		$sql="SELECT d.correlativo,u.name,u.rif,u.rfc,d.id,d.montobruto,d.representante,d.rcedula,d.rtelefono,d.correlativo FROM `definitiva` d LEFT JOIN users u ON d.rfc=u.rfc GROUP BY d.id ORDER BY d.correlativo DESC";
 		return ejecutarConsulta($sql);		
 	}
 

@@ -46,22 +46,22 @@ if ($_SESSION['Clientes']==1)
                                         
 						            <button type="submit" onclick="getidrfc();" class="btn btn-info">Mostrar</button>
                            
-                                                <label>Busqueda Contribuyente</label>
+                                                <label>Búsqueda Contribuyente</label>
 				                        <a href="pagostaquilla.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                           </div>
 				            </div>
 					</div>  
                               <div class="card-body" id="resporteestadocuenta">
                                           <h1 class="text-center" margin="0"><b>ESTADO DE CUENTA</b></h1>
-                                          <h5 class="text-center" margin="0"><b>Razon Social:</b> <spam id="razsocial"></spam>  <b>N° RUC:</b> <spam id="rufrif"></spam></h5>
-                                          <p class="text-center" margin="0"> <b>Direccion Fiscal: </b><spam id="direccionfiscal"></spam> <b>Correo:</b> <spam id="correo"></spam></p>
+                                          <h5 class="text-center" margin="0"><b>Razón Social:</b> <spam id="razsocial"></spam>  <b>N° RUC:</b> <spam id="rufrif"></spam></h5>
+                                          <p class="text-center" margin="0"> <b>Dirección Fiscal: </b><spam id="direccionfiscal"></spam> <b>Correo:</b> <spam id="correo"></spam></p>
                                           
                                     
                                     <table id="tbllistado" class="table table-bordered table-hover" width=100%>
                                           <thead>
                                                 <tr>  <th>#</th>
                                                       <th>Fecha</th>
-                                                      <th>Tramite</th>
+                                                      <th>Trámite</th>
                                                       <th>Detalles</th>
                                                       <th>Monto Liq.</th>
                                                                                          
@@ -106,7 +106,7 @@ if ($_SESSION['Clientes']==1)
                                           <div class="modal-dialog modal-lg">
                                                 <div class="modal-content">
                                                       <div class="modal-header" style="background-color: #17a2b8;color: white">
-                                                            <h4 class="modal-title" id="titulotamite">Procesar Pago Tramite</h4>
+                                                            <h4 class="modal-title" id="titulotamite">Procesar Pago Trámite</h4>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                                       </div>
                

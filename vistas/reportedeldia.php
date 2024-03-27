@@ -20,7 +20,7 @@ if ($_SESSION['Clientes']==1)
                   <div class="col-12">
 		            <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title"><strong>Reporte del Dia </strong><!--  <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Nuevo</button>--> </h3>
+                                    <h3 class="card-title"><strong>Reporte del Día </strong><!--  <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Nuevo</button>--> </h3>
                                     <a href="reportedeldia.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                               </div>
             
@@ -35,7 +35,7 @@ if ($_SESSION['Clientes']==1)
                                            <input type="date" name="fechadia2" id="fechadia2" class="form-control" placeholder="Ingrese Fecha">
                                           </div> 
 						      <div class="form-group col-md-3 col-sm-6 col-xs-1">
-                                                <label>Busqueda</label><br/>
+                                                <label>Búsqueda</label><br/>
 						            <button type="submit" onclick="reportedeldia();" class="btn btn-info">Mostrar</button>
                            
                                                 
@@ -56,7 +56,7 @@ if ($_SESSION['Clientes']==1)
                                                       <th>#</th>
                                                       <th>CAJERO</th>
                                                       <th>FECHA PAG</th>
-                                                      <th>TRAMITE</th>
+                                                      <th>TRÁMITE</th>
                                                       <th>RECIBO</th>                                   
                                                       <th>APROB.</th>
                                                       <th>REF</th>
@@ -82,7 +82,7 @@ if ($_SESSION['Clientes']==1)
                                     </table>
 
                                    <div class="card-header">
-                                    <h3 class="card-title">Listado de Operaciones por conciliacion bancaria</h3>
+                                    <h3 class="card-title">Listado de Operaciones por conciliación bancaria</h3>
                                     </div>
 
                                    <table id="tbllistadoCoinciliado" class="table table-bordered table-hover" width=100%>
@@ -91,8 +91,8 @@ if ($_SESSION['Clientes']==1)
                                                       <th>#</th>
                                                       <th>CAJERO</th>
                                                       <th>FECHA BANCO</th>
-                                                      <th>FECHA CONCILIACION</th>
-                                                      <th>IDT/TRAMITE</th>
+                                                      <th>FECHA CONCILIACIÓN</th>
+                                                      <th>IDT/TRÁMITE</th>
                                                       <th>N Control</th>                                   
                                                       <th>MODO</th>
                                                       <th>REF</th>

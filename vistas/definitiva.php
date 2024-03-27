@@ -20,20 +20,23 @@ if ($_SESSION['Clientes']==1)
                   <div class="col-12">
 		            <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Declaracion de Definitiva<!--  <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Nuevo</button>--> </h3>
+                                    <h3 class="card-title">Declaración de Definitiva<!--  <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Nuevo</button>--> </h3>
+                                    <a href="definitiva.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                               </div>
             
 			            <div class="card-header">
 			                  <div class="row">
                                           <div class="form-group col-md-4 col-sm-6 col-xs-1">
-                                                <input type="text" name="comodinbusqueda" id="comodinbusqueda" class="form-control" placeholder="Ingrese RFU" required> 
+                                               <select class="form-control input-sm" name="comodinbusqueda" id="comodinbusqueda" placeholder="Buscar" >
+                                                      <option value="">--Seleccionar --</option>
+                                                </select> 
                                           </div> 
 						      <div class="form-group col-md-8 col-sm-12 col-xs-1">
                                         
 						            <button type="submit" onclick="verdefinitiva()" class="btn btn-info">Mostrar</button>
                            
-                                                <label>Busqueda Contribuyente</label>
-				                        <a href="definitiva.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
+                                                <label>Búsqueda Contribuyente</label>
+				                        
                                           </div>
 				            </div>
 					</div> 
@@ -49,6 +52,7 @@ if ($_SESSION['Clientes']==1)
                                                       <th>RUF</th>
                                                       <th>RIF</th>
                                                       <th>Nombre</th>
+                                                      <th>Correlativo</th>
                                                    
                                                 </tr>
                                           </thead>
@@ -61,7 +65,7 @@ if ($_SESSION['Clientes']==1)
                                                       <th>RUF</th>
                                                       <th>RIF</th>
                                                       <th>Nombre</th>
-                                                   
+                                                      <th>Correlativo</th>
                                                      
                                                 </tr>     					
                                           </tfoot>
@@ -93,7 +97,7 @@ if ($_SESSION['Clientes']==1)
                                           <input type="text" name="rif" id="rif" class="form-control">
                                     </div>
                                     <div class="form-group col-sm-6 col-xs-4">
-                                          <label>Razon Social</label>
+                                          <label>Razón Social</label>
                                         
                                           <input type="text" name="name" id="name" class="form-control">
                                     </div>
@@ -109,11 +113,11 @@ if ($_SESSION['Clientes']==1)
                                                                         <table id="tbllistado" class="table table-bordered table-hover">
                                                                                <thead>
                                                                                     <tr>
-                                                                                          <th>Razon Social</th>
+                                                                                          <th>Razón Social</th>
                                                                                           <th>Actividad</th>
-                                                                                          <th>Alicuota</th>
+                                                                                          <th>Alícuota</th>
                                                                                           <th>Periodo</th>
-                                                                                          <th>Tramite</th>
+                                                                                          <th>Trámite</th>
                                                                                           <th>Estatus</th>
                                                                                           <th>Monto Bruto</th>
                                                                                           <th>Impuesto Mes</th>
@@ -143,12 +147,12 @@ if ($_SESSION['Clientes']==1)
                                           <input type="text" name="representante" id="representante" class="form-control" placeholder="Nombre Representante" required>
                                     </div>
                                     <div class="form-group col-sm-4 col-xs-4">
-                                          <label>Cedula Representante</label>
-                                          <input type="text" name="rcedula" id="rcedula" class="form-control" placeholder="Cedula Representante" required>
+                                          <label>Cédula Representante</label>
+                                          <input type="text" name="rcedula" id="rcedula" class="form-control" placeholder="Cédula Representante" required>
                                     </div>
                                     <div class="form-group col-sm-4 col-xs-4">
-                                          <label>Telefono Representante</label>
-                                          <input type="text" name="rtelefono" id="rtelefono" class="form-control" placeholder="Ingrese Telefono" required>
+                                          <label>Teléfono Representante</label>
+                                          <input type="text" name="rtelefono" id="rtelefono" class="form-control" placeholder="Ingrese Teléfono" required>
                                     </div>
                               </div>
                               

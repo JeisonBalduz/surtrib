@@ -34,22 +34,22 @@ if ($_SESSION['Clientes']==1)
                                         
 						            <button type="submit" onclick="listar2()" class="btn btn-info">Mostrar</button>
                            
-                                                <label>Busqueda Contribuyente</label>
+                                                <label>Búsqueda Contribuyente</label>
 				                        <a href="estadocuentahacienda.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                           </div>
 				            </div>
 					</div> 
                               <div class="card-body" id="resporteestadocuenta">
                                           <h1 class="text-center" margin="0"><b>ESTADO DE CUENTA</b></h1>
-                                          <h5 class="text-center" margin="0"><b>Razon Social:</b> <spam id="razsocial"></spam>  <b>N° RUC:</b> <spam id="rufrif"></spam></h5>
-                                          <p class="text-center" margin="0"> <b>Direccion Fiscal: </b><spam id="direccionfiscal"></spam> <b>Correo:</b> <spam id="correo"></spam></p>
+                                          <h5 class="text-center" margin="0"><b>Razón Social:</b> <spam id="razsocial"></spam>  <b>N° RUC:</b> <spam id="rufrif"></spam></h5>
+                                          <p class="text-center" margin="0"> <b>Dirección Fiscal: </b><spam id="direccionfiscal"></spam> <b>Correo:</b> <spam id="correo"></spam></p>
                                           
                                     
                                     <table id="tbllistado" class="table table-bordered table-hover" width=100%>
                                           <thead>
                                                 <tr>
                                                       <th>Fecha</th>
-                                                      <th>Tramite</th>
+                                                      <th>Trámite</th>
                                                       <th>Tributo</th>
                                                       <th>Monto Liq.</th>                                   
                                                       <th>Monto Dif.</th>
@@ -90,7 +90,7 @@ if ($_SESSION['Clientes']==1)
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h6 class="modal-title">Liquidacion Tramite N°: <spam id="tramitelig"></spam></h6>
+              <h6 class="modal-title">Liquidación Trámite N°: <spam id="tramitelig"></spam></h6>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>

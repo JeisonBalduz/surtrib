@@ -45,7 +45,7 @@ if ($_SESSION['Escritorio']==1)
                                                   <th>Referencia</th>
                                                   <th>Tipo de Pago</th>
                                                   <th>Fecha de Pago</th>
-                                                  <th>Fecha de Aprobacion</th>
+                                                  <th>Fecha de Aprobación</th>
                                                   <th>Recibo</th>                                   
                                                 
                                                  
@@ -64,7 +64,7 @@ if ($_SESSION['Escritorio']==1)
                                                   <th>Referencia</th>
                                                   <th>Tipo de Pago</th>
                                                   <th>Fecha de Pago</th>
-                                                  <th>Fecha de Aprobacion</th>
+                                                  <th>Fecha de Aprobación</th>
                                                   <th>Recibo</th>                                      
             
                                                   
@@ -101,7 +101,7 @@ if ($_SESSION['Escritorio']==1)
                                     <input type="hidden" name="idusuarioamb" id="idusuarioamb">
                                           <select class="form-control" name="tipopago" id="tipopago" placeholder="Seleccione Tipo de Pago" required>
                                                  <option value="">Seleccione Tipo de Pago</option>
-								 <option value="Pago Movil">Pago Movil</option>
+								 <option value="Pago Móvil">Pago Móvil</option>
                                                  <option value="Deposito">Deposito</option>
                                                  <option value="Transferencia">Transferencia</option>
                                         </select>
@@ -180,7 +180,7 @@ if ($_SESSION['Escritorio']==1)
                                     <input type="hidden" name="idusuarioamb" id="idusuarioamb">
                                           <select class="form-control" name="tipopago" id="tipopago" placeholder="Seleccione Tipo de Pago" required>
                                                  <option value="">Seleccione Tipo de Pago</option>
-								 <option value="Pago Movil">Pago Movil</option>
+								 <option value="Pago Móvil">Pago Móvil</option>
                                                  <option value="Deposito">Deposito</option>
                                                  <option value="Transferencia">Transferencia</option>
                                         </select>

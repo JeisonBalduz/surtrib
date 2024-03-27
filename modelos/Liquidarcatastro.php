@@ -14,13 +14,13 @@ Class Liquicatastro
 	{
 
 		$sql= "SELECT `GenerarTramite`('$rfc') AS `GenerarTramite`";
-		$t = ejecutarConsultaSimpleFila($sql);
-		$tramite = $t[];
+		$t = ejecutarConsultaSimpleValor($sql);
+		$tramite = $t;
 
 
        $sql= "SELECT CalcularPagoCatastro($idtc,$metros) AS monto";
-	   $m = ejecutarConsultaSimpleFila($sql);
-	   $monto = $m[];
+	   $m = ejecutarConsultaSimpleValor($sql);
+	   $monto = $m;
 
 
 	   $sql1= "INSERT INTO gaugingpenalty (tramite,rfc,moment, amount,femision) VALUES ('$tramite','$rfc',now(),'$monto',now())";
@@ -34,6 +34,8 @@ Class Liquicatastro
 
 	   $sql3= "UPDATE `catastro` SET `tramite`='$tramite',`estado`='0' WHERE `id`='$id'";
 	   ejecutarConsulta($sql3);
+
+	   return $t;
 	}
  
 	public function mostrar($id)
@@ -51,7 +53,7 @@ Class Liquicatastro
 
 	public function listar($rfc)
 	{
-		$sql="SELECT c.id,c.registered,c.tramite,c.metros,c.estado,u.name,u.rfc,u.rif,t.idc,t.detalle FROM catastro c LEFT JOIN users u ON u.rfc=c.rfc LEFT JOIN tributescatastro t ON c.idtc=t.idc";
+		$sql="SELECT c.id,c.registered,c.tramite,c.metros,c.estado,u.name,u.rfc,u.rif,t.idc,t.detalle FROM catastro c LEFT JOIN users u ON u.rfc=c.rfc LEFT JOIN tributescatastro t ON c.idtc=t.idc WHERE estado=1";
 	    return ejecutarConsulta($sql);		
 	}
 

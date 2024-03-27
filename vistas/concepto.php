@@ -7,9 +7,7 @@ session_start();
 
 include("../config/Conexion.php");
 
-if ($_SESSION['rol']==2) {
-  header('location:conceptocontribuyente.php ');
-}
+
 $rfc = $_SESSION["rfc"];
 
 
@@ -110,6 +108,10 @@ if ($_SESSION['Escritorio']==1)
     height: 400px;
     width: 310px;
     }
+    .modal video{
+    width: 450px;
+    height: 260px; 
+  }
   }
 </style>
 <?php if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==2) {
@@ -133,10 +135,30 @@ if ($_SESSION['Escritorio']==1)
           <!-- CUERPO DEL MODAL DEL CONTENIDO -->
           <div class="modal-body">
             <!-- CONTENDOR DE IMAGENES RESPONSIVE -->
-            <div id="anuncio" class="container-fluid d-flex justify-content-center">
-               <video src="../public/images/videoWS.mp4"controls autoplay  ></video>
-                 
-            </div>
+             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                         <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="../public/images/carrete/operativoConjunto.jpeg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="../public/images/carrete/feriaDelPescado.jpeg" alt="Second slide">
+                            </div>
+                           
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                          <ol class="carousel-indicators mt-3">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            
+                          </ol>
+              </div>
             <p></p>
           </div>
           <!-- BOTON DE CERRAR LA PUBLICIDAD -->
@@ -151,7 +173,6 @@ if ($_SESSION['Escritorio']==1)
 } 
 ?>
 
-
 <div class="row">
 
 <div class="col-md-12">
@@ -160,7 +181,7 @@ if ($_SESSION['Escritorio']==1)
               <!-- Add the bg color to the header using any of the bg-* classes -->
               <div class="widget-user-header text-white"
                    style="background: url('../public/images/campo.jpg') center center;">
-                <h3 class="widget-user-username text-right">Alcaldia del Municipio Libertador</h3>
+                <h3 class="widget-user-username text-right">Alcaldía del Municipio Libertador</h3>
                 <h5 class="widget-user-desc text-right">Hacienda Municipal</h5>
               </div>
               <div class="widget-user-image">

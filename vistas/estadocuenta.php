@@ -26,7 +26,7 @@ if ($_SESSION['Escritorio']==1)
                               </div>
                               <div class="card-header">
                               <h5 class="text-center" margin="0"><b>ESTADO DE CUENTA</b></h1>
-                                          <h5 class="text-center" margin="0"><b>Razon Social:</b> <?php echo $_SESSION['nombre']; ?> <b>  N° RIF: </b> <?php echo $_SESSION['rif']; ?> </spam></h5>
+                                          <h5 class="text-center" margin="0"><b>Razón Social:</b> <?php echo $_SESSION['nombre']; ?> <b>  N° RIF: </b> <?php echo $_SESSION['rif']; ?> </spam></h5>
                                           <p class="text-center" margin="0"> <b>Fecha de consulta: </b><?php echo date("Y/m/d");?></p>
                                </div>
                                   <div class="card-body">
@@ -34,12 +34,12 @@ if ($_SESSION['Escritorio']==1)
                                     <thead>
                                           <tr>
                                                 <th>Fecha</th>
-                                                <th>Tramite</th>
+                                                <th>Trámite</th>
                                                 <th>Tributo</th>
                                                  <th>Monto Liq.</th>
                                                  <th>Monto Dif.</th>
                                                   <th>Diferencia</th>
-                                                  <th>Credito Fiscal/Desc.</th>
+                                                  <th>Crédito Fiscal/Desc.</th>
                                                   <th>Monto Pagado</th>
                                                   <th>Saldo</th>
                                                   <th>Opciones</th>
@@ -55,12 +55,12 @@ if ($_SESSION['Escritorio']==1)
                                       <tr>
                                       
                                       <th>Fecha</th>
-                                                <th>Tramite</th>
+                                                <th>Trámite</th>
                                                 <th>Tributo</th>
                                                  <th>Monto Liq.</th>
                                                  <th>Monto Dif.</th>
                                                   <th>Diferencia</th>
-                                                  <th>Credito Fiscal/Desc.</th>
+                                                  <th>Crédito Fiscal/Desc.</th>
                                                   <th>Monto Pagado</th>
                                                   <th>Saldo</th>
 
@@ -118,7 +118,7 @@ if ($_SESSION['Escritorio']==1)
                   <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                               <div class="modal-header" style="background-color: #17a2b8;color: white">
-                                    <h4 class="modal-title">Notificacion de Pago</h4>
+                                    <h4 class="modal-title">Notificación de Pago</h4>
                                           <button type="button" class="close" onclick="limpiar()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                               </div>
                               <form role="form" name="formulariopago2" id="formulariopago2" method="POST">
@@ -126,7 +126,7 @@ if ($_SESSION['Escritorio']==1)
                                     <div class="col-sm-12">
                                           <div class="row">
                                                 <div class="form-group col-sm-12 col-xs-12">
-                                                      <label>Tramite</label>
+                                                      <label>Trámite</label>
                                                       <input type="hidden" name="id" id="id" class="form-control"> 
                                                       <input type="hidden" name="tributo" id="tributo" class="form-control"> 
                                                       <input type="hidden" name="tramite" id="tramite" class="form-control"> 
@@ -143,8 +143,8 @@ if ($_SESSION['Escritorio']==1)
                                                 </div>
                                                 <div class="form-group col-sm-6 col-xs-12">
                                                     
-                                                      <label>INGRESE EL NUMERO DE REFERENCIA</label>
-                                                            <input style="text-align:right;" class="form-control" type="numeric" value="000000" name="referencia" id="referencia" maxlent="10" placeholder="Ingrese todos los numeros de la referencia" required>
+                                                      <label>INGRESE EL NÚMERO DE REFERENCIA</label>
+                                                            <input style="text-align:right;" class="form-control" type="numeric" value="000000" name="referencia" id="referencia" maxlent="10" placeholder="Ingrese todos los números de la referencia" required>
                                                 </div>
                                                
                                     </div>
@@ -182,7 +182,7 @@ if ($_SESSION['Escritorio']==1)
                   <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                               <div class="modal-header" style="background-color: #17a2b8;color: white">
-                                    <h4 class="modal-title">Notificacion de Pago 2</h4>
+                                    <h4 class="modal-title">Notificación de Pago 2</h4>
                                           <button type="button" class="close" onclick="limpiar()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                               </div>
                               <form role="form" name="formulariodife2" id="formulariodife2" method="POST">
@@ -190,7 +190,7 @@ if ($_SESSION['Escritorio']==1)
                                     <div class="col-sm-12">
                                           <div class="row">
                                                 <div class="form-group col-sm-12 col-xs-12">
-                                                      <label>Tramite</label>
+                                                      <label>Trámite</label>
                                                       <input type="hidden" name="id" id="id" class="form-control"> 
                                                       <input type="hidden" name="tributo2" id="tributo2" class="form-control"> 
                                                       <input type="hidden" name="tramite2" id="tramite2" class="form-control"> 
@@ -206,8 +206,8 @@ if ($_SESSION['Escritorio']==1)
                                                             <input style="text-align:right;" class="form-control" type="numeric" value="0.00" name="monto" id="monto" maxlent="9" placeholder="El monto debe ser igual al comprobante de pago" required>        
                                                 </div>
                                                 <div class="form-group col-sm-6 col-xs-12">
-                                                      <label>INGRESE EL NUMERO DE REFERENCIA</label>
-                                                            <input style="text-align:right;" class="form-control" type="numeric" value="000000" name="referencia" id="referencia" maxlent="10" placeholder="Ingrese todos los numeros de la referencia" required>
+                                                      <label>INGRESE EL NÚMERO DE REFERENCIA</label>
+                                                            <input style="text-align:right;" class="form-control" type="numeric" value="000000" name="referencia" id="referencia" maxlent="10" placeholder="Ingrese todos los números de la referencia" required>
 
                                                 </div>
                                                

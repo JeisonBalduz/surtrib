@@ -42,7 +42,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Opciones</th>
                                                       <th>Nombre</th>
                                                       <th>Rif</th>
-                                                      <th>Codigo</th>
+                                                      <th>Código</th>
                                                    
                                                 </tr>
                                           </thead>
@@ -54,7 +54,7 @@ if ($_SESSION['Escritorio']==1)
                                                 <th>Opciones</th>
                                                       <th>Nombre</th>
                                                       <th>Rif</th>
-                                                      <th>Codigo</th>
+                                                      <th>Código</th>
                                                      
                                                 </tr>     					
                                           </tfoot>
@@ -63,13 +63,9 @@ if ($_SESSION['Escritorio']==1)
                         </div>
                   </div>
             </div>
-        
-
-            
-
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro y Modificacion de Bancos</h3>
+                        <h3 class="card-title">Formulario de Registro y Modificación de Bancos</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
@@ -82,10 +78,10 @@ if ($_SESSION['Escritorio']==1)
                                     
                                     <div class="form-group col-sm-4 col-xs-4">
                                           <label>RIF</label>
-                                          <input type="text" name="rif" id="rif" class="form-control" placeholder="Ingrese Tipo de Categoria" readonly>
+                                          <input type="text" name="rif" id="rif" class="form-control" placeholder="Ingrese Tipo de Categoría" readonly>
                                     </div>	 
 			                  <div class="form-group col-sm-4 col-xs-12">
-                                          <label>Codigo</label>
+                                          <label>Código</label>
                                                 <input type="text" name="codigo" id="codigo" class="form-control" placeholder="Ingrese Tipo de Tasa">
                                     </div>   
                               </div>				   

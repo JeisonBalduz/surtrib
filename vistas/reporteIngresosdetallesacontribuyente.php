@@ -35,7 +35,7 @@ if (($_SESSION['Clientes']==1 && $_SESSION['rol']>=91) OR ($_SESSION['Clientes']
                                            <input type="date" name="fechadia2" id="fechadia2" class="form-control" placeholder="Ingrese Fecha">
                                           </div> 
 						      <div class="form-group col-md-3 col-sm-6 col-xs-1">
-                                                <label>Busqueda</label><br/>
+                                                <label>Búsqueda</label><br/>
 						            <button type="submit" onclick="reportedeingresos();" class="btn btn-info">Mostrar</button>
                            
                                                 
@@ -56,7 +56,7 @@ if (($_SESSION['Clientes']==1 && $_SESSION['rol']>=91) OR ($_SESSION['Clientes']
                                                       
                                                       <th>Partida</th>
                                                       <th>Actividades</th>
-                                                      <th>N Tramites</th>
+                                                      <th>N Trámites</th>
                                                       <th>Monto</th>
                                                       
                                                 </tr>
@@ -86,7 +86,7 @@ if (($_SESSION['Clientes']==1 && $_SESSION['rol']>=91) OR ($_SESSION['Clientes']
                                                       <th>BANCO</th>
                                                       <th>COD BANCO</th>
                                                       <th>REF</th>
-                                                      <th>TRAMITE</th>
+                                                      <th>TRÁMITE</th>
                                                       <th>RIF</th>
                                                       <th>MONTO</th>
                                                       

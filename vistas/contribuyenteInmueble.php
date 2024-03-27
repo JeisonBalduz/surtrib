@@ -37,7 +37,7 @@ if ($_SESSION['Clientes']==1)
 			           <div class="card-header">
 			              <div class="row">
                    <div class="form-group col-md-4 col-sm-6 col-xs-1">
-				            <label>Busqueda de Inmueble</label>
+				            <label>Búsqueda de Inmueble</label>
                                      <input type="text" name="comodinbusqueda" id="comodinbusqueda" class="form-control" placeholder="Ingrese Ficha Catastral o RUC" required> 
 						            </div> 
 						   <div class="form-group col-md-12 col-sm-12 col-xs-1">
@@ -65,10 +65,10 @@ if ($_SESSION['Clientes']==1)
                                                   <th>Tomo</th>
                                                   <th>Protocolo</th>
                                                   <th>D_Fecha</th>
-                                                  <th>Area_M</th>
+                                                  <th>Área_M</th>
                                                   <th>Precio</th>
                                                   <th>Año_Avaluo</th>
-                                                  <th>CT_Estatus</th><th>Clasificación</th><th>CT_Dim_Fre</th><th>CT_Dim_Fon</th><th>CT_Dim_Are</th><th>Precio</th><th>Alicuota</th>
+                                                  <th>CT_Estatus</th><th>Clasificación</th><th>CT_Dim_Fre</th><th>CT_Dim_Fon</th><th>CT_Dim_Are</th><th>Precio</th><th>Alícuota</th>
                                                  
                                           </tr>
                                     </thead>
@@ -92,10 +92,10 @@ if ($_SESSION['Clientes']==1)
                                                   <th>Tomo</th>
                                                   <th>Protocolo</th>
                                                   <th>D_Fecha</th>
-                                                  <th>Area_M</th>
+                                                  <th>Área_M</th>
                                                   <th>Precio</th>
                                                   <th>Año_Avaluo</th>
-                                                  <th>CT_Estatus</th><th>Clasificación</th><th>CT_Dim_Fre</th><th>CT_Dim_Fon</th><th>CT_Dim_Are</th><th>Precio</th><th>Alicuota</th>
+                                                  <th>CT_Estatus</th><th>Clasificación</th><th>CT_Dim_Fre</th><th>CT_Dim_Fon</th><th>CT_Dim_Are</th><th>Precio</th><th>Alícuota</th>
 											
                                       </tfoot>
                                   </table>
@@ -111,7 +111,7 @@ if ($_SESSION['Clientes']==1)
 		  
 		  <!-- Titulos Formulario-->
                  <div class="card-header">
-                     <h3 class="card-title">Formulario de Registro o Modificacion</h3>
+                     <h3 class="card-title">Formulario de Registro o Modificación</h3>
                   </div>
           <!-- Fin Titulos Formulario-->
 		  
@@ -244,7 +244,7 @@ if ($_SESSION['Clientes']==1)
                                     </div>
                           <div class="form-group col-sm-3 col-xs-12">
                                  <select style="width: auto; border-right: 0;" data-options=".Direccion_E4" id="Direccion_E4" name="Direccion_E4" data-name="Direccion_E4" placeholder="false" breakpoint="true">
-                                <option value="128" text="URBANIZACION">URBANIZACION</option>
+                                <option value="128" text="URBANIZACION">URBANIZACIÓN</option>
                                 <option value="129" text="ZONA">ZONA</option>
                                 <option value="130" text="SECTOR">SECTOR</option>
                                 <option value="131" text="CONJUNTO RESIDENCIAL">CONJUNTO RESIDENCIAL</option>
@@ -414,7 +414,7 @@ if ($_SESSION['Clientes']==1)
                     <div class="row">
                         
                          <div class="form-group col-sm-3 col-xs-12">
-                           <label>Clasificacion: </label>
+                           <label>Clasificación: </label>
                        <select data-options=".Clasificacion1" data-name="CT_Clas" id="CT_Clas" name="CT_Clas" breakpoint="true">
                                 <option value="-1" >Despliegue para Seleccionar</option>
                               <?php $sql="SELECT `referencia`,CONCAT(`Descripcion`,' ', `Tipo`) AS DESCRI FROM `inmclasificacion` WHERE Anio=DATE_FORMAT(CURDATE(),'%Y')";
@@ -473,7 +473,7 @@ if ($_SESSION['Clientes']==1)
                                                  <th>Tipo</th>
                                                   <th>Ocupación</th>                                   
                                                  <th>Clasificación</th>
-                                                 <th>Alicuota</th>
+                                                 <th>Alícuota</th>
                                                   <!--
                                                   <th>Estructura</th>
                                                   <th>Piso</th>
@@ -504,7 +504,7 @@ if ($_SESSION['Clientes']==1)
                                                  <th>Tipo</th>
                                                   <th>Ocupación</th>                                   
                                                  <th>Clasificación</th>
-                                                 <th>Alicuota</th>
+                                                 <th>Alícuota</th>
                                                   <!--
                                                   <th>Estructura</th>
                                                   <th>Piso</th>
@@ -529,7 +529,7 @@ if ($_SESSION['Clientes']==1)
 
                      <div class="row">
                         <div class="form-group col-sm-6 col-xs-12">
-                             <label>Alicuota: </label>
+                             <label>Alícuota: </label>
                             <select data-options=".Alicuota" data-name="CT_Alic" id="CT_Alic" name="CT_Alic" breakpoint="true">
                                 <option value="-1" >Despliegue para Seleccionar</option>
                                 <?php $sql="SELECT * FROM inmalicuota WHERE Anio=DATE_FORMAT(CURDATE(),'%Y');";

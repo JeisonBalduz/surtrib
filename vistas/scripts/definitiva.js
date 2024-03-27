@@ -10,7 +10,36 @@ function init() {
     $("#formulario").on("submit", function (e) {
         guardaryeditar(e);
     });
-
+  
+  $('#comodinbusqueda').select2();
+    $("#comodinbusqueda").select2({   //
+        ajax: {
+            type: 'GET',
+            contentType: "application/json; charset=utf-8",
+            url: "../ajax/contrihacienda.php?op=buscarContibuyente"+"&r=" + new Date().getTime(),
+            dataType: 'json',
+          //  data:'rfc=' + 
+              delay: 650,
+             data: function (params) {
+                    var SearchParamsSent = {
+                        search: params.term
+                        //tblname: editor.field('itemtype').inst('val')
+                    }
+ 
+                    return SearchParamsSent;
+                }
+            
+            ,
+            processResults: function (data) {
+                return {
+                    results: data
+                }
+            }
+        },
+        cache: true,
+        placeholder: 'Buscar Contribuyente...',
+        minimumInputLength: 1
+    });
 
 }
 

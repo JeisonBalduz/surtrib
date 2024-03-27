@@ -35,7 +35,7 @@ if ($_SESSION['Escritorio']==1)
                                                 <tr>
                                                       <th>Opciones</th>
                                                       <th>Moneda</th>
-                                                      <th>Codigo</th>
+                                                      <th>Código</th>
                                                       <th>Valor</th>
                                                       <th>Tasa de Valor al Petro</th>
                                                       <th>Estado</th>
@@ -48,7 +48,7 @@ if ($_SESSION['Escritorio']==1)
                                                 <tr>
                                                 <th>Opciones</th>
                                                       <th>Moneda</th>
-                                                      <th>Codigo</th>
+                                                      <th>Código</th>
                                                       <th>Valor</th>
                                                       <th>Tasa de Valor al Petro</th>
                                                       <th>Estado</th>
@@ -65,7 +65,7 @@ if ($_SESSION['Escritorio']==1)
           
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro y Modificacion de Monedas</h3>
+                        <h3 class="card-title">Formulario de Registro y Modificación de Monedas</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
@@ -77,11 +77,11 @@ if ($_SESSION['Escritorio']==1)
                                     </div>
                                     
                                     <div class="form-group col-sm-3 col-xs-4">
-                                          <label>Codigo</label>
-                                          <input type="text" name="codigomoneda" id="codigomoneda" class="form-control" placeholder="Ingrese Tipo de Categoria" readonly>
+                                          <label>Código</label>
+                                          <input type="text" name="codigomoneda" id="codigomoneda" class="form-control" placeholder="Ingrese Tipo de Categoría" readonly>
                                     </div>	 
 			                  <div class="form-group col-sm-3 col-xs-12">
-                                          <label>Simbolo</label>
+                                          <label>Símbolo</label>
                                                 <input type="text" name="symbol_left" id="symbol_left" class="form-control" placeholder="Ingrese Tipo de Tasa" readonly>
                                     </div>
                                     <div class="form-group col-sm-3 col-xs-12">

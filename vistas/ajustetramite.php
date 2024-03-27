@@ -20,19 +20,19 @@ if ($_SESSION['Escritorio']==1)
                   <div class="col-12">
 		            <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Ajuste de Tramite </h3>
+                                    <h3 class="card-title">Ajuste de Trámite </h3>
                               </div>
             
 			            <div class="card-header">
 			                  <div class="row">
                                           <div class="form-group col-md-4 col-sm-6 col-xs-1">
-                                                <input type="text" name="tramite" id="tramite" class="form-control" placeholder="Ingrese N Tramite" required> 
+                                                <input type="text" name="tramite" id="tramite" class="form-control" placeholder="Ingrese N Trámite" required> 
                                           </div> 
 						      <div class="form-group col-md-8 col-sm-12 col-xs-1">
                                         
 						            <button type="submit" onclick="listar()" class="btn btn-info">Mostrar</button>
                            
-                                                <label>Busqueda Tramite</label>
+                                                <label>Búsqueda Trámite</label>
 				                        <a href="http://localhost/surtri2/vistas/estadocuentahacienda.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                           </div>
 				            </div>
@@ -46,7 +46,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Opciones</th>
                                                       <th>Contribuyente</th>
                                                       <th>Tributo</th>
-                                                      <th>Condicion</th>
+                                                      <th>Condición</th>
                                                       <th>Fecha Decla.</th>
                                                        <th>Monto Liq.</th>
                                                       <th>Monto Dif.</th>
@@ -65,7 +65,7 @@ if ($_SESSION['Escritorio']==1)
                                                      <th>Opciones</th>
                                                       <th>Contribuyente</th>
                                                       <th>Tributo</th>
-                                                      <th>Condicion</th>
+                                                      <th>Condición</th>
                                                       <th>Fecha Decla.</th>
                                                        <th>Monto Liq.</th>
                                                       <th>Monto Dif.</th>
@@ -82,7 +82,7 @@ if ($_SESSION['Escritorio']==1)
 
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro y Modificacion de Bancos</h3>
+                        <h3 class="card-title">Formulario de Registro y Modificación de Bancos</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 

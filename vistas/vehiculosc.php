@@ -21,19 +21,19 @@ if ($_SESSION['Escritorio']==1)
                   <div class="col-12">
                         <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Vehiculos</h3>
+                                    <h3 class="card-title">Vehículos</h3>
                                     <h3></h3>
                               </div>
 			            <div class="card-header">
 			                  <div class="row">
                                           <div class="form-group col-md-12 col-sm-12 col-xs-1">
-						           <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Registrar Nuevo Vehiculo </button>
+						           <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Registrar Nuevo Vehículo </button>
 				                        <a href="vehiculosc.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                           </div>
 				            </div>
 				      </div>
                               <div class="card-header">
-                                    <h3 class="card-title">Listado de Vehiculos </h3>
+                                    <h3 class="card-title">Listado de Vehículos </h3>
                               </div>
                               <div class="card-body" id="lista">
                                     <table id="tbllistado" class="table table-bordered table-hover">
@@ -47,7 +47,7 @@ if ($_SESSION['Escritorio']==1)
                                                       
                                                       <th>Fecha Registro</th>
                                                       <th>Año Pagado</th>
-                                                      <th>Opcion</th>
+                                                      <th>Opción</th>
                                                       <th>Tasa</th>
 
                                                      
@@ -67,7 +67,7 @@ if ($_SESSION['Escritorio']==1)
                                                     
                                                       <th>Fecha Registro</th>
                                                       <th>Año Pagado</th>
-                                                      <th>Opcion</th>
+                                                      <th>Opción</th>
                                                       <th>Tasa</th>
                                                       
                                                       
@@ -80,7 +80,7 @@ if ($_SESSION['Escritorio']==1)
                                           <div class="modal-dialog modal-lg">
                                                 <div class="modal-content">
                                                       <div class="modal-header" style="background-color: #17a2b8;color: white">
-                                                            <h4 class="modal-title">Declaracion de Vehiculo</h4>
+                                                            <h4 class="modal-title">Declaración de Vehículo</h4>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                                       </div>
                                                       <div class="modal-body">
@@ -107,7 +107,7 @@ if ($_SESSION['Escritorio']==1)
                                                             </div>      
                                                             <hr>
                                                             <div class="col-sm-12">
-                                           <h6 class="modal-title">Datos Vehiculo</h6>
+                                           <h6 class="modal-title">Datos Vehículo</h6>
                                 <div class="row">
 
                                  <div class="form-group col-sm-4 col-xs-12">
@@ -231,7 +231,9 @@ if ($_SESSION['Escritorio']==1)
                                                 <option value="DFSK">DFSK</option>
                                                 <option value="CHRYLER">CHRYLER</option>
                                                 <option value="APOLO">APOLO</option>
-                                                   
+                                                <option value="CITROEN">CITROEN</option>
+                                                <option value="FOTON">FOTON</option>
+                                                 <option value="CHANGAN">CHANGAN</option>  
                                                    
                                                                                     </select> 
                                                                                                  
@@ -280,7 +282,7 @@ if ($_SESSION['Escritorio']==1)
                               </div>
                                                                         <div class="row">
                                                                               <div class="form-group col-sm-12 col-xs-12">
-                                                                                    <label>Tipo de Categoria</label>
+                                                                                    <label>Tipo de Categoría</label>
                                                                                     <input type="text" name="detalle" id="detalle" class="form-control" placeholder="Ingrese Peso" required readonly="readonly">
                                                                               </div>
                                                                         </div>
@@ -306,7 +308,7 @@ if ($_SESSION['Escritorio']==1)
 
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro de Vehiculos</h3>
+                        <h3 class="card-title">Formulario de Registro de Vehículos</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
@@ -429,7 +431,10 @@ if ($_SESSION['Escritorio']==1)
                                                 <option value="DFSK">DFSK</option>
                                                 <option value="CHRYLER">CHRYLER</option>
                                                 <option value="APOLO">APOLO</option>
-                                                   
+                                                <option value="CITROEN">CITROEN</option>
+                                                <option value="FOTON">FOTON</option>
+                                                 <option value="CHANGAN">CHANGAN</option>
+                                                 
                                          </select>
                                     </div>	 
 			                  <div class="form-group col-sm-3 col-xs-12">

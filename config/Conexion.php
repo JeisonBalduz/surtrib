@@ -28,6 +28,14 @@ if (!function_exists('ejecutarConsulta'))
 		$row = $query->fetch_assoc();
 		return $row;
 	}
+	
+		function ejecutarConsultaSimpleValor($sql)
+{
+	global $conexion;
+	$query = $conexion->query($sql);
+	$row = $query->fetch_row();
+	return $row[0];
+}
 
 	function ejecutarConsulta_retornarID($sql)
 	{

@@ -1961,3 +1961,482 @@ Stack trace:
 #1 /home/surtribc/public_html/reportesPDF/recibopago.php(3): include('/home/surtribc/...')
 #2 {main}
   thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[18-Mar-2024 08:12:32 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[18-Mar-2024 10:11:17 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:17 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:24 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:24 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:29 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:29 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:51 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:51 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:01 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:01 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:05 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:05 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:11 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:11 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:11 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:11 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:11 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:11 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:51 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:51 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:13:47 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:13:48 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[18-Mar-2024 10:17:24 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:24 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:24 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:24 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramitevehiculo.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:28 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:28 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:36 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:36 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/recibopago.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:45 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:45 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/recibopago.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:48 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:48 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/recibopago.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:51 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:51 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/recibopago.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:18:19 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[18-Mar-2024 10:33:29 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[18-Mar-2024 11:13:09 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 11:13:17 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php(3): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 08:58:20 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 09:57:38 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[19-Mar-2024 12:49:10 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:10:29 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:11:04 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[19-Mar-2024 18:11:48 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:07:42 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:10:59 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 09:43:55 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 09:54:18 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 10:06:54 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 11:07:28 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 11:26:34 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 11:36:54 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 12:07:37 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 13:10:05 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[20-Mar-2024 14:19:12 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:10 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:03:24 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 09:04:01 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 10:48:03 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 10:54:45 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 11:18:58 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 13:25:39 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[21-Mar-2024 14:35:19 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[21-Mar-2024 15:13:31 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php on line 139
+[21-Mar-2024 15:13:31 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php on line 139
+[21-Mar-2024 15:13:31 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php on line 150
+[21-Mar-2024 15:13:31 America/Caracas] PHP Warning:  Undefined variable $annomm in /home/surtribc/public_html/reportesPDF/tramiteactividadeco.php on line 237
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 11:23:05 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 11:23:17 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 15:01:14 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[22-Mar-2024 15:03:06 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/recibopago.php on line 153
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/recibopago.php on line 157
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $d1 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $d2 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $d3 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[24-Mar-2024 14:18:06 America/Caracas] PHP Warning:  Undefined variable $d4 in /home/surtribc/public_html/reportesPDF/recibopago.php on line 161
+[25-Mar-2024 14:51:00 America/Caracas] PHP Warning:  Undefined array key "codigo" in /home/surtribc/public_html/reportesPDF/definitiva.php on line 6
+[25-Mar-2024 14:51:00 America/Caracas] PHP Warning:  Undefined array key "codigo2" in /home/surtribc/public_html/reportesPDF/definitiva.php on line 7
+[25-Mar-2024 14:51:00 America/Caracas] PHP Warning:  Undefined array key "representante" in /home/surtribc/public_html/reportesPDF/definitiva.php on line 8
+[25-Mar-2024 14:51:00 America/Caracas] PHP Warning:  Undefined array key "rcedula" in /home/surtribc/public_html/reportesPDF/definitiva.php on line 9
+[25-Mar-2024 14:51:00 America/Caracas] PHP Warning:  Undefined array key "rtelefono" in /home/surtribc/public_html/reportesPDF/definitiva.php on line 10
+[25-Mar-2024 14:51:00 America/Caracas] PHP Warning:  Undefined array key "correlativo" in /home/surtribc/public_html/reportesPDF/definitiva.php on line 11
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $rif in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $rfc in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $nombre in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 134
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $placa in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 162
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $marca in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $modelo in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 178
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $puesto in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $peso in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $anio in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 195
+[26-Mar-2024 11:39:03 America/Caracas] PHP Warning:  Undefined variable $detalle in /home/surtribc/public_html/reportesPDF/tramitevehiculo.php on line 209

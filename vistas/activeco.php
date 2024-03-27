@@ -21,7 +21,7 @@ if ($_SESSION['Escritorio']==1)
                   <div class="col-12">
                         <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Tasas Actividad Economica</h3>
+                                    <h3 class="card-title">Tasas Actividad Económica</h3>
                               </div>
 			            <div class="card-header">
 			                  <div class="row">
@@ -32,16 +32,16 @@ if ($_SESSION['Escritorio']==1)
 				            </div>
 				      </div>
                               <div class="card-header">
-                                    <h3 class="card-title">Listado de Actividades Economicas </h3>
+                                    <h3 class="card-title">Listado de Actividades Económicas </h3>
                               </div>
                               <div class="card-body" id="lista">
                                     <table id="tbllistado" class="table table-bordered table-hover">
                                           <thead>
                                                 <tr>
                                                       <th>Opciones</th>
-                                                      <th>Codigo grupo</th>
+                                                      <th>Código grupo</th>
                                                       <th>Concepto</th>
-                                                      <th>Alicuota</th>
+                                                      <th>Alícuota</th>
                                                       <th>ITM</th>
                                                       <th>Decreto</th>
                                                      
@@ -54,9 +54,9 @@ if ($_SESSION['Escritorio']==1)
                                           <tfoot>
                                                 <tr>
                                                 <th>Opciones</th>
-                                                      <th>Codigo grupo</th>
+                                                      <th>Código grupo</th>
                                                       <th>Concepto</th>
-                                                      <th>Alicuota</th>
+                                                      <th>Alícuota</th>
                                                       <th>ITM</th>
                                                       <th>Decreto</th>
                                                     
@@ -79,13 +79,13 @@ if ($_SESSION['Escritorio']==1)
                         <div class="card-body"> 
 			            <div class="row">
                                     <div class="form-group col-sm-3 col-xs-4">
-                                          <label>Codigo Grupo</label>
+                                          <label>Código Grupo</label>
                                                 <input type="hidden" name="id" id="id" class="form-control">
                                                 <input type="text" name="codigo_grupo" id="codigo_grupo" class="form-control" placeholder="Ingrese Tipo de Ramo" >
                                     </div>
                                     
                                     <div class="form-group col-sm-3 col-xs-4">
-                                          <label>Alicuota </label>
+                                          <label>Alícuota </label>
                                           <input type="text" name="alicuota" id="alicuota" class="form-control" placeholder="Ingrese detalle" >
                                     </div>	 
 			                  <div class="form-group col-sm-3 col-xs-12">

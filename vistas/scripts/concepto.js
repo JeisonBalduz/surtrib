@@ -70,7 +70,7 @@ init();
 const myModal = document.querySelector("modal-contendor"); // Seleccionamos el modal por ID
 var contenedorBoton = document.getElementById("boton-cerrar");
 var contenedorBotonX = document.getElementById("boton-x");
-const videoElement = document.querySelector("video");
+const video = document.querySelector("video");
 contenedorBotonX.disabled = true;
 contenedorBoton.disabled = true;
 const contenedor = document.querySelectorAll(".modal-backdrop");
@@ -81,6 +81,7 @@ window.addEventListener("load", () => {
   // Se abre el modal después de 1 segundos
   setTimeout(() => {
     modalToggle.show();
+    
   }, 1000); // tiempo de espera
 
 });
@@ -89,10 +90,23 @@ $('.modal').modal({
   backdrop: 'static',
 })
 
+
+//EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON CERRAR
+contenedorBoton.addEventListener("click", () => {
+  // Eliminar el elemento `video`
+  video.remove();
+});
+
+//EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON X
+contenedorBotonX.addEventListener("click", () => {
+  // Eliminar el elemento `video`
+  video.remove();
+});
+
 //funcion para ejecutar el desactivado automatico
 function ocultarModalAutomaticamente() {
   // Contador para mostrar en la consola
-  let tiempoRestante = 10;
+  let tiempoRestante = 20;
 
   // Intervalo para actualizar el contador
   const intervalo = setInterval(() => {
@@ -142,14 +156,4 @@ function ocultarModalAutomaticamente() {
 // Se inicia el temporizador para cerrar el modal
 ocultarModalAutomaticamente();
 
-//EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON CERRAR
-contenedorBoton.addEventListener("click", () => {
-  // Eliminar el elemento `video`
-  videoElement.remove();
-});
 
-//EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON X
-contenedorBotonX.addEventListener("click", () => {
-  // Eliminar el elemento `video`
-  videoElement.remove();
-});

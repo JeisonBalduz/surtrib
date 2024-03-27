@@ -35,7 +35,7 @@ if ($_SESSION['Escritorio']==1)
                                                 <input type="date" name="fechadia2" id="fechadia2"  class="form-control" placeholder="today()">
                                           </div>  
                                           <div class="form-group col-sm-2 col-xs-4">
-                                              <label>Busqueda</label><br/>
+                                              <label>Búsqueda</label><br/>
                                                 <button type="submit" onclick="listarporfecha();" class="btn btn-info">Mostrar</button>
                                           </div>  
                                     </div>
@@ -53,7 +53,7 @@ if ($_SESSION['Escritorio']==1)
                                                 <th>RUC</th>
                                                 <th>Nombre</th>
                                                  <th>Tributo</th>
-                                                  <th>Tramite</th>
+                                                  <th>Trámite</th>
                                                   <th>Monto</th>
                                                   <th>Referencia</th>
                                                   <th>Soporte</th>
@@ -73,7 +73,7 @@ if ($_SESSION['Escritorio']==1)
                                                 <th>RUC</th>
                                                 <th>Nombre</th>
                                                  <th>Tributo</th>
-                                                  <th>Tramite</th>
+                                                  <th>Trámite</th>
                                                   <th>Monto</th>
                                                   <th>Referencia</th>
                                                   <th>Soporte</th>                                     
@@ -115,7 +115,7 @@ if ($_SESSION['Escritorio']==1)
                   <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                               <div class="modal-header" style="background-color: #17a2b8;color: white">
-                                    <h4 class="modal-title">Conciliacion</h4>
+                                    <h4 class="modal-title">Conciliación</h4>
                                           <button type="button" class="close" onclick="limpiar()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                               </div>
                               <form role="form" name="formulariopago2" id="formulariopago2" method="POST">
@@ -131,7 +131,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <input type="text" name="rfc" id="rfc" class="form-control" disabled>        
                                                 </div>
                                                 <div class="form-group col-sm-10 col-xs-12">
-                                                      <label>Razon Social</label> 
+                                                      <label>Razón Social</label> 
                                                       <input type="text" name="name" id="name" class="form-control" disabled>        
                         
                                                 </div>
@@ -139,7 +139,7 @@ if ($_SESSION['Escritorio']==1)
                                           <div class="row">
                                                 
                                                 <div class="form-group col-sm-4 col-xs-12">
-                                                      <label>Tramite</label>  
+                                                      <label>Trámite</label>  
                                                       <input type="text" name="ctramite" id="ctramite" class="form-control" disabled>         
                                                 </div>
                                                 <div class="form-group col-sm-4 col-xs-12">

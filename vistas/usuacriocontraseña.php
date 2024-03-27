@@ -65,7 +65,7 @@ if ($_SESSION['Usuarios']==1)
                 <th id="idcolumna">#</th>
                   <th>Nombre</th>
                   <th>Login</th>
-                  <th>Telefono</th>
+                  <th>Teléfono</th>
                   <th>RIF/C.I</th>
                   <th>Opciones</th>
                 </tr>
@@ -78,7 +78,7 @@ if ($_SESSION['Usuarios']==1)
 
           <div class="card card-info" id="formularioregistros">
               <div class="card-header">
-                <h3 class="card-title">Formulario De Cambio De Contrasña</h3>
+                <h3 class="card-title">Formulario De Cambio De Contraseña</h3>
               </div>
              
               <!-- /.card-header -->
@@ -100,8 +100,8 @@ if ($_SESSION['Usuarios']==1)
           
             <div class="row">
                 <div class="form-group col-sm-6 col-xs-12">
-              <label>Telefono</label>
-                <input type="text" name="telefonousuario" id="telefonousuario" class="form-control" placeholder="Telefono" readonly required>
+              <label>Teléfono</label>
+                <input type="text" name="telefonousuario" id="telefonousuario" class="form-control" placeholder="Teléfono" readonly required>
             </div>
             
             <div class="form-group col-sm-6 col-xs-12"> 

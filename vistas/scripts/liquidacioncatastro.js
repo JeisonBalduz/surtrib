@@ -3,7 +3,7 @@ var tabla;
 //Función que se ejecuta al inicio
 function init(){
 	mostrarform(false);
-	listarcon();
+	listar();
 
 	$("#formulario").on("submit",function(e)
 	{
@@ -21,8 +21,6 @@ function insertartramitemv()
 	var rfc = $('#rfc').val();
 	var metros = $('#metros').val();
 
-
-
 	bootbox.confirm("¿Está Seguro de declarar el tasa?", function(result){
 		if(result)
         {
@@ -35,8 +33,9 @@ function insertartramitemv()
 
         $('#formulario2').modal('toggle');
 	
-	
 }
+
+
 //Función limpiar
 function limpiar()
 {
@@ -81,7 +80,7 @@ function cancelarform()
 	mostrarform(false);
 }
 
-function listarcon() {
+function listar() {
     tabla = $("#tbllistado").DataTable({
 		"responsive": true,
 		"autoWidth": false,
@@ -97,7 +96,7 @@ function listarcon() {
 			  'pdf'
 		  ],
 		  "ajax": {
-            url: '../ajax/liquidarcatastro.php?op=listarcon',
+            url: '../ajax/liquidarcatastro.php?op=listar',
             type: "get",
             dataType: "json",
             error: function (e) {
@@ -108,35 +107,11 @@ function listarcon() {
   
 
 }
-//Función para guardar o editar
-
-function guardaryeditar(e)
-{
-	e.preventDefault(); //No se activará la acción predeterminada del evento
-	$("#btnGuardar").prop("disabled",true);
-	var formData = new FormData($("#formulario")[0]);
-
-	$.ajax({
-		url: "../ajax/liquidarcatastro55.php?op=guardaryeditar",
-	    type: "POST",
-	    data: formData,
-	    contentType: false,
-	    processData: false,
-
-	    success: function(datos)
-	    {                    
-	          bootbox.alert(datos);	          
-	          mostrarform(false);
-	          tabla.ajax.reload();
-	    }
-
-	});
-	limpiar();
-}
 
 
 
-function declararvehiculo(id)
+
+function mostrar(id)
 {
 	$.post("../ajax/liquidarcatastro.php?op=mostrar",{id : id}, function(data, status)
 	{
@@ -154,8 +129,7 @@ function declararvehiculo(id)
 		$("#iduser").val(data.iduser);
 		$("#idtc").val(data.idtc);
 		$("#detalle").val(data.detalle);
-		document.getElementById('rfc3').innerHTML = data.rfc;
-		document.getElementById('idv2').innerHTML = data.idv;
+		
 		
 		
 		
@@ -165,32 +139,5 @@ function declararvehiculo(id)
 }
 
 
-//Función para desactivar registros
-function desactivar(id)
-{
-	bootbox.confirm("¿Está Seguro de desactivar el vehiculo?", function(result){
-		if(result)
-        {
-        	$.post("../ajax/liquidarcatastro.php?op=desactivar", {id : id}, function(e){
-        		bootbox.alert(e);
-	            tabla.ajax.reload();
-        	});	
-        }
-	})
-}
-
-//Función para activar registros
-function activar(id)
-{
-	bootbox.confirm("¿Está Seguro de activar el vehiculo?", function(result){
-		if(result)
-        {
-        	$.post("../ajax/liquidarcatastro.php?op=activar", {id : id}, function(e){
-        		bootbox.alert(e);
-	            tabla.ajax.reload();
-        	});	
-        }
-	})
-}
 
 init();

@@ -59,10 +59,10 @@ if ($_SESSION['Escritorio']==1)
                                           <thead>
                                                 <tr>
                                                       <th>Fecha</th>
-                                                      <th>Codigo Trans.</th>
+                                                      <th>Código Trans.</th>
                                                       <th>Tipo Trans.</th>
                                                       <th>Tipo Oper.</th>
-                                                      <th>Descripcion</th>
+                                                      <th>Descripción</th>
                                                       <th>Referencia</th>
                                                       <th>Debe</th>
                                                       <th>Haber</th>

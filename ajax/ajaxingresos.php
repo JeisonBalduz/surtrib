@@ -917,7 +917,7 @@ switch ($_GET["op"]){
      
     case 'compensacion': //AGRUPADO POR PARTIDA
     $cont=0;
-		$rspta=$contrih->ingresosDeclarados($comodinbusqueda);
+		$rspta=$contrih->ingresosDeclarados($comodinbusqueda,$comodinbusqueda2);
  		//Vamos a declarar un array
  		$data= Array();
     $Total=0;
@@ -943,7 +943,7 @@ switch ($_GET["op"]){
  				];
             $cont=3;
  		}
- 		$rspta2=$contrih->ingresosDeclaradosPagados($comodinbusqueda);
+ 		$rspta2=$contrih->ingresosDeclaradosPagados($comodinbusqueda,$comodinbusqueda2);
          if ($reg=$rspta2->fetch_object()){
  			$data[$cont]=[
  				"0"=>4,

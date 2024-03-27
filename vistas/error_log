@@ -1837,3 +1837,609 @@ Stack trace:
 [16-Mar-2024 16:29:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
 [16-Mar-2024 16:41:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
 [16-Mar-2024 18:15:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[16-Mar-2024 18:54:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[16-Mar-2024 23:32:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[17-Mar-2024 00:35:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[17-Mar-2024 02:53:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[17-Mar-2024 08:25:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[17-Mar-2024 13:32:00 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[17-Mar-2024 13:53:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[17-Mar-2024 15:06:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[17-Mar-2024 16:55:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[17-Mar-2024 21:44:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[17-Mar-2024 23:27:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 00:56:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 06:14:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 07:55:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 08:08:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[18-Mar-2024 08:50:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[18-Mar-2024 09:54:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[18-Mar-2024 09:58:18 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:58:18 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/reportedeldia_taquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:58:32 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:58:32 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuenta.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:58:35 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:58:35 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuenta.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:58:39 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:58:39 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/reportedeldia_taquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:58:54 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:58:54 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/reportedeldia_taquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:58:55 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:58:55 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/reportedeldia_taquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:59:05 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:59:05 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:59:12 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:59:12 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 09:59:20 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 09:59:20 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:33 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:33 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:38 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:38 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:44 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:44 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:45 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:48 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:47 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:48 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:50 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:50 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:51 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:51 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:52 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:52 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:53 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:53 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:54 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:54 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:54 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:54 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:55 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:55 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:55 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:55 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:56 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:56 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:11:58 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:11:58 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:05 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:05 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:06 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:06 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:07 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:07 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:07 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:07 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:08 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:08 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:09 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:09 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:10 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:10 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:10 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:10 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:10 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:10 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:11 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:11 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:12 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:12 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:12 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:12 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:13 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:13 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:13 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:13 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:44 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:44 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:46 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:46 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:52 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:52 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:12:53 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:12:53 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:13:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 10:16:07 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:16:07 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/tasasadministrativas.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:16:10 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:16:10 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/tasasadministrativas.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:16:56 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:16:56 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuenta.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:16:56 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:16:56 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/definitiva.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:16:58 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:16:58 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/vehiculosc.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:00 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:00 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:01 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:01 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:02 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:02 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:04 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:04 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:35 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:35 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:37 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:37 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:17:50 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 10:17:50 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 10:33:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[18-Mar-2024 10:46:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 10:59:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 11:13:03 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[18-Mar-2024 11:13:17 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[18-Mar-2024 11:29:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 11:38:58 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 12:37:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 12:56:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 14:28:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 14:59:47 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 15:20:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[18-Mar-2024 15:42:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[18-Mar-2024 16:34:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 00:28:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 08:01:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[19-Mar-2024 08:16:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[19-Mar-2024 08:45:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 09:38:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[19-Mar-2024 10:01:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 10:09:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[19-Mar-2024 10:16:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 11:04:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 11:22:13 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 11:42:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 11:51:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 12:53:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 13:38:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 14:22:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 15:21:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 16:39:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[19-Mar-2024 17:18:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 18:00:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[19-Mar-2024 18:05:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[19-Mar-2024 19:59:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[19-Mar-2024 22:24:26 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[20-Mar-2024 10:11:53 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[20-Mar-2024 10:18:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 10:18:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 11:31:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[20-Mar-2024 11:43:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 11:50:34 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 12:31:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[20-Mar-2024 12:53:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[20-Mar-2024 13:20:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 13:37:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 13:45:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 14:08:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 14:09:53 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 15:36:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 15:52:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 15:56:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 16:00:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 16:04:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[20-Mar-2024 17:36:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[20-Mar-2024 22:37:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[20-Mar-2024 22:59:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 06:36:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 08:20:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 08:29:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 09:38:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[21-Mar-2024 09:55:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 10:16:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 10:27:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 10:59:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 11:05:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[21-Mar-2024 12:06:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 12:44:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[21-Mar-2024 14:49:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 15:07:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 15:16:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[21-Mar-2024 15:58:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[21-Mar-2024 17:55:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[21-Mar-2024 17:55:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[21-Mar-2024 18:27:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[21-Mar-2024 18:45:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[21-Mar-2024 22:04:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[22-Mar-2024 02:05:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[22-Mar-2024 05:50:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 07:34:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 07:34:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 07:56:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[22-Mar-2024 09:00:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 09:06:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 09:23:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[22-Mar-2024 09:41:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 10:02:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 10:25:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[22-Mar-2024 11:28:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 11:36:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 11:46:12 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 12:25:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 12:25:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 12:28:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 12:35:22 America/Caracas] PHP Parse error:  syntax error, unexpected token "echo" in /home/surtribc/public_html/vistas/header.php on line 1853
+[22-Mar-2024 12:35:41 America/Caracas] PHP Parse error:  syntax error, unexpected token "echo" in /home/surtribc/public_html/vistas/header.php on line 1853
+[22-Mar-2024 12:35:48 America/Caracas] PHP Parse error:  syntax error, unexpected token "echo" in /home/surtribc/public_html/vistas/header.php on line 1853
+[22-Mar-2024 12:35:48 America/Caracas] PHP Parse error:  syntax error, unexpected token "echo" in /home/surtribc/public_html/vistas/header.php on line 1853
+[22-Mar-2024 12:58:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[22-Mar-2024 13:44:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 14:02:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 14:45:26 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 15:04:34 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 15:28:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[22-Mar-2024 15:51:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[22-Mar-2024 16:22:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[22-Mar-2024 16:31:49 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[22-Mar-2024 17:13:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[22-Mar-2024 17:13:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[22-Mar-2024 22:47:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[22-Mar-2024 22:47:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[23-Mar-2024 03:36:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[23-Mar-2024 09:53:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[23-Mar-2024 13:08:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[23-Mar-2024 14:32:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[23-Mar-2024 15:07:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[24-Mar-2024 00:00:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[24-Mar-2024 02:49:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[24-Mar-2024 10:21:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[24-Mar-2024 17:00:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[24-Mar-2024 22:20:34 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[24-Mar-2024 22:26:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[25-Mar-2024 06:16:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[25-Mar-2024 08:14:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[25-Mar-2024 08:36:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 09:18:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 09:35:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[25-Mar-2024 10:10:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 10:23:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 11:50:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 13:09:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 13:26:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[25-Mar-2024 13:26:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[25-Mar-2024 13:32:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 13:46:34 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 14:31:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[25-Mar-2024 14:31:21 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 15:12:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 16:25:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 20:25:34 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[25-Mar-2024 22:27:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 07:38:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 08:00:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 08:14:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 08:14:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 09:54:21 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 09:54:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[26-Mar-2024 10:11:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[26-Mar-2024 10:28:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 11:00:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 11:31:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 15:11:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 15:25:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 15:25:12 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 15:25:12 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 15:33:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 15:38:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 17:12:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 22:32:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 23:01:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[26-Mar-2024 23:32:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[27-Mar-2024 08:20:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 08:40:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 09:17:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 09:21:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 10:25:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 11:07:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[27-Mar-2024 12:32:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 12:49:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 12:54:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[27-Mar-2024 12:54:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5

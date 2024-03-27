@@ -29,7 +29,7 @@ if ($_SESSION['Clientes']==1)
 			           <div class="card-header">
 			              <div class="row">
                    <div class="form-group col-md-4 col-sm-6 col-xs-1">
-				            <label>Busqueda de Contribuyente</label>
+				            <label>Búsqueda de Contribuyente</label>
                                      <input type="text" name="comodinbusqueda" id="comodinbusqueda" class="form-control" placeholder="Ingrese RUC" required> 
 						            </div> 
 						   <div class="form-group col-md-12 col-sm-12 col-xs-1">
@@ -47,21 +47,21 @@ if ($_SESSION['Clientes']==1)
                                                 <th>Opciones</th>
                                                 <th>RUC</th>
                                                  <th>Licencia</th>
-                                                  <th>Cedula/RIF</th>                                   
-                                                  <th>Razon Social</th>
-                                                  <th>Telefono</th>
-                                                  <th>Direccion</th>
+                                                  <th>Cédula/RIF</th>                                   
+                                                  <th>Razón Social</th>
+                                                  <th>Teléfono</th>
+                                                  <th>Dirección</th>
                                                  <th>Correo</th>
                                                  
                                                                       
                                                   
-                                                  <th>Codigo Act. Econ.</th>
-                                                  <th>Actividad Economica</th>
-                                                 <th>Alicuota</th>
+                                                  <th>Código Act. Econ.</th>
+                                                  <th>Actividad Económica</th>
+                                                 <th>Alícuota</th>
                                                  
                                                   <th>ITM</th>                       
                                                   <th>Decreto</th>
-                                                  <th>Ultima Declaricion</th>
+                                                  <th>Última Declarición</th>
                                                  
                                           </tr>
                                     </thead>
@@ -74,20 +74,20 @@ if ($_SESSION['Clientes']==1)
                                       <th>Opciones</th>
                                                 <th>RUC</th>
                                                  <th>Licencia</th>
-                                                  <th>Cedula/RIF</th>                                   
-                                                  <th>Razon Social</th>
-                                                  <th>Telefono</th>
-                                                  <th>Direccion</th>
+                                                  <th>Cédula/RIF</th>                                   
+                                                  <th>Razón Social</th>
+                                                  <th>Teléfono</th>
+                                                  <th>Dirección</th>
                                                  <th>Correo</th>
                                                                        
                                                   
-                                                  <th>Codigo Act. Econ.</th>
-                                                  <th>Actividad Economica</th>
-                                                 <th>Alicuota</th>
+                                                  <th>Código Act. Econ.</th>
+                                                  <th>Actividad Económica</th>
+                                                 <th>Alícuota</th>
                                                  
                                                   <th>ITM</th>                       
                                                   <th>Decreto</th>
-                                                  <th>Ultima Declaricion</th>
+                                                  <th>Última Declaración</th>
 											
                                       </tfoot>
                                   </table>
@@ -103,7 +103,7 @@ if ($_SESSION['Clientes']==1)
 		  
 		  <!-- Titulos Formulario-->
                  <div class="card-header">
-                     <h3 class="card-title">Formulario de Registro o Modificacion</h3>
+                     <h3 class="card-title">Formulario de Registro o Modificación</h3>
                   </div>
           <!-- Fin Titulos Formulario-->
 		  
@@ -124,11 +124,11 @@ if ($_SESSION['Clientes']==1)
                                          <input type="text" name="tiponac" id="tiponac" class="form-control" >
                              </div>
                              <div class="form-group col-sm-2 col-xs-12">
-                                   <label>Numero Cedula/RIF</label>
+                                   <label>Número Cédula/RIF</label>
                                          <input type="text" name="cedularif" id="cedularif" class="form-control" >
                              </div>
                              <div class="form-group col-sm-7 col-xs-12">
-                                  <label>Razon Social</label>
+                                  <label>Razón Social</label>
                                        <input type="text" name="razsocial" id="razsocial" class="form-control" >
                              </div>  
                         </div>
@@ -143,8 +143,8 @@ if ($_SESSION['Clientes']==1)
                              </div>
 							 
 			                 <div class="form-group col-sm-2 col-xs-12">
-                                   <label>Telefono</label>
-                                         <input type="text" name="celular" id="celular" class="form-control" placeholder="Telefono Ejem (4123421342)">
+                                   <label>Teléfono</label>
+                                         <input type="text" name="celular" id="celular" class="form-control" placeholder="Teléfono Ejem (4123421342)">
                              </div>
 				             <div class="form-group col-sm-2 col-xs-12">
                                     <label>Modo</label>
@@ -157,7 +157,7 @@ if ($_SESSION['Clientes']==1)
                         </div>
                         <div class="row">	 
 			                 <div class="form-group col-sm-3 col-xs-12">
-                                      <label>Direccion</label>
+                                      <label>Dirección</label>
                                          <input type="text" name="sector" id="sector" class="form-control">
                                     </div>
                              <div class="form-group col-sm-3 col-xs-12">
@@ -182,7 +182,7 @@ if ($_SESSION['Clientes']==1)
 							 
 			            
 				             <div class="form-group col-sm-6 col-xs-12">
-                                    <label>Ultima Declaracion</label>
+                                    <label>Ultima Declaración</label>
                                           <input type="number" name="ultima_declaracion" id="ultima_declaracion" class="form-control">
                              </div>
                         </div>

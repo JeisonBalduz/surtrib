@@ -84,7 +84,7 @@ if ($_SESSION['Escritorio']==1)
     width: 470px;
   }
   /* CAMBIAR TAMAﾃ前 Y ANCHO DEL VIDEO */
-  .modal video{
+   .modal video{
     width: 498px;
     height: 590px; 
   }
@@ -111,11 +111,16 @@ if ($_SESSION['Escritorio']==1)
     height: 400px;
     width: 310px;
     }
+    .modal video{
+    width: 450px;
+    height: 260px; 
+  }
   }
 </style>
-
-<!-- MODAL DE PUBLICIDAD DEL SISTEMA -->
-<div class="modal fade" id="modal-contendor" >
+<?php if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==2) {
+  ?>
+    <!-- MODAL DE PUBLICIDAD DEL SISTEMA -->
+    <div class="modal fade" id="modal-contendor" >
       <div class="modal-dialog" role="document" >
         <div class="modal-content" >
           <!-- CABEZA DEL MODAL -->
@@ -132,19 +137,15 @@ if ($_SESSION['Escritorio']==1)
           </div>
           <!-- CUERPO DEL MODAL DEL CONTENIDO -->
           <div class="modal-body">
-            <!-- CONTENDOR DE IMAGENES RESPONSIVE -->
-              <div id="carouselExampleIndicators" class=" carousel slide" data-ride="carousel">
+             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                          <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img class="d-block " src="../public/images/carrete/marzo6.jpg" alt="First slide">
+                              <img class="d-block w-100" src="../public/images/carrete/operativoConjunto.jpeg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block " src="../public/images/carrete/marzo4.jpg" alt="Second slide">
+                              <img class="d-block w-100" src="../public/images/carrete/feriaDelPescado.jpeg" alt="Second slide">
                             </div>
-                            <div class="carousel-item">
-                              <img class="d-block " src="../public/images/carrete/marzo5.jpg" alt="Second slide">
-                            </div>
-                            
+                           
                           </div>
                           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -154,11 +155,10 @@ if ($_SESSION['Escritorio']==1)
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                           </a>
-                          <ol class="carousel-indicators mt-2">
+                          <ol class="carousel-indicators mt-3">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                          
+                            
                           </ol>
               </div>
             <p></p>
@@ -171,7 +171,9 @@ if ($_SESSION['Escritorio']==1)
       </div>
     </div>
 
-
+  <?php
+} 
+?>
 
 
 <div class="row">

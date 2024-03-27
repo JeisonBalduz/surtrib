@@ -4,58 +4,86 @@ var tabla;
 
 function init() {
     mostrarform(false);
-    $("#docrifmuestra").hide();
-    $("#docregistromuestra").hide();
-    $("#editart").hide();
+    
+
 
     $("#formulario").on("submit", function (e) {
         guardaryeditar(e);
     });
     
-    $.post("../ajax/empambiente.php?op=selectUsuario", function(r){
-        $("#usuario").append('<option value="" selected>Seleccione una opción</option>'); 
-        $("#usuario").append(r);
-        $('#usuario').select2();
+
     
-    });
+
     
 }
 
-
-
-function agregarnuevo() {
-    $.post("../ajax/empambiente.php?op=selectUsuario", function(r){
-        $("#idusuario").append('<option value="" selected>Seleccione una opción</option>'); 
-        $("#idusuario").append(r);
-        $('#idusuario').select2();
-    
+$(document).ready(function() {
+    $('#comodinbusqueda').select2();
+    $("#comodinbusqueda").select2({ 
+        ajax: {
+            type: 'GET',
+            contentType: "application/json; charset=utf-8",
+            url: "../ajax/contriambiente.php?op=buscarContibuyente"+"&r=" + new Date().getTime(),
+            dataType: 'json',
+          //  data:'rfc=' + 
+              delay: 650,
+             data: function (params) {
+                    var SearchParamsSent = {
+                        search: params.term
+                        //tblname: editor.field('itemtype').inst('val')
+                    }
+ 
+                    return SearchParamsSent;
+                }
+            
+            ,
+            processResults: function (data) {
+                return {
+                    results: data
+                }
+            }
+        },
+        cache: true,
+        placeholder: 'Buscar Contribuyente...',
+        minimumInputLength: 1
     });
 
-}
+   
+});
 
 
 
 
-function listartipotax() {
-                    $("#tipo2").empty();
+$(document).on('change','#tiposervicio', function()
+    {
+        var tiposervicio= $("#tiposervicio").val();
+            $.ajax({
+                data:{tiposervicio: tiposervicio},
+                url:   '../ajax/empambiente.php?op=selecttipo',
+                type:  'post',
+                beforeSend: function () { },
+                success:  function (response) { 
+                $("#tipo2").empty(); 
                     $("#ramo2").empty();
                     $("#categoria2").empty();
                     $("#taseoi2").empty();
-    $.post("../ajax/empambiente.php?op=selecttipo", function(r){
-        $("#tipo2").append('<option value="" selected>Seleccione una opción</option>'); 
-        $("#tipo2").append(r);
-        $('#tipo2').select2();
-    
-    });
-
-}
+                    $("#tipo2").append('<option value="" selected>Seleccione una opción</option>');   
+                    $("#tipo2").append(response);
+                    $('#tipo2').select2();
+                },
+                error:function(){
+                    alert("error")
+                }
+            });
+})
 
 
 $(document).on('change','#tipo2', function()
     {
 	 	var idtipotax= $("#tipo2").val();
+        var tiposervicio= $("#tiposervicio").val();
 	 		$.ajax({
-                data:{idtipotax: idtipotax},
+                data:{idtipotax: idtipotax, tiposervicio: tiposervicio},
                 url:   '../ajax/empambiente.php?op=selectramo',
                 type:  'post',
                 beforeSend: function () { },
@@ -78,8 +106,9 @@ $(document).on('change','#ramo2', function()
 
         var idtipotax= $("#tipo2").val();
 	 	var idramotax= $("#ramo2").val();
+        var tiposervicio= $("#tiposervicio").val();
 	 		$.ajax({
-                data:{idtipotax: idtipotax, idramotax: idramotax},
+                data:{idtipotax: idtipotax, idramotax: idramotax,tiposervicio: tiposervicio},
                 url:   '../ajax/empambiente.php?op=selectcategoria',
                 type:  'post',
                 beforeSend: function () { },
@@ -101,8 +130,9 @@ $("#categoria2").change(function()
         var idtipotax= $("#tipo2").val();
 	 	var idramotax= $("#ramo2").val();
          var idcategoriatax= $("#categoria2").val();
+         var tiposervicio= $("#tiposervicio").val();
 	 		$.ajax({
-                data:{idtipotax: idtipotax, idramotax: idramotax,idcategoriatax: idcategoriatax},
+                data:{idtipotax: idtipotax, idramotax: idramotax,idcategoriatax: idcategoriatax,tiposervicio: tiposervicio},
                 url:   '../ajax/empambiente.php?op=selectasa',
                 type:  'post',
                 beforeSend: function () { },
@@ -148,13 +178,17 @@ function limpiar() {
 	$("#categoria").val("");
 	$("#tipo").val("");
     $("#tasa").val("");
+    $("#tipo2").empty(); 
+                    $("#ramo2").val("");
+                    $("#categoria2").val("");
+                    $("#taseoi2").val("");
+                    $("#tiposervicio").val("");
+                    $("#datos").val("");
+                    $("#tasaasignada").val("");
+                    $("#direccion").val("");
+                     $("#tiposer").val("");
 }
 
-function limpiar2() {
-    $("#ramo2").val("");
-	$("#categoria2").val("");
-    $("#tipo2").val("");
-}
 
 //Mostrar Formulario
 
@@ -180,7 +214,7 @@ function cancelarform() {
 
 function listar() {
 
-    var busqueda = $("#usuario").val();
+    var busqueda = $("#comodinbusqueda").val();
 
     tabla = $('#tbllistado').dataTable({
         "aProcessing": true, //Activamos el procesamiento del datatables
@@ -243,98 +277,70 @@ function guardaryeditar(e)
     limpiar();
 }
 
-function guardanuevo() 
-{
-    
-    var rif= $("#idusuario").val();
-	var licencia= $("#licenciaasignar").val();
-    var medit= $("#medit2").val();
 
-    if(rif == ""){
-        bootbox.alert("Debe regritar primero el contribuyente")
-    }else {
-        if(licencia == ""){
-            bootbox.alert("Debe seleccionar las opciones")
-         }else {
-            $.ajax({
-            url: "../ajax/empambiente.php?op=insertar2",
-            type: "POST",
-            data:{rif: rif, licencia: licencia,medit: medit},
-
-            success: function (datos) {
-                bootbox.alert(datos);
-                $('#formulario3').modal('toggle');
-                tabla.ajax.reload();
-             }
-        });
-     }
-    }
-}
 
 function editarTax() 
 {
     
-    var rfc= $("#rfc2").val();
 	var taseoi= $("#taseoi2").val();
-    if(rfc == ""){
+    if(taseoi == ""){
         bootbox.alert("Debe regritar primero el contribuyente")
     }else {
         if(taseoi == null){
             bootbox.alert("Debe seleccionar las opciones")
          }else {
-            $.ajax({
-            url: "../ajax/empambiente.php?op=editarTax",
-            type: "POST",
-            data:{rfc: rfc, taseoi: taseoi},
+            $.post("../ajax/empambiente.php?op=taxasignada", {
+        taseoi: taseoi
+    }, function (data, status) {
+        data = JSON.parse(data);
+        $("#idt").val(data.idt);
+        $("#tiposer").val(data.tipotribute);
+        $("#tasaasignada").val(data.idt+"-"+data.tipotax+"-"+data.ramotax+"-"+data.categoriatax+"-"+data.tax);
+        
 
-            success: function (datos) {
-                bootbox.alert(datos);
-                $('#formulario2').modal('toggle');
-                mostrar(rfc);
-                $("#taseoi").val(datos.taseoi);
 
-             }
-        });
+    });
      }
     }
+    $("#formulario2").modal('hide');
 }
 
 
+$(document).on('change','#rfc', function()
 
-
-function mostrar(rfc) {
-    $.post("../ajax/empambiente.php?op=mostrar", {
+    {
+        var rfc= $("#rfc").val();
+        $.post("../ajax/empambiente.php?op=selectUsuario2", {
         rfc: rfc
+    }, function (data, status) {
+        data = JSON.parse(data);
+       
+        $("#datos").val(data.rfc+"-"+data.name);
+        
+
+
+    })
+})
+
+
+function mostrar(id) {
+    $.post("../ajax/empambiente.php?op=mostrar", {
+        id: id
     }, function (data, status) {
         data = JSON.parse(data);
         mostrarform(true);
         $("#rfc").val(data.rfc);
-        $("#rfc2").val(data.rfc);
-        $("#licencia").val(data.licencia);
+        $("#id").val(data.id);
+         $("#idt").val(data.idtambiente);
+         $("#tiposer").val(data.tipotax);
+        $("#direccion").val(data.direccion);
+        $("#ultima_declaracion").val(data.fechapago);
 		$("#idusuario").val(data.idusuario);
         $("#sector").val(data.sector);
 		$("#calle").val(data.calle);
         $("#edificio").val(data.edificio);
-		$("#numeroedif").val(data.numeroedif);
-		$("#medit").val(data.medit);
-		$("#representative").val(data.representative);
-		$("#docrifmuestra").show();
-		$("#docrifmuestra").attr("src","../files/docempamb/docrif/"+data.docrif);
-        $("#docrifactual").val(data.docrif);
-		$("#docregistromuestra").show();
-		$("#docregistromuestra").attr("src","../files/docempamb/docregistro/"+data.docregistro);
-		$("#registradoactual").val(data.registrado);
-		$("#conformidaduso").val(data.conformidaduso);
-        $("#tieneinmueble").val(data.tieneinmueble);
-	    $("#tasa").val(data.tax);
-        $("#taseoi").val(data.taseoi);
-		$("#ultima_declaracion").val(data.ultima_declaracion);
-		$("#estado").val(data.estado);
-        $("#tipo").val(data.tipotax);
-        $("#ramo").val(data.ramotax);
-        $("#categoria").val(data.categoriatax);
-        $("#usuario").val(data.idusuario);
-        $("#usuario").select2();
+		$("#numeroedif").val(data.nedificio);
+        $("#tasaasignada").val(data.idt+'-'+data.tipotax+'-'+data.ramotax+'-'+data.categoriatax+'-'+data.tax);
 
 
     })

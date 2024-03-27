@@ -41,7 +41,7 @@ if ($_SESSION['Usuarios']==1)
                   <th>Nombre</th>
                   <th>Usuario</th>
                   <th>RIJ</th>
-                  <th>Telefono</th> 
+                  <th>Teléfono</th> 
                   <th>RUC</th> 
                 </tr>
                 </thead>
@@ -51,7 +51,7 @@ if ($_SESSION['Usuarios']==1)
                 <tr>
                 <th>Opciones</th>
                 <th>Nombre</th>
-                  <th>Telefono</th>
+                  <th>Teléfono</th>
                   <th>Email</th>
                   <th>Rol</th> 
                   <th>Estado</th>
@@ -65,7 +65,7 @@ if ($_SESSION['Usuarios']==1)
 
           <div class="card card-info" id="formularioregistros">
               <div class="card-header">
-                <h3 class="card-title">Formulario de Registro o Modificacio</h3>
+                <h3 class="card-title">Formulario de Registro o Modificación</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -86,12 +86,12 @@ if ($_SESSION['Usuarios']==1)
           
             <div class="row">
                 <div class="form-group col-sm-6 col-xs-12">
-              <label>Telefono</label>
-                <input type="text" name="telefonousuario" id="telefonousuario" class="form-control" placeholder="Telefono">
+              <label>Teléfono</label>
+                <input type="text" name="telefonousuario" id="telefonousuario" class="form-control" placeholder="Teléfono">
             </div>
             <div class="form-group col-sm-6 col-xs-12">
               <label>Correo</label>
-              <input type="text" name="direccionusuario" id="direccionusuario" class="form-control" placeholder="Direccion" required>
+              <input type="text" name="direccionusuario" id="direccionusuario" class="form-control" placeholder="Dirección" required>
             </div>
             </div>
             <div class="row">

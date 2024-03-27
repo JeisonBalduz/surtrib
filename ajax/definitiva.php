@@ -64,6 +64,7 @@ switch ($_GET["op"]){
 				"1"=>$reg->rfc,
 				"2"=>$reg->rif,
 				"3"=>$reg->name,
+				"4"=>$reg->correlativo,
 			);
 				
                 

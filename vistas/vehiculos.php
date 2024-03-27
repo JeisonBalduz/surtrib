@@ -21,7 +21,7 @@ if ($_SESSION['Escritorio']==1)
                   <div class="col-12">
                         <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Vehiculos</h3>
+                                    <h3 class="card-title">Vehículos</h3>
                                
                                     <a href="vehiculos.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                               </div>
@@ -34,7 +34,7 @@ if ($_SESSION['Escritorio']==1)
 				            </div>
 				      </div>-->
                               <div class="card-header">
-                                    <h3 class="card-title">Listado de Vehiculos </h3>
+                                    <h3 class="card-title">Listado de Vehículos </h3>
                               </div>
                               <div class="card-body" id="lista">
                                     <table id="tbllistado" class="table table-bordered table-hover">
@@ -49,7 +49,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Peso</th>
                                                       <th>Fecha de Compra</th>
                                                       <th>Tributo</th>
-                                                      <th>Ultimo Pago</th>
+                                                      <th>Último Pago</th>
                                                 </tr>
                                           </thead>
                                           <tbody>
@@ -66,7 +66,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Peso</th>
                                                       <th>Fecha de Compra</th>
                                                       <th>Tributo</th>
-                                                      <th>Ultimo Pago</th>
+                                                      <th>Último Pago</th>
                               
                                                 </tr>     					
                                           </tfoot>
@@ -81,7 +81,7 @@ if ($_SESSION['Escritorio']==1)
 
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro y Modificacion de Vehiculos</h3>
+                        <h3 class="card-title">Formulario de Registro y Modificación de Vehículos</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
@@ -205,6 +205,9 @@ if ($_SESSION['Escritorio']==1)
                                                 <option value="DFSK">DFSK</option>
                                                 <option value="CHRYLER">CHRYLER</option>
                                                 <option value="APOLO">APOLO</option>
+                                                <option value="CITROEN">CITROEN</option>
+                                                <option value="FOTON">FOTON</option>
+                                                <option value="CHANGAN">CHANGAN</option>
 
                                           </select>
                                     </div>	 

@@ -93,7 +93,7 @@ width: 50%;
 
        <div class="container-fluid">
     <h2 class="text-center">Bienvenidos al log Acceso</h2>
-    <p class="datatable design text-center">Lista de Coneccion</p>
+    <p class="datatable design text-center">Lista de Conexión</p>
     <div class="row">
       <div class="container"><!--
         <div class="btnAdd">

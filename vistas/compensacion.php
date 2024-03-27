@@ -21,17 +21,22 @@ if ($_SESSION['Clientes']==1)
 		            <div class="card" id="listadoregistros">
                               <div class="card-header">
                                    <div class="row">
-                                          <div class="form-group col-md-4 col-sm-4 col-xs-1">
+                                          <div class="form-group col-md-3 col-sm-4 col-xs-1">
                                                
                                            <input type="date" name="fechadia" id="fechadia" class="form-control" placeholder="Ingrese Fecha">
                                           </div> 
+
+                                          <div class="form-group col-md-3 col-sm-4 col-xs-1">
+                                                
+                                           <input type="date" name="fechadia2" id="fechadia2" class="form-control" placeholder="Ingrese Fecha">
+                                          </div> 
                                          
-                                          <div class="form-group col-md-4 col-sm-4 col-xs-1">
+                                          <div class="form-group col-md-3 col-sm-4 col-xs-1">
                                                
                                                 <button type="submit" onclick="compensacion();" class="btn btn-info">Mostrar</button>
                                  
                                           </div>
-                                          <div class="form-group col-md-4 col-sm-4 col-xs-1">
+                                          <div class="form-group col-md-3 col-sm-4 col-xs-1">
                                                <a href="compensacion.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                                 
                                           </div>
@@ -46,7 +51,7 @@ if ($_SESSION['Clientes']==1)
                               <div class="card-body" id="resportedeldia">
                                  <div class="card-header" align="text-center">
                                   
-                                   <h3 class="card-title" style="text-align: center;"><strong>REPORTE DE FONDO DE COMPENSACION INTERTERRITORIAL </strong></h3>  
+                                   <h3 class="card-title" style="text-align: center;"><strong><span id="idfecha">REPORTE DE FONDO DE COMPENSACION INTERTERRITORIAL</span>  </strong></h3>  
                               </div>                                                 
                                     
                                     <table id="tbllistado" class="table table-bordered table-hover" width=100%>

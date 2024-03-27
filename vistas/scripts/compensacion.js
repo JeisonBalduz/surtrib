@@ -7,11 +7,11 @@ function compensacion(){
 	//mostrar();
   //  mostrartotal();
     var comodinbusqueda = $("#fechadia").val();
-  //  var comodinbusqueda2 = $("#fechadia2").val();
+    var comodinbusqueda2 = $("#fechadia2").val();
   // alert("Reporte="+comodinbusqueda);//return;
    // $("#resportedeldia").show();
 
-   if((comodinbusqueda!="")){
+   if((comodinbusqueda!=""&&comodinbusqueda2!="")&&(comodinbusqueda<=comodinbusqueda2)){
      // alert("CUMPREN LA CONDICION");//return; 
     
 
@@ -39,12 +39,12 @@ function compensacion(){
         buttons: [
             //'copyHtml5',
            { extend:'excelHtml5',
-          title:'REPORTE DE FONDO DE COMPENSACION INTERTERRITORIAL'}
+          title:'REPORTE DE FONDO DE COMPENSACION INTERTERRITORIAL '+$("#fechadia").val().split("-")[2] +'/' +$("#fechadia").val().split("-")[1] +'/'+$("#fechadia").val().split("-")[0]+' ----'+ $("#fechadia2").val().split("-")[2] +'/' +$("#fechadia2").val().split("-")[1] +'/'+$("#fechadia2").val().split("-")[0]}
             //'pdf'
         ],
         "ajax": {
 			url: '../ajax/ajaxingresos.php?op=compensacion',
-			data: {comodinbusqueda: comodinbusqueda},
+			data: {comodinbusqueda: comodinbusqueda,comodinbusqueda2: comodinbusqueda2},
             type: "POST",
             dataType: "json",
             error: function (e) {
@@ -58,8 +58,8 @@ function compensacion(){
             [2, "asc"]
         ] //Ordenar (columna,orden)
     });
-    reportedeldiaCoinciliado();
-  }
+  
+   }
   else
     bootbox.alert("Error en Fechas");
     //alert();
@@ -69,6 +69,10 @@ function compensacion(){
 
 function imprSelec(){
  // var ficha=(historial);
+ var idfecha=$("#fechadia").val().split("-")[2] +'/' +$("#fechadia").val().split("-")[1] +'/'+$("#fechadia").val().split("-")[0]+' ----'+ $("#fechadia2").val().split("-")[2] +'/' +$("#fechadia2").val().split("-")[1] +'/'+$("#fechadia2").val().split("-")[0];
+    idfecha=$("#idfecha").html()+' '+idfecha;
+ $("#idfecha").html(""+idfecha);
+ 
   var ventimp=window.open(' ','popimpr');
   
   $('#btn_Imprimir').hide();
@@ -77,5 +81,6 @@ function imprSelec(){
   ventimp.print();
   ventimp.close();
   $('#btn_Imprimir').show();
+  $("#idfecha").html("REPORTE DE FONDO DE COMPENSACION INTERTERRITORIAL");
   return false;
 }

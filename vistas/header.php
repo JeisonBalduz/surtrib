@@ -1719,9 +1719,26 @@ $idact = ejecutarConsultaSimpleFila($sql);
             
 
 
-<!--  Sidebar Menu Amiente
+<!--  Sidebar Menu Amiente -->
 <?php 
-            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==99)
+            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==30)
+            {
+              echo '
+              <li class="nav-header">Ambiente</li>
+          <li class="nav-item">
+            <a href="facturaaseo.php" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Facturacion IAGESAM
+                 <span class="right badge badge-danger">Inicio</span>
+              </p>
+            </a>
+          </li>';
+            }
+            ?>
+            
+           <?php 
+            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==30)
             {
               echo '
               <li class="nav-header">Ambiente</li>
@@ -1736,9 +1753,9 @@ $idact = ejecutarConsultaSimpleFila($sql);
           </li>';
             }
             ?>
-			 
-        	  <?php 
-            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==99)
+       
+            <?php 
+            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==30)
             {
               echo '
               <li class="nav-item has-treeview">
@@ -1752,7 +1769,7 @@ $idact = ejecutarConsultaSimpleFila($sql);
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="contribuyentehacienda.php" class="nav-link">
+                  <a href="contribuyenteambiente.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Contribuyente</p>
                   </a>
@@ -1763,7 +1780,7 @@ $idact = ejecutarConsultaSimpleFila($sql);
             ?>
 
 <?php 
-            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==99)
+            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==30)
             {
               echo '
               <li class="nav-item has-treeview">
@@ -1772,55 +1789,96 @@ $idact = ejecutarConsultaSimpleFila($sql);
                 <p>
                  Tasas
                   <i class="fas fa-angle-left right"></i>
-                  <span class="badge badge-info right">4</span>
+                  <span class="badge badge-info right">2</span>
                 </p>
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="tasaresidencia.php" class="nav-link">
+                  <a href="tasaservamb.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Residencial</p>
+                    <p>Servicio de Aseo</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="tasaempresa.php" class="nav-link">
+                  <a href="tributosamb.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Comercial</p>
+                    <p>Tasas y Tributos</p>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a href="empambiente.php" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Permisos</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="empambiente.php" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Otras tasas</p>
-                  </a>
-                </li>
+                
               </ul>
             </li>';
             }
             ?>
+
+
           
+         
+
             <?php 
-            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==99)
+            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==30)
             {
               echo '
           <li class="nav-item">
-            <a href="pagoambiente.php" class="nav-link">
+            <a href="empambientead.php" class="nav-link">
             <i class="nav-icon fas fa-file-invoice"></i>
               <p>
-                Verificacion de Pagos
+                Registro de Servicio
                  <!--<span class="right badge badge-danger">New</span> -->
               </p>
             </a>
           </li>';
             }
             ?>
--->
+
+            <?php 
+            if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==30)
+            {
+              echo '
+          <li class="nav-item">
+            <a href="pagoservamb.php" class="nav-link">
+            <i class="nav-icon fas fa-file-invoice"></i>
+              <p>
+                Pago de Servicio de Aseo
+                 <!--<span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>';
+            }
+            ?>
+            
+<?php 
+            if ($_SESSION['Escritorio']==1 & ($_SESSION['rol']==30 OR $_SESSION['rol']==99))
+            {
+              echo '
+          <li class="nav-item">
+            <a href="listadoambiente.php" class="nav-link">
+            <i class="nav-icon fas fa-file-invoice"></i>
+              <p>
+                Listado de Servicio de Aseo
+                 <!--<span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>';
+          echo '
+          <li class="nav-item">
+            <a href="pagotaquilla_aseo.php" class="nav-link">
+            <i class="nav-icon fas fa-cash-register"></i>
+              <p>
+                Pago Taquilla Aseo
+                 <!--<span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+            ';
+            }
+            ?>
+          
+			 
+    
+
+
+
 
 		  
 	
