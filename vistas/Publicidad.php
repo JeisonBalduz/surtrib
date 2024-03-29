@@ -1,4 +1,3 @@
-
 <?php if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==2) {
   ?>
     <!-- MODAL DE PUBLICIDAD DEL SISTEMA -->
@@ -10,7 +9,7 @@
             <!-- CONTENEDOR DEL CONTENIDO DE LA CABEZA -->
             <div class="titulo__modal container d-flex justify-content-center">
               <!-- MODAL DE PUBLICIDAD DEL SISTEMA -->
-              <h5 class="modal-title">Alcaldia Del Municipio Libertador</h5>
+              <h5 class="modal-title">Alcaldía Del Municipio Libertador</h5>
             </div>
             <!-- BOTON X PARA CERRAR LA PUBLICIDAD -->
             <button type="button"id="boton-x" class="close" data-dismiss="modal" aria-label="Close">
@@ -22,6 +21,13 @@
             <!-- CONTENDOR DE IMAGENES RESPONSIVE -->
              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                          <div class="carousel-inner">
+                          <div class="contenedorSpinner d-flex justify-content-end align-items-center text-secondary position-absolute w-100 " style="z-index: 1;">
+                            <div class="d-flex justify-content-center align-items-center mt-2 mx-2">
+                                <span id="spinner" class="position-absolute text-primary"></span>
+                                <div id="spinner-circulo" class="spinner-border text-primary"></div>
+                            </div>
+                          </div>
+                            
                             <div class="carousel-item active">
                               <img class="d-block w-100" src="../public/images/carrete/operativoConjunto.jpeg" alt="First slide">
                             </div>
@@ -47,8 +53,7 @@
             <p></p>
           </div>
           <!-- BOTON DE CERRAR LA PUBLICIDAD -->
-          <div class="modal-footer">
-            <div class="spinner-border text-secondary" id="spinner-circulo"></div>
+          <div class="modal-footer">        
             <button type="button" id="boton-cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
