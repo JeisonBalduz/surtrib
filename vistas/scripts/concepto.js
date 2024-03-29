@@ -68,12 +68,16 @@ function mostrar(codigoubch) {
 init();
 
 const myModal = document.querySelector("modal-contendor"); // Seleccionamos el modal por ID
+const body = document.querySelector("body");
 var contenedorBoton = document.getElementById("boton-cerrar");
 var contenedorBotonX = document.getElementById("boton-x");
 const video = document.querySelector("video");
+const contador_spinner = document.querySelector("#spinner");
+const spinner =  document.getElementById("spinner-circulo");
 contenedorBotonX.disabled = true;
 contenedorBoton.disabled = true;
 const contenedor = document.querySelectorAll(".modal-backdrop");
+spinner.style.animation = "spinner-border 1.2s linear infinite";
 
 // evento DOM para ejecutar el Boostrap 4
 window.addEventListener("load", () => {
@@ -115,16 +119,56 @@ function ocultarModalAutomaticamente() {
 
     // Muestra el tiempo restante en la consola
     console.log(`Tiempo restante: ${tiempoRestante} segundos`);
-
+    //tiempo dentro del spinner
+    contador_spinner.textContent = tiempoRestante;
+    contador_spinner.style.fontSize = "16px";
+    
     // Oculta el modal cuando el tiempo llegue a 0
     if (tiempoRestante === 0) {
       clearInterval(intervalo);
+      spinner.style.borderRightColor = "#007bff";
+      
+      bootbox.confirm({
+        title: "Alerta de Información",
+        message: "Ya puede cerrar la publicidad cuando usted desee, dándole clic al botón Cerrar o a la X de la publicidad. Que tenga un feliz día.",
+        buttons: {
+          confirm: {
+            label: "Cerrar Alerta",
+            className: "btn-danger",
+          },
+
+        },
+        callback: function (result) {
+          setTimeout(function() {
+            document.body.classList.add("modal-open");
+          }, 310);
+        },
+      });
+
+        var botonBOOX = document.querySelector(".bootbox-cancel");
+          botonBOOX.remove();
+
+          // Crea un contador que se inicia en 1
+        let counter = 0;
+
+        // Función que se ejecuta cada segundo
+        const interval = setInterval(function () {
+          // Incrementa el contador
+          counter++;
+
+          // Cierra el modal después de 10 segundos
+          if (counter === 10) {
+            clearInterval(interval);
+            bootbox.hideAll();
+              setTimeout(function() {
+                document.body.classList.add("modal-open");
+              }, 310);
+          }
+        }, 1000);
 
       //Selectores de contenedores
       var body = document.querySelector(".modal-open");
       var modal = document.querySelector(".modal");
-      
-
       
       contenedorBotonX.disabled = false;
       contenedorBoton.disabled = false;
@@ -134,12 +178,7 @@ function ocultarModalAutomaticamente() {
       //body.classList.remove("modal-open");
       //body.classList.remove("modal-open");
       
-     
-
-
-      //Cambio de display del contenedor principal del modal
-
-      
+     //Cambio de display del contenedor principal del modal
 
       //Se le agrega un nuevo atributo al modal principal
 

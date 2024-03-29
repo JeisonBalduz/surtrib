@@ -71,6 +71,9 @@ if ($_SESSION['Escritorio']==1)
 
 <style>
   /* estilos para contenedor: de las imagenes dentro del modal de anuncios */
+  img{
+    object-fit: cover;
+  }
   #anuncio img {
     width: 90%;
     height: 100%;
@@ -114,7 +117,9 @@ if ($_SESSION['Escritorio']==1)
   }
   }
 </style>
-
+<?php
+require './Publicidad.php';
+?>
 
 <div class="row">
 
