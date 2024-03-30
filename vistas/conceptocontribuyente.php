@@ -51,6 +51,10 @@ while ($obj = mysqli_fetch_object($result)) {
   mysqli_free_result($result);
 }
 
+if ($_SESSION['rol'] > 2 && $_SESSION['rol'] <= 98) 
+{
+  header("Location: concepto.php");
+}
 
 if (!isset($_SESSION["nombre"]))
 {
@@ -110,7 +114,7 @@ if ($_SESSION['Escritorio']==1)
   }
 </style>
 <?php
-require './Publicidad.php';
+require './anuncio.php';
 ?>
 
 

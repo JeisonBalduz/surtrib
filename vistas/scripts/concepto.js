@@ -69,15 +69,14 @@ init();
 
 const myModal = document.querySelector("modal-contendor"); // Seleccionamos el modal por ID
 const body = document.querySelector("body");
-var contenedorBoton = document.getElementById("boton-cerrar");
-var contenedorBotonX = document.getElementById("boton-x");
 const video = document.querySelector("video");
 const contador_spinner = document.querySelector("#spinner");
 const spinner =  document.getElementById("spinner-circulo");
+var contenedorBoton = document.getElementById("boton-cerrar");
+var contenedorBotonX = document.getElementById("boton-x");
+const contenedor = document.querySelectorAll(".modal-backdrop");
 contenedorBotonX.disabled = true;
 contenedorBoton.disabled = true;
-const contenedor = document.querySelectorAll(".modal-backdrop");
-spinner.style.animation = "spinner-border 1.2s linear infinite";
 
 // evento DOM para ejecutar el Boostrap 4
 window.addEventListener("load", () => {
@@ -107,10 +106,14 @@ contenedorBotonX.addEventListener("click", () => {
   video.remove();
 });
 
+// Comprobar si el spinner existe se le cambia esta clase 
+if (spinner) {
+  spinner.style.animation = "spinner-border 1.2s linear infinite";
+}
 //funcion para ejecutar el desactivado automatico
 function ocultarModalAutomaticamente() {
   // Contador para mostrar en la consola
-  let tiempoRestante = 20;
+  let tiempoRestante = 16;
 
   // Intervalo para actualizar el contador
   const intervalo = setInterval(() => {
@@ -120,14 +123,18 @@ function ocultarModalAutomaticamente() {
     // Muestra el tiempo restante en la consola
     console.log(`Tiempo restante: ${tiempoRestante} segundos`);
     //tiempo dentro del spinner
-    contador_spinner.textContent = tiempoRestante;
-    contador_spinner.style.fontSize = "16px";
-    
+    // Comprobar si el contendor del spinner existe se le cambia esta clase 
+    if (contador_spinner) {
+      contador_spinner.textContent = tiempoRestante;
+      contador_spinner.style.fontSize = "16px";
+    }
+       
     // Oculta el modal cuando el tiempo llegue a 0
     if (tiempoRestante === 0) {
       clearInterval(intervalo);
-      spinner.style.borderRightColor = "#007bff";
-      
+      if(spinner){
+        spinner.style.borderRightColor = "#007bff";
+      }
       bootbox.confirm({
         title: "Alerta de Información",
         message: "Ya puede cerrar la publicidad cuando usted desee, dándole clic al botón Cerrar o a la X de la publicidad. Que tenga un feliz día.",
@@ -156,14 +163,14 @@ function ocultarModalAutomaticamente() {
           // Incrementa el contador
           counter++;
 
-          // Cierra el modal después de 10 segundos
+          /* Cierra el modal después de 10 segundos
           if (counter === 10) {
             clearInterval(interval);
             bootbox.hideAll();
               setTimeout(function() {
                 document.body.classList.add("modal-open");
               }, 310);
-          }
+          }*/
         }, 1000);
 
       //Selectores de contenedores
