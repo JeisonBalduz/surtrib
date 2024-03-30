@@ -7,7 +7,7 @@ if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==2) {
   // NOTA: SI SE BORRA EL SPINNER SE DEBE BORRAR LOS SELECTORES DEL JS SPINNER Y CONTENEDOR_SPINNER
   ?>
     <!-- MODAL DE PUBLICIDAD DEL SISTEMA -->
-    <div class="modal fade" id="modal-contendor" >
+    <div class="modal fade modalContribuyente" id="modal-contendor" >
       <div class="modal-dialog" role="document" >
         <div class="modal-content" >
           <!-- CABEZA DEL MODAL -->
@@ -78,10 +78,10 @@ if ($_SESSION['Escritorio']==1 & $_SESSION['rol'] > 2) {
   //ANUNCIOS DEL LOS ADMINSITRATIVOS DEL SISTEMA 
 
   // NOTA: SI SE BORRA EL SPINNER SE DEBE BORRAR LOS SELECTORES DEL JS SPINNER Y CONTENEDOR_SPINNER
-  /*
+  
   ?>
     <!-- MODAL DE PUBLICIDAD DEL SISTEMA -->
-    <div class="modal fade" id="modal-contendor" >
+    <div class="modal fade modalAdministrativo" id="modal-contendor" >
       <div class="modal-dialog" role="document" >
         <div class="modal-content" >
           <!-- CABEZA DEL MODAL -->
@@ -105,7 +105,10 @@ if ($_SESSION['Escritorio']==1 & $_SESSION['rol'] > 2) {
                             </div>
                           </div>
             <!-- CONTENDOR RESPONSIVE DE CONTENIDO -->
-                    
+                    <div id="anuncio" class="container-fluid d-flex justify-content-center">
+                      <video src="../public/images/videos/videosPolicias.mp4"controls autoplay  ></video>
+                        
+                    </div>
               
             <p></p>
           </div>
@@ -118,6 +121,6 @@ if ($_SESSION['Escritorio']==1 & $_SESSION['rol'] > 2) {
     </div>
 
   <?php
-  */
+  
 } 
 ?>

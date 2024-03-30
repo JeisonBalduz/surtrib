@@ -67,16 +67,28 @@ function mostrar(codigoubch) {
 
 init();
 
-const myModal = document.querySelector("modal-contendor"); // Seleccionamos el modal por ID
+// SELECCION DEL MODAL PRINCIPAL DE BOOTSTRAP
+const myModal = document.querySelector("modal-contendor"); 
+
+//////////////////////////////////////////////
+const modalAdministrativo = document.querySelector("modalAdministrativo");// seleccion del modal principal del administrativo
+const modalContribuyente = document.querySelector("modalContribuyente");// seleccion del modal principal del contribuyente
+////////////////////////////////////////////
+
+////////////////////////////////////////////
 const body = document.querySelector("body");
 const video = document.querySelector("video");
 const contador_spinner = document.querySelector("#spinner");
-const spinner =  document.getElementById("spinner-circulo");
+const contenedor = document.querySelectorAll(".modal-backdrop");
+////////////////////////////////////////////
+
+////////////////////////////////////////////
 var contenedorBoton = document.getElementById("boton-cerrar");
 var contenedorBotonX = document.getElementById("boton-x");
-const contenedor = document.querySelectorAll(".modal-backdrop");
 contenedorBotonX.disabled = true;
 contenedorBoton.disabled = true;
+////////////////////////////////////////////
+
 
 // evento DOM para ejecutar el Boostrap 4
 window.addEventListener("load", () => {
@@ -89,11 +101,13 @@ window.addEventListener("load", () => {
 
 });
 
-$('.modal').modal({
+$('.modalAdministrativo').modal({
   backdrop: 'static',
 })
 
-
+$('.modalContribuyente').modal({
+  backdrop: 'static',
+})
 //EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON CERRAR
 contenedorBoton.addEventListener("click", () => {
   // Eliminar el elemento `video`
