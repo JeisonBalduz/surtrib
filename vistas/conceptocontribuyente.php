@@ -169,11 +169,10 @@ require './anuncio.php';
                   </div>
                   <div class="col-sm-6 border-right haciendaTexto">
                     <div class="description-block">
-                      <h5 class="description-header" id="valorITM">39,61 Bs</h5>
+                      <h5 class="description-header monedaITM"></h5>
                       <span class="description-text">Valor del ITM</span>
                       <span class="description-text">En Fecha 11/03/2024</span>
                     </div>
-                    
                   </div>
 
                   <!-- ambiente -->
@@ -187,7 +186,7 @@ require './anuncio.php';
 
                   <div class="col-sm-6 border-right ambienteTexto">
                     <div class="description-block">
-                      <h5 class="description-header" id="valorITM">40,61 Bs</h5>
+                      <h5 class="description-header  monedaITM"></h5>
                       <span class="description-text">Valor del ITM</span>
                       <span class="description-text">En Fecha 11/03/2024</span>
                     </div>

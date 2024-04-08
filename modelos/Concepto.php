@@ -24,5 +24,20 @@ Class Concepto
 		return ejecutarConsulta($sql);		
 	}
     
+	public function mostrarMoneda()
+	{
+		$sql = "SELECT FORMAT(value, 2) AS ITM FROM currencies WHERE code ='EUR' ";
+		$resultado = ejecutarConsulta($sql);
+	
+		// Obtener el valor de la suma
+		$row = $resultado->fetch_assoc();
+		$suma = $row["ITM"];
+	
+		// Retornar la suma como una cadena
+		return $suma;		
+		 
+	}
 }
+
+
 ?>

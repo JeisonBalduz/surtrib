@@ -64,8 +64,27 @@ function mostrar(codigoubch) {
     }
   );
 }
+$(document).ready(function() {
+  $.ajax({
+    url: "../ajax/concepto.php?op=mostrarMoneda", // Path to your script
+    success: function(data) {
+      data = JSON.parse(data);
+      const moneda = document.querySelectorAll('.monedaITM');
+      moneda.forEach(function(elemento) {
+        elemento.textContent = data+' Bs';
+      });
+    },
+    error: function(jqXHR, textStatus, errorThrown) {
+      console.error("AJAX Error:", textStatus, errorThrown); // Handle errors
+    }
+  });
+});
 
 init();
+
+
+
+
 
 // SELECCION DEL MODAL PRINCIPAL DE BOOTSTRAP
 const myModal = document.querySelector("modal-contendor"); 

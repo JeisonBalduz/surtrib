@@ -15,6 +15,7 @@ $sql = "SELECT COUNT(id) AS nvehiculos FROM `vehicle` WHERE `rfc`='$rfc'";
 $sql2 = "SELECT COUNT(id) AS nactividades FROM `relcompanyactivity` WHERE `rfc`='$rfc'";
 $sql3 = "SELECT COUNT(Id_Inm) AS ninmuebles FROM `inmuebles` WHERE `rfc`='$rfc'";
 
+
 $link = $conexion;
 
 
@@ -172,11 +173,10 @@ require './anuncio.php';
                   </div>
                   <div class="col-sm-6 border-right haciendaTexto">
                     <div class="description-block">
-                      <h5 class="description-header">39,61 Bs</h5>
+                      <h5 class="description-header monedaITM"></h5>
                       <span class="description-text">Valor del ITM</span>
                       <span class="description-text">En Fecha 11/03/2024</span>
                     </div>
-                    
                   </div>
 
                   <!-- ambiente -->
@@ -190,7 +190,7 @@ require './anuncio.php';
 
                   <div class="col-sm-6 border-right ambienteTexto">
                     <div class="description-block">
-                      <h5 class="description-header">40,61 Bs</h5>
+                      <h5 class="description-header  monedaITM"></h5>
                       <span class="description-text">Valor del ITM</span>
                       <span class="description-text">En Fecha 11/03/2024</span>
                     </div>
