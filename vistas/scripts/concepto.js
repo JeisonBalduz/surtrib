@@ -69,26 +69,34 @@ init();
 
 // SELECCION DEL MODAL PRINCIPAL DE BOOTSTRAP
 const myModal = document.querySelector("modal-contendor"); 
+const myModal2 = document.querySelector("#modal-contendor"); 
 
 //////////////////////////////////////////////
-const modalAdministrativo = document.querySelector("modalAdministrativo");// seleccion del modal principal del administrativo
-const modalContribuyente = document.querySelector("modalContribuyente");// seleccion del modal principal del contribuyente
+const modalAdministrativo = document.querySelector(".modalAdministrativo");// seleccion del modal principal del administrativo
+const modalContribuyente = document.querySelector(".modalContribuyente");// seleccion del modal principal del contribuyente
 ////////////////////////////////////////////
 
 ////////////////////////////////////////////
-const body = document.querySelector("body");
-const video = document.querySelector("video");
-const contador_spinner = document.querySelector("#spinner");
-const contenedor = document.querySelectorAll(".modal-backdrop");
+const body = document.querySelector("body");//Seleccion del body principal del sistema 
+const video = document.querySelector("video");//Seleccion del video dentro del modal
+const contador_spinner = document.querySelector("#spinner");//Seleccion por ID del contador del spinner 
+const spinner =  document.getElementById("spinner-circulo");//Seleccion por ID del spinner
+const contenedorbackdrop = document.querySelector("modal-backdrop");//Seleccion por ID del contador del spinner 
 ////////////////////////////////////////////
 
 ////////////////////////////////////////////
-var contenedorBoton = document.getElementById("boton-cerrar");
-var contenedorBotonX = document.getElementById("boton-x");
-contenedorBotonX.disabled = true;
-contenedorBoton.disabled = true;
-////////////////////////////////////////////
+var contenedorBoton = document.getElementById("boton-cerrar");//Seleccion del boton cerrar 
+var contenedorBotonX = document.getElementById("boton-x");//Seleccion del boton con forma de C 
 
+if(modalAdministrativo){
+  //contenedorBotonX.disabled = true;//DESABILITAR BOTON CERRAR
+  contenedorBoton.disabled = true;//DESABILITAR BOTON X 
+}else{
+  //contenedorBotonX.disabled = true; //DESABILITAR BOTON CERRAR
+  contenedorBoton.disabled = true;//DESABILITAR BOTON X 
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
 
 // evento DOM para ejecutar el Boostrap 4
 window.addEventListener("load", () => {
@@ -101,119 +109,191 @@ window.addEventListener("load", () => {
 
 });
 
-$('.modalAdministrativo').modal({
-  backdrop: 'static',
-})
+if(modalContribuyente){
+  $('.modalContribuyente').modal({
+    backdrop: 'static',
+  })
 
-$('.modalContribuyente').modal({
-  backdrop: 'static',
-})
+}
+
+if(modalAdministrativo){
+  $('.modalAdministrativo').modal({
+    
+    //CONTENIDO ADMINSITRATIVO DEL MODAL
+  })
+}
+//////////////////////////// FUNCIONAL DE VIDEOS PARA MODALES /////////////////////////////
+
+if (modalAdministrativo) {
+  // FUNCION PARA VIDEOS ADMINISTRATIVOS SHOW
+  function detectarClaseShow() {
+    if (modalAdministrativo.classList.contains("show")) {
+      // Se ha encontrado la clase "show"
+      
+    }else{
+      if(video){
+        video.remove();
+      }
+    }
+  }
+  function ejecutarDeteccion() {
+    setInterval(detectarClaseShow, 1000);
+  }
+  
+  ejecutarDeteccion();
+  console.log("Modal adminsitrativo del sistema");
+}else{
+  console.log("No modal adminsitrativo del sistema");
+}
+
+
+
+if (modalContribuyente) {
+  // FUNCION PARA VIDEOS CONTRIBUYENTES SHOW
+  function detectarClaseShow2() {
+    if (modalContribuyente.classList.contains("show")) {
+      // Se ha encontrado la clase "show"
+      
+    }else{
+      if(video){
+        video.remove();
+      }
+    }
+  }
+  function ejecutarDeteccion2() {
+    setInterval(detectarClaseShow2, 1000);
+  }
+  
+  ejecutarDeteccion2();
+  console.log("Modal Contribuyente");
+}else{
+  console.log("No Modal Contribuyente");
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
 //EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON CERRAR
 contenedorBoton.addEventListener("click", () => {
   // Eliminar el elemento `video`
   video.remove();
 });
 
-//EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON X
+/*EVENTO PARA ELIMINAR EL VIDEO A LA HORA DE CERRAR EL MODAL  CON EL BOTON X
 contenedorBotonX.addEventListener("click", () => {
   // Eliminar el elemento `video`
   video.remove();
-});
+});*/
+
 
 // Comprobar si el spinner existe se le cambia esta clase 
 if (spinner) {
   spinner.style.animation = "spinner-border 1.2s linear infinite";
 }
-//funcion para ejecutar el desactivado automatico
-function ocultarModalAutomaticamente() {
-  // Contador para mostrar en la consola
-  let tiempoRestante = 16;
 
-  // Intervalo para actualizar el contador
-  const intervalo = setInterval(() => {
-    // Decrementa el tiempo restante
-    tiempoRestante--;
+//////////////////////// CONTADOR Y DATOS DEL ADMINISTRADOR
+if (modalAdministrativo) {
+   //funcion para ejecutar el desactivado automatico
+   function ocultarModalAutomaticamente() {
+    // Contador para mostrar en la consola
+    let tiempoRestante = 5;
 
-    // Muestra el tiempo restante en la consola
-    console.log(`Tiempo restante: ${tiempoRestante} segundos`);
-    //tiempo dentro del spinner
-    // Comprobar si el contendor del spinner existe se le cambia esta clase 
-    if (contador_spinner) {
-      contador_spinner.textContent = tiempoRestante;
-      contador_spinner.style.fontSize = "16px";
-    }
-       
-    // Oculta el modal cuando el tiempo llegue a 0
-    if (tiempoRestante === 0) {
-      clearInterval(intervalo);
-      if(spinner){
-        spinner.style.borderRightColor = "#007bff";
+    // Intervalo para actualizar el contador
+    const intervalo = setInterval(() => {
+      // Decrementa el tiempo restante
+      tiempoRestante--;
+
+      // Muestra el tiempo restante en la consola
+      console.log(`Tiempo restante: ${tiempoRestante} segundos`);
+      //tiempo dentro del spinner
+      // Comprobar si el contendor del spinner existe se le cambia esta clase 
+      if (contador_spinner) {
+        contador_spinner.textContent = tiempoRestante;
+        contador_spinner.style.fontSize = "16px";
       }
-      bootbox.confirm({
-        title: "Alerta de Información",
-        message: "Ya puede cerrar la publicidad cuando usted desee, dándole clic al botón Cerrar o a la X de la publicidad. Que tenga un feliz día.",
-        buttons: {
-          confirm: {
-            label: "Cerrar Alerta",
-            className: "btn-danger",
-          },
+        
+      // Oculta el modal cuando el tiempo llegue a 0
+      if (tiempoRestante === 0) {
 
-        },
-        callback: function (result) {
-          setTimeout(function() {
-            document.body.classList.add("modal-open");
-          }, 310);
-        },
-      });
+        clearInterval(intervalo);
+        
+         // contenedorBotonX.disabled = false;
+          contenedorBoton.disabled = false;
 
-        var botonBOOX = document.querySelector(".bootbox-cancel");
-          botonBOOX.remove();
-
-          // Crea un contador que se inicia en 1
-        let counter = 0;
-
-        // Función que se ejecuta cada segundo
-        const interval = setInterval(function () {
-          // Incrementa el contador
-          counter++;
-
-          /* Cierra el modal después de 10 segundos
-          if (counter === 10) {
-            clearInterval(interval);
-            bootbox.hideAll();
-              setTimeout(function() {
-                document.body.classList.add("modal-open");
-              }, 310);
-          }*/
-        }, 1000);
-
-      //Selectores de contenedores
-      var body = document.querySelector(".modal-open");
-      var modal = document.querySelector(".modal");
+        if(spinner){
+          spinner.style.borderRightColor = "#007bff";
+        }
       
-      contenedorBotonX.disabled = false;
-      contenedorBoton.disabled = false;
-      // TODO ESTO ES POR SI SE NECESITA BORRAR LOS MODALES //
-
-      //Emiliminacion de clases de Boostrap
-      //body.classList.remove("modal-open");
-      //body.classList.remove("modal-open");
-      
-     //Cambio de display del contenedor principal del modal
-
-      //Se le agrega un nuevo atributo al modal principal
-
-      
-     // contenedor.parentNode.removeChild(contenedor);
-      // se recore el contenedor principal y se eliminan los nodos que queden
-      //while (contenedor.firstChild) {
-      //contenedor.removeChild(contenedor.firstChild);
-      //}
-      /////////////////////////
-    }
-  }, 1000);
+      }
+    }, 1000);
+  }
+  // Se inicia el temporizador para cerrar el modal
+  ocultarModalAutomaticamente();
 }
-// Se inicia el temporizador para cerrar el modal
-ocultarModalAutomaticamente();
+
+else if (modalContribuyente) {
+  //funcion para ejecutar el desactivado automatico
+  function ocultarModalAutomaticamente() {
+    // Contador para mostrar en la consola
+    let tiempoRestante = 15;
+  
+    // Intervalo para actualizar el contador
+    const intervalo = setInterval(() => {
+      // Decrementa el tiempo restante
+      tiempoRestante--;
+  
+      // Muestra el tiempo restante en la consola
+      console.log(`Tiempo restante: ${tiempoRestante} segundos`);
+      //tiempo dentro del spinner
+      // Comprobar si el contendor del spinner existe se le cambia esta clase 
+      if (contador_spinner) {
+        contador_spinner.textContent = tiempoRestante;
+        contador_spinner.style.fontSize = "16px";
+      }
+         
+      // Oculta el modal cuando el tiempo llegue a 0
+      if (tiempoRestante === 0) {
+  
+        clearInterval(intervalo);
+        
+          //contenedorBotonX.disabled = false;
+          contenedorBoton.disabled = false;      
+              
+        if(spinner){
+          spinner.style.borderRightColor = "#007bff";
+        }
+        
+      }
+    }, 1000);
+  }
+  // Se inicia el temporizador para cerrar el modal
+  ocultarModalAutomaticamente();
+  
+}
 
 
+$(".haciendaTexto").show();
+$(".ambienteTexto").hide();
+const contenedorHacienda = document.querySelector(".hacienda");
+const contenedorAmbiente = document.querySelector(".ambiente");
+const textoBanner = document.querySelector("#municipal");
+
+
+const verificarClase = () => {
+  const tieneClaseHacienda = contenedorHacienda.classList.contains("active");
+  const tieneClaseAmbiente = contenedorAmbiente.classList.contains("active");
+
+  if (tieneClaseHacienda) {
+    municipal.textContent  = 'Hacienda Municipal';
+    $(".haciendaTexto").show();
+    $(".ambienteTexto").hide();
+  } else if (tieneClaseAmbiente) {
+   
+    municipal.textContent  = 'Aseo Municipal';
+    $(".haciendaTexto").hide();
+    $(".ambienteTexto").show();
+  }
+};
+
+window.onload = verificarClase; // Se ejecuta al cargar la página
+
+setInterval(verificarClase, 320);
