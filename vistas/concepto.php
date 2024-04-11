@@ -133,7 +133,7 @@ require './anuncio.php';
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
                             <div class="carousel-inner">
                                 <div class="carousel-item hacienda active " style="height:300px; ">
-                                  <img class="img-data" src="../public/images/carrete/" alt="First slide">
+                                  <img class="img-data" src="../public/images/campo.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item ambiente" style="height:300px; ">
                                   <img class="img-data" src="../public/images/carrete/ambiente.jpg" alt="Second slide">

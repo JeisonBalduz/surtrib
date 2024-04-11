@@ -33,7 +33,7 @@ if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==2) {
                           </div>
              <!-- CONTENDOR DE IMAGENES RESPONSIVE -->
              <div id="anuncio" class="container-fluid d-flex justify-content-center">
-                      <img src="../public/images/carrete/feriaDelPescado-min.jpeg" alt="">
+                      <img src="../public/images/WA0063.jpg" alt="">
                   </div>
               
             <p></p>

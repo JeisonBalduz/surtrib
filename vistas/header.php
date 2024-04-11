@@ -47,6 +47,7 @@ $idact = ejecutarConsultaSimpleFila($sql);
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="../public/mapa.css">
+<link rel="stylesheet" href="../public/plugins/sweetalert2/sweetalert2.min.css">
 
   <link rel="stylesheet" href="../public/mapa.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />

@@ -67,6 +67,7 @@
 <script src="../public/js/bootbox.min.js"></script> 
 <script src="../public/js/bootstrap-select.min.js"></script> 
 <script src="../public/plugins/chart.js/Chart.min.js"></script> 
+<script src="../public/plugins/sweetalert2/sweetalert2.all.min.js"></script> 
 
 <!-- ESTAS LIBRERIAS SON PARA LOS MULTISELECT DE CATASTRO -->
 <link rel="stylesheet" href="../public/bootstrap-select.min.css">
