@@ -26,6 +26,22 @@ switch ($_GET["op"]) {
         echo json_encode($resf);
     break;
 
+    case 'buscarUsuariototal': 
+        $resf=$mensajes->buscarUsuariototal($buscarUsuario_resivir);
+       //Vamos a declarar un array
+       $data= Array();
+    
+       while ($reg= $resf->fetch_object()){
+           $data[]=array(
+                "0"=>$reg->usuario,
+                "1"=>$reg->name,
+                "2"=>$reg->nivel,
+                "3"=>$reg->rfc
+               );
+       }
+       echo json_encode($data);
+    break;
+    
     case 'buscarUsuarioContribuyente': 
         $resf=$mensajes;
         echo json_encode($resf);
@@ -39,10 +55,16 @@ switch ($_GET["op"]) {
         $fecha = date('Y-m-d');
         $hora = date('H:i:s');
         $visto = 1;
-        echo $rfc_envio.' '.$name_enviado." ".$rfc_resivir." ".$nombreUsuario." ".$mensajes_texto." ".$visto." ".$fecha." ".$hora;
         $resf=$mensajes->EnviarMensaje($rfc_envio, $name_enviado, $rfc_resivir, $nombreUsuario, $mensajes_texto, $visto, $fecha, $hora);
         
     break;
+
+    case 'enviarMensajeContribuyente':
+          
+
+        
+    break;
+
     case 'BustarMensajesResividos':
         $resf=$mensajes->BuscarMensajesResividos($rfc_envio);
        
@@ -59,7 +81,7 @@ switch ($_GET["op"]) {
 
      			$data[]=array(
      				"0"=>'
-                    <button class="btn btn-info d-flex justify-content-center align-items-center text-center"
+                    <button class="btn btn-info d-flex justify-content-center align-items-center text-center boton-refres"
                      onclick="mostrar('.$reg->id_mens.')" id="id_mensaje" data-toggle="modal" data-target="#modalMostrar" style="width: 130px;">
                     <i class="fa fa-eye ojo-icon"></i><div class = "mx-2">Ver Mensaje</div>
                     </button>',
@@ -86,6 +108,12 @@ switch ($_GET["op"]) {
         echo json_encode($resf);
     break;
     
+    case 'bandejaMensajes':
+        $rfc_envio_usuario = $rfc_envio;
+        $rfc_envio_resividos = $rfc_envio;
+        $resf=$mensajes->Bandejas( $rfc_envio_usuario, $rfc_envio_resividos);
+        echo json_encode($resf);
+    break;
     
     default:
         # code...

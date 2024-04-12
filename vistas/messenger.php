@@ -80,7 +80,7 @@ if ($_SESSION['Escritorio']==1)
                                     <div class="titulo__modal container d-flex justify-content-center">
                                         <h5 class="modal-title">Mensaje Resivido</h5>
                                     </div>
-                                    <button type="button"id="boton-x" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button"id="boton-x" class="close " data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -94,7 +94,7 @@ if ($_SESSION['Escritorio']==1)
                                                 
                                     </div>
                                     <div class="modal-footer">       
-                                        <button type="button" id="boton-cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" id="boton-cerrar" class="btn btn-secondary " data-dismiss="modal">Cerrar</button>
                                     </div>
                                 </form>
                         </div>
@@ -133,13 +133,13 @@ if ($_SESSION['Escritorio']==1)
                                 <li class="nav-item active">
                                     <a href="#" class="nav-link">
                                         <i class="fas fa-inbox mx-2"></i> Bandeja de entrada
-                                        <span class="badge bg-primary float-right" id="bandeja_entrada">12</span>
+                                        <span class="badge bg-primary float-right" id="bandeja_entrada"></span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-envelope mx-2"></i> Enviados
-                                        <span class="badge bg-warning float-right" id="bandeja_enviados">65</span>
+                                        <span class="badge bg-warning float-right" id="bandeja_enviados"></span>
                                     </a>
                                 </li>           
                             </ul>
@@ -197,24 +197,17 @@ if ($_SESSION['Escritorio']==1)
 
                     <div class="card-body p-0">
                         <div class="mailbox-controls">
-                            <button type="button" class="btn btn-default btn-sm checkbox-toggle">
-                                <i class="far fa-square"></i>
-                            </button>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default btn-sm">
+                             <div class="btn-group">
+                                <button type="button" class="btn btn-default btn-sm checkbox-toggle">
+                                    <i class="far fa-square"></i>
+                                </button>
+                                <button type="button" class="btn btn-default btn-sm" >
                                     <i class="far fa-trash-alt"></i>
                                 </button>
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fas fa-reply"></i>
-                                </button>
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fas fa-share"></i>
-                                </button>
+                                <button type="button" class="btn btn-default btn-sm boton-refres" >
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>   
                             </div>
-
-                            <button type="button" class="btn btn-default btn-sm">
-                                <i class="fas fa-sync-alt"></i>
-                            </button>
                         </div>
                         <div class="table-responsive mailbox-messages p-3">
                             <table class="table table-hover table-striped" id="tablet">
@@ -234,30 +227,24 @@ if ($_SESSION['Escritorio']==1)
                     </div>
                         <div class="card-footer p-0">
                             <div class="mailbox-controls">
-                                <button type="button" class="btn btn-default btn-sm checkbox-toggle">
-                                    <i class="far fa-square"></i>
-                                </button>
                                 <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-sm checkbox-toggle">
+                                        <i class="far fa-square"></i>
+                                    </button>
                                     <button type="button" class="btn btn-default btn-sm">
                                         <i class="far fa-trash-alt"></i>
                                     </button>
-                                    <button type="button" class="btn btn-default btn-sm">
-                                        <i class="fas fa-reply"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-default btn-sm">
-                                        <i class="fas fa-share"></i>
-                                    </button>
+                                    <button type="button" class="btn btn-default btn-sm boton-refres" >
+                                        <i class="fas fa-sync-alt"></i>
+                                    </button>   
                                 </div>
-
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fas fa-sync-alt"></i>
-                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
     </div>
 </div>
          
