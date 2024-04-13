@@ -233,7 +233,8 @@ if ($_SESSION['Escritorio']==1)
                                                 <option value="APOLO">APOLO</option>
                                                 <option value="CITROEN">CITROEN</option>
                                                 <option value="FOTON">FOTON</option>
-                                                 <option value="CHANGAN">CHANGAN</option>  
+                                                <option value="CHANGAN">CHANGAN</option>
+                                                <option value="BUICK">BUICK</option>
                                                    
                                                                                     </select> 
                                                                                                  
@@ -433,7 +434,8 @@ if ($_SESSION['Escritorio']==1)
                                                 <option value="APOLO">APOLO</option>
                                                 <option value="CITROEN">CITROEN</option>
                                                 <option value="FOTON">FOTON</option>
-                                                 <option value="CHANGAN">CHANGAN</option>
+                                                <option value="CHANGAN">CHANGAN</option>
+                                                <option value="BUICK">BUICK</option>
                                                  
                                          </select>
                                     </div>	 

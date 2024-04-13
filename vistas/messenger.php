@@ -22,6 +22,8 @@ if ($_SESSION['Escritorio']==1)
 <style>
     table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
     padding-right: 60px !important;
+    
+  
 }
 </style>
 <div class="row">
@@ -31,7 +33,7 @@ if ($_SESSION['Escritorio']==1)
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog  modal-lg" role="document">
                         <div class="modal-content ">
-                                <div class="modal-header" >
+                                <div class="modal-header bg-primary" >
                                     <div class="titulo__modal container d-flex justify-content-center">
                                         <h5 class="modal-title">Realizar envio de mensaje</h5>
                                     </div>
@@ -49,8 +51,8 @@ if ($_SESSION['Escritorio']==1)
                                                             </div>
                                                             <select class="custom-select" id="inputGroupSelect01">
                                                                 <option selected>Seleccione una Opción</option>
-                                                                <option value="todoC">Todos los contribuyentes</option>
-                                                                <option value="todoA">Todos los administrativos</option>
+                                                                <option value="todosContribuyentes">Todos los contribuyentes</option>
+                                                                <option value="todosAdministrativos">Todos los administrativos</option>
                                                                 <option value="contribuyente" class="Contribuyente" id="contri">Un contribuyente</option>
                                                             </select>
                                                         </div>
@@ -58,7 +60,7 @@ if ($_SESSION['Escritorio']==1)
                                                             <div class="input-group-prepend">
                                                                 <span class="input-group-text" id="basic-addon1"><i class="nav-icon fas fa-user"></i></span>
                                                             </div>
-                                                            <input type="text" name="personal_resivir" id="personal_resivir" class="form-control input_usuario" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1" disabled>
+                                                            <input type="text" name="personal_recibir" id="personal_recibir" class="form-control input_usuario" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1" disabled>
                                                         </div>
                                                     </div>
                                                     <textarea class="form-control form-control-lg"  id="messenger" cols="30" rows="10"></textarea>
@@ -76,7 +78,7 @@ if ($_SESSION['Escritorio']==1)
                 <div class="modal fade" id="modalMostrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog  modal-lg" role="document">
                         <div class="modal-content">
-                                <div class="modal-header" >
+                                <div class="modal-header bg-primary" >
                                     <div class="titulo__modal container d-flex justify-content-center">
                                         <h5 class="modal-title">Mensaje Resivido</h5>
                                     </div>
@@ -84,7 +86,7 @@ if ($_SESSION['Escritorio']==1)
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form action="" id="formularioMensajes" method="post" name="formularioc">
+                                
                                     <div class="modal-body">
                                                     <div id="mensajes">
 
@@ -94,9 +96,11 @@ if ($_SESSION['Escritorio']==1)
                                                 
                                     </div>
                                     <div class="modal-footer">       
+                                        <button type="button" class="btn btn-primary " id="editar" hidden><i class="fa fa-edit"></i></button>
+                                        <button type="button" class="btn btn-primary inputActualizar"  id="inputActualizar" ">Guardar</button>
                                         <button type="button" id="boton-cerrar" class="btn btn-secondary " data-dismiss="modal">Cerrar</button>
                                     </div>
-                                </form>
+                                
                         </div>
                     </div>
                 </div>
@@ -131,13 +135,13 @@ if ($_SESSION['Escritorio']==1)
                             <ul class="nav nav-pills flex-column">
                                 
                                 <li class="nav-item active">
-                                    <a href="#" class="nav-link">
+                                    <a href="#" class="nav-link" id="bandejaEntrada">
                                         <i class="fas fa-inbox mx-2"></i> Bandeja de entrada
                                         <span class="badge bg-primary float-right" id="bandeja_entrada"></span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="#" class="nav-link" id="bandejaEnvio">
                                         <i class="far fa-envelope mx-2"></i> Enviados
                                         <span class="badge bg-warning float-right" id="bandeja_enviados"></span>
                                     </a>
@@ -201,28 +205,49 @@ if ($_SESSION['Escritorio']==1)
                                 <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                                     <i class="far fa-square"></i>
                                 </button>
-                                <button type="button" class="btn btn-default btn-sm" >
+                                <button type="button" class="btn btn-default btn-sm " >
                                     <i class="far fa-trash-alt"></i>
                                 </button>
                                 <button type="button" class="btn btn-default btn-sm boton-refres" >
                                     <i class="fas fa-sync-alt"></i>
                                 </button>   
+                                <button type="button" class="btn btn-default btn-sm boton-refresEnviados">
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>  
                             </div>
                         </div>
                         <div class="table-responsive mailbox-messages p-3">
-                            <table class="table table-hover table-striped" id="tablet">
-                                <thead>
-                                                    <tr>
-                                                        <th>Opción</th>
-                                                        <th>Nombre</th>
-                                                        <th>Mensaje</th>
-                                                        <th>Fecha</th>
-                                                        <th>Hora</th>                                                       
-                                                    </tr>
-                                            </thead>
-                                <tbody >
-                                </tbody>
-                            </table>
+                            <section class="tablet1" id="tabla_entada">
+                                <table class="table table-hover table-striped" id="tablet">
+                                    <thead>
+                                        <tr>
+                                            <th>Opción</th>
+                                            <th>Nombre</th>
+                                            <th>Mensaje</th>
+                                            <th>Fecha</th>
+                                            <th>Hora</th>                                                       
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbodyResividos" >
+                                    </tbody>
+                                </table>
+                            </section>
+                            <section class="tablet2" id="tabla_envio" hidden>
+                                <table class="table table-hover table-striped" id="tabletEnviados" >
+                                    <thead>
+                                        <tr>
+                                            <th>Opción</th>
+                                            <th>Nombre</th>
+                                            <th>Recibido</th>
+                                            <th>Mensaje</th>
+                                            <th>Fecha</th>
+                                            <th>Hora</th>                                                       
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbodyEnviados">
+                                    </tbody>
+                                </table>
+                            </section>
                         </div>
                     </div>
                         <div class="card-footer p-0">
@@ -235,6 +260,9 @@ if ($_SESSION['Escritorio']==1)
                                         <i class="far fa-trash-alt"></i>
                                     </button>
                                     <button type="button" class="btn btn-default btn-sm boton-refres" >
+                                        <i class="fas fa-sync-alt"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-sm boton-refresEnviados">
                                         <i class="fas fa-sync-alt"></i>
                                     </button>   
                                 </div>

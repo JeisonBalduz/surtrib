@@ -121,6 +121,8 @@ function cancelarform() {
 }
 
 
+
+
 function listar() {
 
     var busqueda = $("#comodinbusqueda").val();
@@ -248,6 +250,7 @@ mostrarform(true);
         
     });
 
+
 }
 
 
@@ -300,6 +303,31 @@ function activar(rfc) {
             });
         }
     })
+}
+
+
+
+
+function declarar(id,mes, rfc) {
+    
+
+
+ bootbox.confirm("¿Está seguro de declarar este periodo?", function (result) {
+        if (result) {
+            $.post("../ajax/pagoservamb.php?op=declarar", {
+                id: id, mes: mes, rfc:rfc
+            }, function (e) {
+                bootbox.alert(e);
+                
+            });
+        }
+    });
+
+ cancelarform();
+
+
+
+
 }
 
 init();

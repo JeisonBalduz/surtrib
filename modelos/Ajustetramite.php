@@ -13,17 +13,26 @@ Class Ajuste
 	
    
 	//Implementamos un método para editar registros
-	public function editar($id,$period,$totliq,$deferred,$totpag)
+	public function editar($id,$rfc2,$tramite2,$periodoviejo,$montoliqviejo,$montodifviejo,$montopagviejo,$periodonuevo,$montoliqnuevo,$montodifnuevo,$montopagnuevo,$obs,$iduser)
 	{
+		
+      $sw=true;
+
+		$sql="INSERT INTO `gaugingadjustmentramicsurtrib` (`tramite`,`rfc`, `moment`, `montoliqviejo`, `montoliqnuevo`, `montodifviejo`, `montodifnuevo`, `montopagviejo`, `montopagnuevo`, `obs`, `peridoviejo`, `peridonuevo`, `iduser`) VALUES ('$tramite2','$rfc2',now(),'$montoliqviejo','$montoliqnuevo','$montodifviejo','$montodifnuevo','$montopagviejo','$montopagnuevo','$obs','$periodoviejo','$periodonuevo','$iduser')";
+		ejecutarConsulta($sql);
+
 		$sql="UPDATE mayor SET 
 								  
-								  period='$period',
-								  totliq='$totliq',
-								  deferred='$deferred',
-								  totpag='$totpag'
+								  period='$periodonuevo',
+								  totliq='$montoliqnuevo',
+								  deferred='$montodifnuevo',
+								  totpag='$montopagnuevo'
 								   
 								   WHERE id='$id'";
 		return ejecutarConsulta($sql);
+
+
+		
 	}
 
 	//Implementar un método para listar los registros
@@ -40,13 +49,16 @@ Class Ajuste
 	}
 	
 
-	public function anular($id)
+	public function anular($id,$rfc,$tramite,$iduser,$totliq)
+
 	{
+
+     $sql="INSERT INTO `gaugingtramiteseliminados`(`tramite`, `rfc`, `moment`,`iduser`,`amount`) VALUES ('$tramite','$rfc',now(),'$iduser','$totliq')";
+	ejecutarConsulta($sql);
+
 		$sql="UPDATE mayor SET mcondition ='X', idrfc=1 WHERE id='$id'";
 		return ejecutarConsulta($sql);
 	}
-
-
 
 
 }

@@ -64,27 +64,8 @@ function mostrar(codigoubch) {
     }
   );
 }
-$(document).ready(function() {
-  $.ajax({
-    url: "../ajax/concepto.php?op=mostrarMoneda", // Path to your script
-    success: function(data) {
-      data = JSON.parse(data);
-      const moneda = document.querySelectorAll('.monedaITM');
-      moneda.forEach(function(elemento) {
-        elemento.textContent = data+' Bs';
-      });
-    },
-    error: function(jqXHR, textStatus, errorThrown) {
-      console.error("AJAX Error:", textStatus, errorThrown); // Handle errors
-    }
-  });
-});
 
 init();
-
-
-
-
 
 // SELECCION DEL MODAL PRINCIPAL DE BOOTSTRAP
 const myModal = document.querySelector("modal-contendor"); 
@@ -214,7 +195,7 @@ if (modalAdministrativo) {
    //funcion para ejecutar el desactivado automatico
    function ocultarModalAutomaticamente() {
     // Contador para mostrar en la consola
-    let tiempoRestante = 5;
+    let tiempoRestante = 16;
 
     // Intervalo para actualizar el contador
     const intervalo = setInterval(() => {
@@ -253,7 +234,7 @@ else if (modalContribuyente) {
   //funcion para ejecutar el desactivado automatico
   function ocultarModalAutomaticamente() {
     // Contador para mostrar en la consola
-    let tiempoRestante = 15;
+    let tiempoRestante = 16;
   
     // Intervalo para actualizar el contador
     const intervalo = setInterval(() => {
@@ -288,31 +269,3 @@ else if (modalContribuyente) {
   ocultarModalAutomaticamente();
   
 }
-
-
-$(".haciendaTexto").show();
-$(".ambienteTexto").hide();
-const contenedorHacienda = document.querySelector(".hacienda");
-const contenedorAmbiente = document.querySelector(".ambiente");
-const textoBanner = document.querySelector("#municipal");
-
-
-const verificarClase = () => {
-  const tieneClaseHacienda = contenedorHacienda.classList.contains("active");
-  const tieneClaseAmbiente = contenedorAmbiente.classList.contains("active");
-
-  if (tieneClaseHacienda) {
-    municipal.textContent  = 'Hacienda Municipal';
-    $(".haciendaTexto").show();
-    $(".ambienteTexto").hide();
-  } else if (tieneClaseAmbiente) {
-   
-    municipal.textContent  = 'Aseo Municipal';
-    $(".haciendaTexto").hide();
-    $(".ambienteTexto").show();
-  }
-};
-
-window.onload = verificarClase; // Se ejecuta al cargar la página
-
-setInterval(verificarClase, 320);

@@ -4,7 +4,7 @@ require_once "../modelos/Concepto.php";
 
 $concepto=new Concepto();
 
-//$imagen=$_SESSION['imagen'];
+$imagen=$_SESSION['imagen'];
 $nombre=$_SESSION['nombre'];
 $idusuario=$_SESSION['idusuario'];
 $codigoubch=isset($_POST["codigoubch"])? limpiarCadena($_POST["codigoubch"]):"";
@@ -72,13 +72,7 @@ switch ($_GET["op"]){
  		echo json_encode($results);
 
 	break;
-
-	case 'mostrarMoneda':
-		$rspta = $concepto->mostrarMoneda();
-
-		// Codificar la respuesta en JSON
-		echo json_encode($rspta);
-	break;
+	
 	
 
 }

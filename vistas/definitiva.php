@@ -146,6 +146,15 @@ if ($_SESSION['Clientes']==1)
                                           <label>Representante Legal</label>
                                           <input type="text" name="representante" id="representante" class="form-control" placeholder="Nombre Representante" required>
                                     </div>
+                                    <div class="form-group col-sm-2 col-xs-4" id="divbanco">
+                                <label>Nacionalidad</label>
+                                         <select class="form-control" name="nacionalidad" id="nacionalidad" placeholder="Banco" required>
+                                            <option value="">Seleccione Nacionalidad</option>
+                                           <option value="V">VENEZOLANO(A)</option>
+                                           <option value="E">EXTRANJERO</option>
+             
+                                          </select> 
+                                      </div> 
                                     <div class="form-group col-sm-4 col-xs-4">
                                           <label>Cédula Representante</label>
                                           <input type="text" name="rcedula" id="rcedula" class="form-control" placeholder="Cédula Representante" required>

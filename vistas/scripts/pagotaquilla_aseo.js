@@ -94,6 +94,10 @@ $(document).ready(function() {
             totalapagartramite=sumatramite.toFixed(2);
             $("#totalapagar").html(""+sumatramite.toFixed(2));//alert("tamaño del array="+sumatramite);
            }
+           else{
+            $("#totalapagar").html("");
+           }
+            
 
             });
 
@@ -104,7 +108,7 @@ $(document).ready(function() {
         ajax: {
             type: 'GET',
             contentType: "application/json; charset=utf-8",
-            url: "../ajax/contrihacienda_aseo.php?op=buscarContibuyente"+"&r=" + new Date().getTime(),
+            url: "../ajax/contriambiente.php?op=buscarContibuyente"+"&r=" + new Date().getTime(),
             dataType: 'json',
           //  data:'rfc=' + 
               delay: 650,
@@ -319,6 +323,36 @@ function mostrar(rfc) {
    
 }
 
+function tipo_pago(value){
+    if(value==0){
+       $("#divaprovado").show(); $("#divreferencia").show();
+        $("#txtreferencia").val("");
+        $("#txtaprobado").val(""); 
+        $("#divbanco").show();
+          $("#banco").val("0");
+    }
+    else
+     if (value==2){
+        $("#divaprovado").hide(); $("#divreferencia").show();
+        $("#txtreferencia").val("");
+        $("#txtaprobado").val("Transferencia");
+        $("#divbanco").show();
+          $("#banco").val("0");  
+       
+         
+    }
+    else
+    if (value==8){
+        $("#divaprovado").hide(); $("#divreferencia").hide();
+        $("#txtreferencia").val("Efectivo");
+        $("#txtaprobado").val("Efectivo");
+        $("#banco").val("0");
+         $("#divbanco").hide();
+
+         
+    }
+     
+}
 
 function chequear_ampos(){
     if($("#txtreferencia").val()==""){
@@ -339,6 +373,36 @@ function chequear_ampos(){
      return true;
 }
 
+function consultarReferencia(valor)
+{  
+    var tipopag=$("#tipopago").val();
+    var banc=$("#banco").val();
+    if(valor.length!=6&&tipopag==2){ 
+       alert("Referencia no Valida, Ingrese 6 Digitos");
+       $("#txtreferencia").val("");
+       $('#txtreferencia').focus();
+       return false;
+    }
+   // alert("valor.length="+valor.length);
+    if(valor.length==6&&tipopag==2){ 
+    $.post("../ajax/ajaxpagotaquilla_aseo.php?op=consultarReferencia",{txtreferencia : valor,tipopago:tipopag,banco:banc}, function(data, status)
+    {
+        
+        var json = JSON.parse(data);    
+        if (json){
+            if(json.Referencia==1){
+                bootbox.alert("Esta Registrada esa Referencia");
+                $("#txtreferencia").val("");$('#txtreferencia').focus();
+                    return false;
+            } 
+                 
+        }
+        
+    });
+    }
+   return false;
+}
+
 function guardarPagotaquilla() 
 {   $("#btn_pagotaqulla").hide();
    // e.preventDefault(); //No se activará la acción predeterminada del evento
@@ -352,6 +416,12 @@ function guardarPagotaquilla()
  //  alert("Valores="+formData); return false;
     var query="&r=" + new Date().getTime()+";";
 
+       if ($('#tipopago').val()==""){  
+                    alert("Seleccione Tipo de pago");$('#tipopago').focus();
+                    $("#btn_pagotaqulla").show();
+               return false;
+            }
+
            if ($("#txtreferencia").val()==""){  
                    alert("Ingrese la Referencia");$('#txtreferencia').focus();
                    $("#btn_pagotaqulla").show();
@@ -363,7 +433,7 @@ function guardarPagotaquilla()
                     $("#btn_pagotaqulla").show();
                return false;
             }
-
+       
 
 
            /* if($("#txttotalapagar").val()!=$('#txtmonto').val()){
@@ -375,6 +445,17 @@ function guardarPagotaquilla()
                  $("#btn_pagotaqulla").show();
                 return false;
             }
+            var txtrefe=$("#txtreferencia").val();
+           
+            
+            if ($("#tipopago").val()==2&&(txtrefe.length<6|| txtrefe.length>6 )  ){  
+                   alert("Debe Ingresar los ultimos 6 Dogitos de su Referencia"); 
+                   $('#txtreferencia').focus();
+                      // $('#txtreferencia').focus();
+                 //  $("#btn_pagotaqulla").show();
+                   return false;
+           }
+
 
               // alert("id_mayo="+$('#id_mayor').val()+" tramite="+$('#tramite').val()+" txtmonto="+$('#txtmonto').val()+" txtaprobado="+$('#txtaprobado').val());
              // return false;
@@ -392,6 +473,8 @@ function guardarPagotaquilla()
                 txtreferencia:$('#txtreferencia').val(),
                 txtmonto:$('#txtmonto').val(),
                 txtaprobado:$('#txtaprobado').val(),
+                tipopago:$('#tipopago').val(),
+                banco:$('#banco').val(),
                 json_det:$('#json_det').val()
 
                 //idt:$('#idt').val() 

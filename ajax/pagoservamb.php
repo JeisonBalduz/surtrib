@@ -33,23 +33,20 @@ $idt=isset($_POST["idt"])? limpiarCadena($_POST["idt"]):"";
 $tiposer=isset($_POST["tiposer"])? limpiarCadena($_POST["tiposer"]):"";
 $id=isset($_POST["id"])? limpiarCadena($_POST["id"]):"";
 $tipotribute=isset($_POST["tipotribute"])? limpiarCadena($_POST["tipotribute"]):"";
+$mes=isset($_POST["mes"])? limpiarCadena($_POST["mes"]):"";
 
 
 
 switch ($_GET["op"]){
         
-	case 'guardaryeditar':
+	
 
-		if (empty($id)){
-			$rspta=$empamb->insertar($rfc,$sector,$calle,$edificio,$numeroedif,$direccion,$ultima_declaracion,$idt,$idusuario,$tiposer);
-			echo $rspta ? "Empresa o Sucursal registrada" : "Empresa o Sucursal no se pudo registrarse";
-		}
-		else {
-			$rspta=$empamb->editar($id,$rfc,$sector,$calle,$edificio,$numeroedif,$direccion,$ultima_declaracion,$idt,$idusuario,$tiposer);
-			echo $rspta ? "Empresa o Sucursal actualizada" : "ContrEmpresa o Sucursal no se pudo actualizarse";
-		}
+
+
+case 'declarar':
+		$rspta=$empamb->declarar($id,$mes,$rfc,$idusuario);
+ 		echo $rspta ? "Servicio Declarado" : "Servicio no se pudo Declarado";
 	break;
-
 
 
 
@@ -100,8 +97,13 @@ case 'tramiteporpagar':
     break;
   }
 
+  
+
   // Convertir la fecha de pago a un objeto DateTime
-  $fechaUltimaPago = DateTime::createFromFormat('Y-m-d', $reg->fpago);
+  $fechaUltimaPago = $reg->fpago;
+
+
+$fechaUltimaPago = new DateTime($fechaUltimaPago);
 
   // Si la fecha de pago no es válida, mostrar un mensaje de error
   if (!$fechaUltimaPago) {
@@ -111,33 +113,60 @@ case 'tramiteporpagar':
     break;
   }
 
+  
+
   // Calcular el mes siguiente
   $fechaUltimaPago->modify('+1 month');
 
-  $fechaUltimaPago->date($fechaUltimaPago);
-
+  
+  
   // Generar el array de meses a pagar
   $mesesPagar = array();
-  $fechaLimite = date('Y-m-d', strtotime('+1 month')); // Fecha límite del día de la consulta
+  $fechaLimite = date('Y-m-d', strtotime('-1 month')); // Fecha límite del día de la consulta
+  $fechaLimite = new DateTime($fechaLimite);
+
   while ($fechaUltimaPago <= $fechaLimite) {
+   
     $mesesPagar[] = date('Ym', $fechaUltimaPago->getTimestamp());
     $fechaUltimaPago->modify('+1 month');
+   
   }
-print_r($fechaUltimaPago);
-print_r($fechaLimite);
+
+
+
+
+
 
 
   // Mostrar los meses a pagar
   foreach ($mesesPagar as $mes) {
-  	print_r($mes);
+
+    $idreg= $reg->id;
+
+  $resultado = $empamb->compararmes($mes,$idreg);
+  $rspta2 = $empamb->buscaid($mes,$idreg);
+  $reg2 = $rspta2->fetch_object();
+
+if ($resultado->num_rows > 0) {
+  $existe = $resultado->fetch_object()->existe;
+  
+  
+  if ($existe == 1) {
+    $estadoPago = '<span class="badge bg-info">Pagado</span>';
+    $accion= '<a target="_blank" href="../reportesPDF/servicioaseo.php?codigo='.$reg2->id.'");" class="btn btn-info">Ver Declaracion</a>';
+  } else {
+    $estadoPago = '<span class="badge bg-danger">Por Pagar</span>';
+    $accion='<button class="btn btn-danger" onclick="declarar('.$reg->id.','.$mes.','.$reg->rfc.')">Declarar</button>';
+  }
+} else {
+  echo "Error al ejecutar la consulta.";
+}
+
     echo '<tr>
       <td>' . $mes . '</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td id="monto"></td>
-      <td></td>
-      <td><input type="checkbox" name="mesesPagar[]" value="' . $mes . '"></td>
+       <td>' . $estadoPago . '</td>
+      <td>' . $accion . '</td>
+      
     </tr>';
   }
 
@@ -173,7 +202,7 @@ break;
 
 
  			$data[]=[
-				"0"=>'<button class="btn btn-info">Liquidar</button>',
+				"0"=>'<button class="btn btn-info" onclick="tramiteporpagar('.$reg->id.')">Liquidar</button>',
 				"1"=>$tipos,
 				"2"=>$reg->direccion,
 				"3"=>$reg->fechapago,

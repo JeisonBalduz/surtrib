@@ -12,7 +12,7 @@ Class Activeco
 	//Implementamos un método para insertar registros
 	public function insertar($idt,$umtmin,$umtmax,$partida,$detalle)
 	{
-		$sql="INSERT INTO tributesambiente (`idt`, `detalle`, `umcl`, `partida`, `umtmin`, `umtmax`, `grupot`, `unidadmed`)
+		$sql="INSERT INTO tributes_aseo (`idt`, `detalle`, `umcl`, `partida`, `umtmin`, `umtmax`, `grupot`, `unidadmed`)
 		VALUES ('$idt','$detalle',0,'$partida','$umtmin','$umtmax',2,'N/A')";
 		return ejecutarConsulta($sql);
 	}
@@ -20,7 +20,7 @@ Class Activeco
 	//Implementamos un método para editar registros
 	public function editar($id,$idt,$umtmin,$umtmax,$partida,$detalle)
 	{
-		$sql="UPDATE tributesambiente SET 
+		$sql="UPDATE tributes_aseo SET 
 								   idt='$idt',
 								   umtmin='$umtmin',
 								   umtmax='$umtmax', 
@@ -52,14 +52,14 @@ Class Activeco
 	//Implementar un método para mostrar los datos de un registro a modificar
 	public function mostrar($id)
 	{
-		$sql="SELECT * FROM tributesambiente WHERE id='$id'";
+		$sql="SELECT * FROM tributes_aseo WHERE id='$id'";
 		return ejecutarConsultaSimpleFila($sql);
 	}
 
 	//Implementar un método para listar los registros
 	public function listar()
 	{
-		$sql="SELECT * FROM tributesambiente";
+		$sql="SELECT * FROM tributes_aseo";
 		return ejecutarConsulta($sql);		
 	}
 

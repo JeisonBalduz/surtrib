@@ -20,11 +20,14 @@ $rcedula=isset($_POST["rcedula"])? limpiarCadena($_POST["rcedula"]):"";
 $rtelefono=isset($_POST["rtelefono"])? limpiarCadena($_POST["rtelefono"]):"";
 $correlativo=isset($_POST["correlativo"])? limpiarCadena($_POST["correlativo"]):"";
 
+$nacionalidad=isset($_POST["nacionalidad"])? limpiarCadena($_POST["nacionalidad"]):"";
+
+
 switch ($_GET["op"]){
         
 	case 'guardaryeditar':
 		if (empty($id)){
-			$rspta=$definitiva->insertar($rfc2,$montobrutoanual,$representante,$rcedula,$rtelefono,$correlativo);
+			$rspta=$definitiva->insertar($rfc2,$montobrutoanual,$representante,$rcedula,$rtelefono,$correlativo,$nacionalidad);
 			echo $rspta ? "Definitiva registrada" : "Definitiva no se pudo registrar";
 		}
 		else {

@@ -10,35 +10,14 @@ Class Empamb
 		
 	}
 	//Implementamos un método para insertar registros
-	public function insertar($rfc,$sector,$calle,$edificio,$numeroedif,$direccion,$ultima_declaracion,$idt,$idusuario,$tiposer)
+	public function declarar($id,$mes,$rfc,$idusuario)
 	{
-		$sql="INSERT INTO `ambiente`(`registered`, `tipotax`, `idtambiente`, `rfc`, `estatus`, `direccion`, `fechapago`, `sector`, `calle`, `edificio`, `nedificio`,`usuarioregis`) VALUES (now(),'$tiposer','$idt','$rfc','A','$direccion','$ultima_declaracion','$sector','$calle','$edificio','$numeroedif','$idusuario');";
+		$sql="CALL IncluirAseo($id,$rfc,$idusuario,'$mes')";
 		return ejecutarConsulta($sql);
 	}
    
-	//Implementamos un método para editar registros
-	public function editar($id,$rfc,$sector,$calle,$edificio,$numeroedif,$direccion,$ultima_declaracion,$idt,$tiposer)
-	{
-		$sql="UPDATE ambiente SET 
-					
-    								`tipotax` = '$tiposer',
-    								`idtambiente` = '$idt',
-    								`rfc` = '$rfc',
-    								`direccion` = '$direccion,',
-    								`fechapago` = '$ultima_declaracion',
-    								`sector` = '$sector',
-    								`calle` = '$calle',
-    								`edificio` = '$edificio',
-    								`nedificio` = '$numeroedif'
-								   
-								   WHERE id='$id'";
 
 
-		return ejecutarConsulta($sql);
-	}
-
-
-	
 	//Implementamos un método para desactivar Clientes
 	public function desactivar($rfc)
 	{
@@ -61,6 +40,18 @@ Class Empamb
 	public function tramiteporpagar($id)
 	{
 		$sql="SELECT a.*, (DATE_FORMAT(a.fechapago, '%Y-%m-%d')) AS fpago,t.idt,t.tipotribute,t.tipotax,t.ramotax,t.categoriatax,t.tax FROM ambiente a LEFT JOIN taxaseo t ON a.idtambiente=t.idt WHERE a.id='$id'";
+		return ejecutarConsulta($sql);
+	}
+
+	public function buscaid($mes,$idreg)
+	{
+		$sql="SELECT id FROM gaugingaseo WHERE period = '$mes' AND idrelaseo = '$idreg'";
+		return ejecutarConsulta($sql);
+	}
+
+	public function compararmes($mes,$idreg)
+	{
+		$sql="SELECT COUNT(*) AS existe FROM gaugingaseo WHERE period = '$mes' AND idrelaseo = '$idreg'";
 		return ejecutarConsulta($sql);
 	}
 

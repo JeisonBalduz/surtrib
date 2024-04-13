@@ -68,14 +68,15 @@ if ($_SESSION['Clientes']==1)
                                       
                                                       <th></th>
                                                       <th></th>
-                                                      <th></th>
-                                                      <th></th>
                                                       <th>Total</th>
                                                       <th><spam id="stotaliq"></spam></th>                                   
                                                       <th><spam id="sdiferido"></spam></th>
                                                       <th><spam id="stotaltotal"></spam></th>
                                                       <th><spam id="sdescuento"></spam></th>
                                                       <th><spam id="stotalp"></spam></th>
+                                                      <th><spam id="saldo"></spam></th>
+                                                      <th></th>
+                                                      
                                                       </tr>											
                                                 </tfoot>
                                     </table>

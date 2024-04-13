@@ -105,16 +105,13 @@ function guardaryeditar(e)
 	limpiar();
 }
 
-function mostrar(idtaxempamb)
+function mostrar(id)
 {
-	$.post("../ajax/tasaempresa.php?op=mostrar",{idtaxempamb : idtaxempamb}, function(data, status)
+	$.post("../ajax/tasaservamb.php?op=mostrar",{id : id}, function(data, status)
 	{
 		data = JSON.parse(data);		
 		mostrarform(true);
-		$("#idtaxempamb").val(data.idtaxempamb);
-		$("#idtipotax").val(data.idtipotax);
-		$("#idramotax").val(data.idramotax);
-		$("#idcategoriatax").val(data.idcategoriatax);
+		$("#id").val(data.id);
 		$("#tipotax").val(data.tipotax);
 		$("#ramotax").val(data.ramotax);
 		$("#categoriatax").val(data.categoriatax);

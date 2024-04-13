@@ -22,6 +22,9 @@ $idt=isset($_POST["idt"])? limpiarCadena($_POST["idt"]):"";
 $txtreferencia=isset($_POST["txtreferencia"])? limpiarCadena($_POST["txtreferencia"]):"";
 $txtaprobado=isset($_POST["txtaprobado"])? limpiarCadena($_POST["txtaprobado"]):"";
 $txtmonto=isset($_POST["txtmonto"])? limpiarCadena($_POST["txtmonto"]):"";
+$tipopago=isset($_POST["tipopago"])? limpiarCadena($_POST["tipopago"]):"";
+$idbanco=isset($_POST["banco"])? limpiarCadena($_POST["banco"]):"";
+
 
 switch ($_GET["op"]){
         
@@ -47,7 +50,7 @@ switch ($_GET["op"]){
 					$listramite.=",".$comprobantes->tramite;
 			//	$cad.=" mayor=".$comprobantes->id_mayor." idt=".$comprobantes->idt." tramite=".$comprobantes->tramite." totalapagar=".$comprobantes->totalapagar."<br/>";
 				
-				$rspta=$PagoTaqulla->pagartaquilla($comprobantes->id_mayor,$comprobantes->idt,$comprobantes->tramite,$txtreferencia,$txtaprobado,$comprobantes->totalapagar,$_SESSION['idusuario']);
+				$rspta=$PagoTaqulla->pagartaquilla($comprobantes->id_mayor,$comprobantes->idt,$comprobantes->tramite,$txtreferencia,$txtaprobado,$comprobantes->totalapagar,$tipopago,$idbanco,$_SESSION['idusuario']);
 				
 				if(!$rspta){
 					 if($cont==1){
@@ -66,7 +69,7 @@ switch ($_GET["op"]){
 
       
        }
-       $recibo='<a target="_blank" href="../reportesPDF/recibopago.php?codigo='.$listramite.'" class="btn btn-info">Recibo de Pago</a>';
+       $recibo='<a target="_blank" href="../reportesPDF/recibopago_aseo.php?codigo='.$listramite.'" class="btn btn-info">Recibo de Pago</a>';
             $resultado.=$recibo;
        echo $resultado;
 
@@ -79,6 +82,18 @@ switch ($_GET["op"]){
  	//	echo $rspta ? "Registrado Con Exito".$recibo : "Pago No Registrado";
  		//echo "id_mayor=".$id_mayor." tramite=".$tramite." txtreferencia=".$txtreferencia." txtaprobado=".$txtaprobado." txtmonto=".$txtmonto." idt=".$idt;
 	break;
+
+	case 'consultarReferencia':
+        
+        $rspta=$PagoTaqulla->consultarreferencia($txtreferencia,$tipopago,$idbanco);
+        $reg=$rspta->fetch_object();
+         if($reg){
+           echo json_encode(array("Referencia"=>1));
+        }
+        else
+        	echo json_encode(array("Referencia"=>0));
+
+   break;
         
 	case 'obtenerdeudas':
 		

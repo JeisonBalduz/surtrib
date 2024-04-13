@@ -223,7 +223,7 @@ switch ($_GET["op"]){
  		while ($reg=$rspta->fetch_object()){
 
 			if ($reg->saldo>=0){
-				$recibo='<a target="_blank" href="../reportesPDF/recibopago.php?codigo='.$reg->tramite.'");" class="btn btn-info">Recibo</a>';
+				$recibo='<a target="_blank" href="../reportesPDF/recibopago_aseo.php?codigo='.$reg->tramite.'");" class="btn btn-info">Recibo</a>';
 			}
 			else {
 				$recibo='<span class="badge bg-danger">Tramite por Pagar</span>';

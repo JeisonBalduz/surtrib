@@ -42,7 +42,7 @@ while ($obj = mysqli_fetch_object($result)) {
     $cedula=$obj->cedularif;
     $tipocedula=$obj->tiponac;
     $correo=$obj->correo;
-  
+    $nacionalidad=$obj->nacionalidad;
 
     
  }
@@ -177,7 +177,7 @@ $pdf->SetX(10);
 $pdf->SetY(70);
 $pdf->SetTextColor(0,0,0);
 $pdf->Cell(147, 7, utf8_decode('Representante Legal:'.$representante.''),1,0,'L',0);
-$pdf->Cell(49, 7, utf8_decode('Cedula: '.$rcedula.''),1,0,'L',0);
+$pdf->Cell(49, 7, utf8_decode('Cedula: '.$nacionalidad.$rcedula.''),1,0,'L',0);
 $pdf->SetX(10);
 $pdf->SetY(77);
 $pdf->SetTextColor(0,0,0);

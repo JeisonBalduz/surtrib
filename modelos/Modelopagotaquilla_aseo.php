@@ -11,7 +11,7 @@ Class PagoTaqulla
 	}
 	
     
-	public function pagartaquilla($id_mayor,$idt,$tramite,$txtreferencia,$txtaprobado,$txtmonto,$iduser)
+	public function pagartaquilla($id_mayor,$idt,$tramite,$txtreferencia,$txtaprobado,$txtmonto,$tipopago,$idbanco,$iduser)
 	{
 		/*$sql="SELECT u.rif AS rif,u.id AS idusuario,u.name AS nombreusuario,u.rfc,v.id AS idv,v.rfc AS rfc, v.registered,v.idtvehiculo,v.licenseplate,v.marca,v.modelos,v.puestos,v.pesos,v.anio,v.fechacompra,t.id AS idtv,t.idt,t.detalle FROM vehicle v LEFT JOIN tributes t ON v.idtvehiculo=t.id LEFT JOIN users u ON u.rfc=v.rfc WHERE v.id='$id'";*/
 	//	$sql="INSERT INTO `cpdv`( `momemt`, `tributo`, `monto`, `discount`, `deferred`, `fecha`, `p`, `falsedeferred`, `tramite`, `ctramite`, `user_id`, `ente`, `vistas`, `fecha_notifica`) VALUES (CURRENT_TIMESTAMP,$idt,$txtmonto,$txtaprobado,0.00,CURDATE(),'C',0,'P','$tramite',$iduser,0,0,NULL)";
@@ -19,11 +19,24 @@ Class PagoTaqulla
 		 // die($sql);
 		$idcpdv=ejecutarConsulta_retornarID($sql);
 		if($idcpdv){
-            $sql="INSERT INTO `dtcpdv_aseo`(`cpdv_id`, `approval`, `ref`, `ptype`, `mount`, `useamount`, `vfile`) VALUES ($idcpdv,'$txtaprobado','$txtreferencia',0,$txtmonto,0.00,NULL)";
+            $sql="INSERT INTO `dtcpdv_aseo`(`cpdv_id`, `approval`, `ref`, `ptype`, `mount`, `useamount`, `vfile`,`idbanco`) VALUES ($idcpdv,'$txtaprobado','$txtreferencia',$tipopago,$txtmonto,0.00,NULL,$idbanco)";
           //  die($sql);
             if(ejecutarConsulta($sql)){
-            	$sql="UPDATE mayor_aseo SET totpag=totpag+$txtmonto,mcondition='P',fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+            	
+              $sql1="SELECT ((totpag+$txtmonto)>=totliq) AS valor FROM mayor_aseo WHERE id=$id_mayor;";
+              $rsp = ejecutarConsulta($sql1);
+		          $reg=$rsp->fetch_object();
+		          if ($reg->valor==1){
+                 $sql="UPDATE mayor_aseo SET totpag=totpag+$txtmonto,mcondition='P',fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+		          }
+		          else{
+                  $sql="UPDATE mayor_aseo SET totpag=totpag+$txtmonto,fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+               }
+            	
+            
+
             	return ejecutarConsulta($sql);
+		          
             }
             else
               return false;	
@@ -31,6 +44,13 @@ Class PagoTaqulla
 		}
 		else
 		return false;
+	}
+
+	public function consultarreferencia($txtreferencia,$tipopago,$idbanco)
+	{			   
+		$sql="SELECT * FROM dtcpdv_aseo WHERE ref='$txtreferencia' and  ptype=$tipopago and idbanco=$idbanco  limit 1;";
+		//die($sql);						   
+		return ejecutarConsulta($sql);
 	}
 
 	public function listarcontribuyentes()

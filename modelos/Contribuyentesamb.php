@@ -93,8 +93,8 @@ Class Contria
 
 	public function mostrartotal($rfc)
 	{
-		$sql="SELECT SUM(m.totliq) AS stotaliq,SUM(m.deferred) AS sdiferido,(SUM(m.totliq)-SUM(m.deferred)-SUM(m.descuento)-SUM(m.totpag)) AS stotaltotal,SUM(m.descuento) AS sdescuento,SUM(m.totpag) AS stotalp FROM mayor m INNER JOIN 
-		tributes t ON m.idt=t.idt INNER JOIN users c ON m.idrfc=c.rfc WHERE m.idrfc='$rfc'";
+		$sql="SELECT SUM(m.totliq) AS stotaliq,SUM(m.deferred) AS sdiferido,(SUM(m.totliq)-SUM(m.deferred)-SUM(m.descuento)-SUM(m.totpag)) AS stotaltotal,SUM(m.descuento) AS sdescuento,SUM(m.totpag) AS stotalp,((SUM(totpag)+SUM(m.descuento))-SUM(totliq)) AS saldo FROM mayor_aseo m INNER JOIN 
+		tributes_aseo t ON m.idt=t.idt INNER JOIN users c ON m.idrfc=c.rfc WHERE m.idrfc='$rfc'";
 		return ejecutarConsultaSimpleFila($sql);
 	}
 
@@ -124,7 +124,7 @@ Class Contria
 
 	public function estadocuenta($comodinbusqueda)
 	{
-		$sql="SELECT DATE_FORMAT(m.moment, '%d/%m/%y') AS fechaliq,m.moment, m.tramite,m.period,m.idt,t.detalle,SUM(m.totliq) AS totliq,SUM(m.deferred) AS montodiferido, (SUM(m.totliq)-(SUM(m.descuento)+SUM(m.totpag))) AS diferencia,SUM(m.descuento) AS descuento,SUM(m.totpag) AS totpag,((SUM(totpag)+SUM(m.descuento))-SUM(totliq)) AS saldo FROM mayor m LEFT JOIN tributes t ON m.idt=t.idt WHERE idrfc='$comodinbusqueda' GROUP BY m.tramite ORDER BY m.moment DESC";
+		$sql="SELECT DATE_FORMAT(m.moment, '%d/%m/%y') AS fechaliq,m.moment, m.tramite,m.period,m.idt,t.detalle,SUM(m.totliq) AS totliq,SUM(m.deferred) AS montodiferido, (SUM(m.totliq)-(SUM(m.descuento)+SUM(m.totpag))) AS diferencia,SUM(m.descuento) AS descuento,SUM(m.totpag) AS totpag,((SUM(totpag)+SUM(m.descuento))-SUM(totliq)) AS saldo FROM mayor_aseo m LEFT JOIN tributes_aseo t ON m.idt=t.idt WHERE idrfc='$comodinbusqueda' GROUP BY m.tramite ORDER BY m.moment DESC";
 		return ejecutarConsulta($sql);		
 	}
    public function reportedeldia($comodinbusqueda,$comodinbusqueda2)

@@ -12,17 +12,18 @@ $tipotax=isset($_POST["tipotax"])? limpiarCadena($_POST["tipotax"]):"";
 $ramotax=isset($_POST["ramotax"])? limpiarCadena($_POST["ramotax"]):"";
 $categoriatax=isset($_POST["categoriatax"])? limpiarCadena($_POST["categoriatax"]):"";
 $tax=isset($_POST["tax"])? limpiarCadena($_POST["tax"]):"";
+$id=isset($_POST["id"])? limpiarCadena($_POST["id"]):"";
 
 
 switch ($_GET["op"]){
         
 	case 'guardaryeditar':
-		if (empty($idtaxempamb)){
-			$rspta=$taxempresa->insertar($idtipotax,$idramotax,$idcategoriatax,$tipotax,$ramotax,$categoriatax,$tax);
+		if (empty($id)){
+			$rspta=$taxempresa->insertar($tax);
 			echo $rspta ? "Tasa registrada" : "Tasa no se pudo registrarse";
 		}
 		else {
-			$rspta=$taxempresa->editar($idtaxempamb,$idtipotax,$idramotax,$idcategoriatax,$tipotax,$ramotax,$categoriatax,$tax);
+			$rspta=$taxempresa->editar($id,$tax);
 			echo $rspta ? "Tasa actualizada" : "Tasa no se pudo actualizarse";
 		}
 	break;
@@ -38,7 +39,7 @@ switch ($_GET["op"]){
 	break;
         
 	case 'mostrar':
-		$rspta=$taxempresa->mostrar($idtaxempamb);
+		$rspta=$taxempresa->mostrar($id);
  		//Codificar el resultado utilizando json
  		echo json_encode($rspta);
 	break;

@@ -132,10 +132,16 @@ function mostrar(id)
 	
 		mostrarform(true);
         $("#id").val(data.id);
-        $("#period").val(data.period);
-        $("#totliq").val(data.totliq);
-        $("#deferred").val(data.deferred);
-        $("#totpag").val(data.totpag);
+        $("#tramite2").val(data.tramite);
+        $("#periodoviejo").val(data.period);
+        $("#periodonuevo").val(data.period);
+        $("#montoliqviejo").val(data.totliq);
+        $("#montoliqnuevo").val(data.totliq);
+        $("#montodifviejo").val(data.deferred);
+        $("#montodifnuevo").val(data.deferred);
+        $("#montopagviejo").val(data.totpag);
+        $("#montopagnuevo").val(data.totpag);
+        $("#rfc2").val(data.idrfc);
 		
  	});
 
@@ -144,17 +150,19 @@ function mostrar(id)
 }
 
 
-function anular(id)
+function anular(id,rfc,tramite,totliq)
 {
 	bootbox.confirm("¿Está Seguro de Anular el Tramite?", function(result){
 		if(result)
         {
-        	$.post("../ajax/ajustetramite.php?op=anular", {id : id}, function(e){
+        	$.post("../ajax/ajustetramite.php?op=anular", {id : id, rfc: rfc, tramite:tramite, totliq:totliq}, function(e){
         		bootbox.alert(e);
 	            tabla.ajax.reload();
         	});	
         }
 	})
+
+	bootbox.alert(data.totliq);
 }
 
 

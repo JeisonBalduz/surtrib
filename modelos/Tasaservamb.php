@@ -12,24 +12,19 @@ Class Taxempresa
 	//Implementamos un método para insertar registros
 	public function insertar($idtipotax,$idramotax,$idcategoriatax,$tipotax,$ramotax,$categoriatax,$tax)
 	{
-		$sql="INSERT INTO taxempresasambiente (idtaxempamb,idtipotax,idramotax,idcategoriatax,tipotax,ramotax,categoriatax,tax,estado)
+		$sql="INSERT INTO taxaseo (idtaxempamb,idtipotax,idramotax,idcategoriatax,tipotax,ramotax,categoriatax,tax,estado)
 		VALUES ('$idtipotax','$idramotax','$idcategoriatax','$tipotax','$ramotax','$categoriatax','$tax','1')";
 		return ejecutarConsulta($sql);
 	}
    
 	//Implementamos un método para editar registros
-	public function editar($idtaxempamb,$idtipotax,$idramotax,$idcategoriatax,$tipotax,$ramotax,$categoriatax,$tax)
+	public function editar($id,$tax)
 	{
-		$sql="UPDATE taxempresasambiente SET 
-								   idtipotax='$idtipotax',
-								   idramotax='$idramotax',
-								   idcategoriatax='$idcategoriatax', 
-								   tipotax='$tipotax',
-								   ramotax='$ramotax',
-								   categoriatax='$categoriatax',
+		$sql="UPDATE taxaseo SET 
+
 								   tax='$tax'
 								   
-								   WHERE idtaxempamb='$idtaxempamb'";
+								   WHERE id='$id'";
 		return ejecutarConsulta($sql);
 	}
 	//Implementamos un método para desactivar Clientes
@@ -45,9 +40,9 @@ Class Taxempresa
 		return ejecutarConsulta($sql);
 	}
 	//Implementar un método para mostrar los datos de un registro a modificar
-	public function mostrar($idtaxempamb)
+	public function mostrar($id)
 	{
-		$sql="SELECT * FROM taxempresasambiente WHERE idtaxempamb='$idtaxempamb'";
+		$sql="SELECT * FROM taxaseo WHERE id='$id'";
 		return ejecutarConsultaSimpleFila($sql);
 	}
 

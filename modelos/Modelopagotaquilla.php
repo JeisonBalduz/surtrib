@@ -21,7 +21,18 @@ Class PagoTaqulla
 		if($idcpdv){
             $sql="INSERT INTO `dtcpdv`(`cpdv_id`, `approval`, `ref`, `ptype`, `mount`, `useamount`, `vfile`) VALUES ($idcpdv,'$txtaprobado','$txtreferencia',0,$txtmonto,0.00,NULL)";
             if(ejecutarConsulta($sql)){
-            	$sql="UPDATE mayor SET totpag=totpag+$txtmonto,mcondition='P',fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+              //	$sql="UPDATE mayor SET totpag=totpag+$txtmonto,mcondition='P',fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+             $sql1="SELECT ((totpag+$txtmonto)>=totliq) AS valor FROM mayor WHERE id=$id_mayor;";
+              $rsp = ejecutarConsulta($sql1);
+		          $reg=$rsp->fetch_object();
+		          if ($reg->valor==1){
+                 $sql="UPDATE mayor SET totpag=totpag+$txtmonto,mcondition='P',fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+		          }
+		          else{
+                  $sql="UPDATE mayor SET totpag=totpag+$txtmonto,fpagado=CURRENT_TIMESTAMP WHERE id=$id_mayor";
+               }	
+            	
+            	
             	return ejecutarConsulta($sql);
             }
             else

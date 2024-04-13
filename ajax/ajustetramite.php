@@ -4,7 +4,6 @@ require_once "../modelos/Ajustetramite.php";
 
 $ajuste=new Ajuste();
 
-$rfc=$_SESSION['rfc'];
 $iduser=$_SESSION['idusuario'];
 $id=isset($_POST["id"])? limpiarCadena($_POST["id"]):"";
 $idv=isset($_POST["idv"])? limpiarCadena($_POST["idv"]):"";
@@ -13,6 +12,19 @@ $period=isset($_POST["period"])? limpiarCadena($_POST["period"]):"";
 $totliq=isset($_POST["totliq"])? limpiarCadena($_POST["totliq"]):"";
 $deferred=isset($_POST["deferred"])? limpiarCadena($_POST["deferred"]):"";
 $totpag=isset($_POST["totpag"])? limpiarCadena($_POST["totpag"]):"";
+
+$tramite2=isset($_POST["tramite2"])? limpiarCadena($_POST["tramite2"]):"";
+$periodoviejo=isset($_POST["periodoviejo"])? limpiarCadena($_POST["periodoviejo"]):"";
+$montoliqviejo=isset($_POST["montoliqviejo"])? limpiarCadena($_POST["montoliqviejo"]):"";
+$montodifviejo=isset($_POST["montodifviejo"])? limpiarCadena($_POST["montodifviejo"]):"";
+$montopagviejo=isset($_POST["montopagviejo"])? limpiarCadena($_POST["montopagviejo"]):"";
+$periodonuevo=isset($_POST["periodonuevo"])? limpiarCadena($_POST["periodonuevo"]):"";
+$montoliqnuevo=isset($_POST["montoliqnuevo"])? limpiarCadena($_POST["montoliqnuevo"]):"";
+$montodifnuevo=isset($_POST["montodifnuevo"])? limpiarCadena($_POST["montodifnuevo"]):"";
+$montopagnuevo=isset($_POST["montopagnuevo"])? limpiarCadena($_POST["montopagnuevo"]):"";
+$obs=isset($_POST["obs"])? limpiarCadena($_POST["obs"]):"";
+$rfc2=isset($_POST["rfc2"])? limpiarCadena($_POST["rfc2"]):"";
+$rfc=isset($_POST["rfc"])? limpiarCadena($_POST["rfc"]):"";
 
 
 switch ($_GET["op"]){
@@ -23,7 +35,7 @@ switch ($_GET["op"]){
 			echo $rspta ? "Actividad Economica registrada" : "Actividad Economica no pudo registrarse";
 		}
 		else {
-			$rspta=$ajuste->editar($id,$period,$totliq,$deferred,$totpag);
+			$rspta=$ajuste->editar($id,$rfc2,$tramite2,$periodoviejo,$montoliqviejo,$montodifviejo,$montopagviejo,$periodonuevo,$montoliqnuevo,$montodifnuevo,$montopagnuevo,$obs,$iduser);
 			echo $rspta ? "Tramite actualizado" : "Tramite no se pudo actualizar";
 		}
 	break;
@@ -64,10 +76,10 @@ switch ($_GET["op"]){
 
 
 			if ($reg->mcondition=='L'){
-				$botones='<button class="btn btn-info" onclick="mostrar('.$reg->id.')"><i class="fa fa-eye"></i></button><button class="btn btn-danger" onclick="anular('.$reg->id.')"><i class="fa fa-cut"></i></button>';
+				$botones='<button class="btn btn-info" onclick="mostrar('.$reg->id.')"><i class="fa fa-eye"></i></button><button class="btn btn-danger" onclick="anular('.$reg->id.','.$reg->rfc.','.$reg->tramite.','.$reg->totliq.')"><i class="fa fa-cut"></i></button>';
 			}
 			else if($reg->mcondition=='D'){
-				$botones='<button class="btn btn-info" onclick="mostrar('.$reg->id.')"><i class="fa fa-eye"></i></button><button class="btn btn-danger" onclick="anular('.$reg->id.')"><i class="fa fa-cut"></i></button>';
+				$botones='<button class="btn btn-info" onclick="mostrar('.$reg->id.')"><i class="fa fa-eye"></i></button><button class="btn btn-danger" onclick="anular('.$reg->id.','.$reg->rfc.','.$reg->tramite.','.$reg->totliq.')"><i class="fa fa-cut"></i></button>';
 			}
 			else if($reg->mcondition=='C'){
 				$botones='<button class="btn btn-info" onclick="mostrar('.$reg->id.')"><i class="fa fa-eye"></i></button>';
@@ -114,7 +126,7 @@ switch ($_GET["op"]){
 	break;
 
 case 'anular':
-		$rspta=$ajuste->anular($id);
+		$rspta=$ajuste->anular($id,$rfc,$tramite,$iduser,$totliq);
  		echo $rspta ? "Tramite anulado" : "Tramite no se pudo anular";
 	break;
 	

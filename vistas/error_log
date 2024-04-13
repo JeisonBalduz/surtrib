@@ -2443,3 +2443,884 @@ Stack trace:
 [27-Mar-2024 12:49:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
 [27-Mar-2024 12:54:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
 [27-Mar-2024 12:54:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[27-Mar-2024 14:15:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 14:37:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[27-Mar-2024 15:29:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[27-Mar-2024 17:10:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[27-Mar-2024 21:28:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[28-Mar-2024 05:13:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[28-Mar-2024 13:03:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[28-Mar-2024 13:03:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[28-Mar-2024 14:15:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[28-Mar-2024 18:51:58 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[29-Mar-2024 14:17:34 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[29-Mar-2024 15:31:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[29-Mar-2024 19:20:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[30-Mar-2024 03:35:58 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[30-Mar-2024 08:54:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[30-Mar-2024 12:15:58 America/Caracas] PHP Warning:  Undefined variable $_SESSION in /home/surtribc/public_html/vistas/Publicidad.php on line 1
+[30-Mar-2024 12:15:58 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/surtribc/public_html/vistas/Publicidad.php on line 1
+[30-Mar-2024 12:15:58 America/Caracas] PHP Warning:  Undefined variable $_SESSION in /home/surtribc/public_html/vistas/Publicidad.php on line 1
+[30-Mar-2024 12:15:58 America/Caracas] PHP Warning:  Trying to access array offset on value of type null in /home/surtribc/public_html/vistas/Publicidad.php on line 1
+[30-Mar-2024 12:26:08 America/Caracas] PHP Warning:  require(./Anuncio.php): Failed to open stream: No such file or directory in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 113
+[30-Mar-2024 12:26:08 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required './Anuncio.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/surtribc/public_html/vistas/conceptocontribuyente.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 113
+[30-Mar-2024 12:26:12 America/Caracas] PHP Warning:  require(./Anuncio.php): Failed to open stream: No such file or directory in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 113
+[30-Mar-2024 12:26:12 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required './Anuncio.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/surtribc/public_html/vistas/conceptocontribuyente.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 113
+[30-Mar-2024 22:12:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[30-Mar-2024 22:12:43 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[31-Mar-2024 12:58:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[31-Mar-2024 19:04:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[31-Mar-2024 19:04:19 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 07:29:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 07:29:40 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 08:34:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[01-Apr-2024 08:38:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 08:38:35 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 09:30:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 09:30:56 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 09:40:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 09:40:08 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 09:46:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 09:46:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 10:10:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 10:10:43 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 10:15:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 10:15:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 10:48:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 10:48:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 10:51:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 10:51:08 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 11:00:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[01-Apr-2024 11:11:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[01-Apr-2024 11:22:12 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 11:22:12 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 11:24:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 11:24:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 13:10:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 13:10:48 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 14:37:49 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 14:37:49 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 15:19:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 15:19:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 15:35:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[01-Apr-2024 15:35:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[01-Apr-2024 15:39:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 15:39:55 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 17:18:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 17:18:29 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[01-Apr-2024 22:26:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[01-Apr-2024 22:26:20 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 07:42:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 07:42:14 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 09:26:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 09:26:48 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 10:24:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 10:24:40 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 10:26:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 10:26:03 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 10:26:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 10:26:06 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 11:30:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 11:36:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 11:50:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 11:51:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 11:51:34 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 12:00:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 12:00:35 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 12:58:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 12:58:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 13:48:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 13:48:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 13:55:26 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 13:55:26 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 15:11:00 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 15:11:00 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 15:18:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 15:18:23 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 15:28:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 15:36:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 15:42:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 15:42:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 15:42:32 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 16:10:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 16:23:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[02-Apr-2024 16:23:08 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[02-Apr-2024 17:39:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 17:52:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[02-Apr-2024 17:52:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 17:52:04 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[02-Apr-2024 20:19:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[02-Apr-2024 20:19:38 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 01:07:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 01:07:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 01:07:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 01:07:29 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 05:54:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 05:54:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 08:20:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 08:20:25 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 08:39:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 08:39:45 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 08:58:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 08:58:56 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 09:00:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 09:00:18 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 09:10:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 09:10:59 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 09:34:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 09:34:03 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 09:52:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 09:52:48 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 10:30:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 10:30:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 10:41:00 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[03-Apr-2024 11:13:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 11:13:39 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 11:17:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 11:17:15 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 11:47:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[03-Apr-2024 11:57:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 11:57:18 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 12:20:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 12:20:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 14:05:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 14:05:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 14:06:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 14:06:11 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 14:42:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 14:42:31 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 14:52:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 14:52:44 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 15:28:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 15:28:55 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 15:36:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 15:36:36 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 15:41:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 15:41:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 15:43:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 15:43:24 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 15:51:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[03-Apr-2024 15:51:14 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[03-Apr-2024 16:59:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 16:59:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 18:01:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 18:01:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 18:15:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 18:15:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[03-Apr-2024 19:12:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[03-Apr-2024 20:17:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[03-Apr-2024 20:17:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 03:29:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 03:29:28 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 06:10:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[04-Apr-2024 07:01:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 07:01:31 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 08:32:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[04-Apr-2024 08:42:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 08:42:31 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 08:45:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 08:45:20 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 08:53:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 08:53:09 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 09:00:49 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[04-Apr-2024 09:09:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 09:09:32 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 09:29:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 09:29:55 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 10:29:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 10:29:30 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 10:29:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 10:29:30 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 10:39:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 10:39:39 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 10:48:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 10:48:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 11:03:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 11:03:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 11:23:40 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[04-Apr-2024 11:50:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[04-Apr-2024 12:13:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 12:13:45 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 12:13:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 12:13:46 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 13:26:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 13:26:54 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 14:37:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 14:37:15 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 14:40:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 14:40:14 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 14:42:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 14:42:35 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 15:17:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 15:17:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 15:22:58 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 15:22:58 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 15:43:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 15:43:32 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 15:43:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 15:43:32 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 15:59:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 15:59:55 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[04-Apr-2024 18:44:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 18:44:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 18:53:47 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[04-Apr-2024 18:53:49 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[04-Apr-2024 18:53:49 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[04-Apr-2024 20:44:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[04-Apr-2024 20:44:36 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 00:16:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 00:16:08 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 02:17:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 02:17:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 03:20:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 03:20:35 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 06:19:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 07:57:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 07:57:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 08:10:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 08:25:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 08:25:35 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 08:56:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 09:09:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 09:11:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 09:11:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 09:17:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 09:17:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 09:17:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 09:17:06 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 09:26:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 09:26:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 09:26:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 09:32:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 09:32:03 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 09:35:21 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 09:35:21 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 09:54:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 09:54:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 09:54:53 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 09:54:53 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 10:00:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 10:00:25 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 10:19:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 10:59:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 10:59:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 11:09:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 11:09:09 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 11:36:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 11:36:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 11:56:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 11:56:57 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 12:36:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 12:36:20 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 12:44:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 12:47:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 13:03:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 13:03:09 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 13:47:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 13:52:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 13:52:11 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 14:28:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 14:30:54 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 14:58:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 14:58:04 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 15:12:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[05-Apr-2024 15:15:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 15:15:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 16:05:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 16:05:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 16:47:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 16:47:03 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 17:01:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 17:01:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 17:09:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 17:09:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 19:57:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[05-Apr-2024 19:57:50 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[05-Apr-2024 20:07:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 20:07:19 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 20:11:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 20:11:51 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 20:37:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 20:37:32 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[05-Apr-2024 21:41:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[05-Apr-2024 21:41:19 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[06-Apr-2024 06:27:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[06-Apr-2024 06:27:50 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[06-Apr-2024 08:38:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[06-Apr-2024 08:38:23 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[06-Apr-2024 08:57:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[06-Apr-2024 08:57:02 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[06-Apr-2024 08:57:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[06-Apr-2024 08:57:55 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[06-Apr-2024 11:25:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[06-Apr-2024 11:40:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[06-Apr-2024 11:40:33 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[06-Apr-2024 11:45:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[06-Apr-2024 14:52:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[06-Apr-2024 14:52:24 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[06-Apr-2024 16:45:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[06-Apr-2024 23:32:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[07-Apr-2024 01:17:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[07-Apr-2024 01:17:15 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[07-Apr-2024 01:33:26 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[07-Apr-2024 01:33:26 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[07-Apr-2024 01:33:26 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[07-Apr-2024 01:33:26 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[07-Apr-2024 12:06:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[07-Apr-2024 14:06:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[07-Apr-2024 14:06:04 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[07-Apr-2024 19:58:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[07-Apr-2024 19:58:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[07-Apr-2024 21:10:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 09:15:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 09:54:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 09:54:28 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 10:05:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 10:05:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 10:09:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 10:09:20 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 10:19:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 10:54:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 10:54:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 11:31:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 11:31:57 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 11:52:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 12:09:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 12:09:30 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 13:08:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 13:08:48 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 13:15:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 13:15:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 13:33:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 13:33:27 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 13:41:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 13:41:04 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 13:46:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 13:46:06 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 14:14:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 14:14:16 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 14:38:26 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 14:38:26 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 14:45:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 15:04:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 15:04:11 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 15:05:12 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 15:05:12 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 15:12:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 15:12:09 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 15:21:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 15:21:59 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 15:31:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 15:32:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 15:32:51 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 15:42:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 15:42:11 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 16:03:04 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 16:03:04 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 16:58:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 16:58:10 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 18:56:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[08-Apr-2024 20:15:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[08-Apr-2024 20:15:59 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[08-Apr-2024 20:48:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[08-Apr-2024 20:48:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[08-Apr-2024 22:07:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 08:28:49 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[09-Apr-2024 08:28:49 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[09-Apr-2024 08:42:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 08:42:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 09:21:55 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 09:35:53 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 09:45:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 10:31:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 10:51:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 10:51:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 11:11:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[09-Apr-2024 11:11:38 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[09-Apr-2024 11:17:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[09-Apr-2024 11:17:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[09-Apr-2024 11:38:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[09-Apr-2024 11:38:28 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[09-Apr-2024 12:18:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 12:18:57 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 12:32:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 12:32:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 12:32:38 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 12:35:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 14:00:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 14:01:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 14:03:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 14:03:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 14:21:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 14:28:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[09-Apr-2024 14:28:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[09-Apr-2024 14:32:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 14:32:27 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 14:38:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 14:38:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 15:25:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 15:25:16 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 15:35:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 15:54:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 15:54:08 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[09-Apr-2024 18:07:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[09-Apr-2024 21:19:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[09-Apr-2024 21:19:10 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 04:41:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 04:41:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 08:05:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 08:05:50 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 08:46:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 08:46:23 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 08:59:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 08:59:14 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 09:03:17 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[10-Apr-2024 09:03:17 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/pagostaquilla.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[10-Apr-2024 09:05:47 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[10-Apr-2024 09:05:47 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[10-Apr-2024 09:06:17 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/surtribc/public_html/config/Conexion.php on line 4
+[10-Apr-2024 09:06:17 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/anticipoc.php(12): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[10-Apr-2024 09:39:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 09:41:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 09:46:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 09:46:18 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 09:54:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 09:55:00 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 10:04:00 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 10:04:00 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 10:09:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 10:09:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 10:26:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 10:26:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 10:34:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 10:38:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 10:45:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 10:45:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 11:20:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 11:36:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 11:36:39 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 11:58:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 11:58:51 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 12:36:19 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 13:47:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 13:47:23 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 14:03:47 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 14:03:47 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 14:10:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 14:10:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 14:10:45 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 14:55:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 14:55:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 15:02:46 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 15:02:46 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 15:10:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 15:10:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 15:11:58 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 15:11:58 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 15:15:12 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 15:15:12 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 15:19:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 15:19:36 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 15:23:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 15:23:57 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 15:34:24 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 15:34:24 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 16:00:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 16:00:25 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 16:09:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 16:09:36 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 16:45:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 16:45:50 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 17:58:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 17:58:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 18:04:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 18:04:28 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[10-Apr-2024 19:20:38 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 19:20:38 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 19:52:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 19:52:25 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 21:35:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[10-Apr-2024 21:35:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[10-Apr-2024 22:06:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[10-Apr-2024 22:28:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[10-Apr-2024 22:28:39 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 00:11:11 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 00:11:11 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 08:12:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 08:12:10 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 08:12:13 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 08:12:13 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 08:12:13 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 08:12:13 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 08:43:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 08:43:18 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 09:15:47 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 09:15:47 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 09:24:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 09:24:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 09:35:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 10:16:27 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 10:16:27 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 10:21:00 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 10:21:00 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 10:27:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 10:27:50 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 10:31:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 10:31:29 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 10:32:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 10:32:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 10:39:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 10:39:31 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 10:41:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 10:41:25 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 10:45:01 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 10:45:01 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 11:11:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 11:11:36 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 11:11:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 11:11:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 11:30:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 11:30:09 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 12:21:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 12:21:33 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 12:38:45 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 12:38:45 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 12:54:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 13:20:29 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 13:23:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 13:23:08 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 13:25:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 13:25:31 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 13:30:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 13:30:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 14:20:48 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 14:22:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 14:22:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 14:47:52 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 14:47:52 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 14:48:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 14:48:16 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 14:48:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 14:48:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 14:48:17 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 14:48:17 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 14:49:21 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 14:49:21 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 15:09:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 15:29:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 15:34:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 15:34:06 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 15:34:37 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 15:34:37 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 15:43:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 15:43:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 16:18:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 16:18:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 16:33:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 16:33:51 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 16:59:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 16:59:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 17:02:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 17:30:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 17:30:30 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 18:25:36 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 18:25:36 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 18:34:08 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 18:37:00 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 18:37:50 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[11-Apr-2024 20:00:30 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[11-Apr-2024 20:00:30 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[11-Apr-2024 21:52:56 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 21:52:56 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 22:34:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 22:34:15 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[11-Apr-2024 23:22:06 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[11-Apr-2024 23:22:06 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 05:04:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 05:04:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 05:04:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 06:29:13 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 06:29:13 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 08:11:53 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 08:11:53 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 08:15:21 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 08:22:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 08:22:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 08:23:13 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 08:31:31 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 08:31:31 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 08:54:59 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 08:54:59 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 09:06:09 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 09:06:09 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 09:12:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 10:05:21 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 10:12:25 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 10:14:42 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 10:14:42 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 10:14:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 10:14:43 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 10:23:41 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 10:23:41 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 11:31:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 11:31:57 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 11:48:03 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 11:48:03 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 11:56:18 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 12:49:20 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 12:49:20 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 13:02:57 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 13:02:57 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 13:33:23 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 13:33:23 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 13:41:03 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 13:41:03 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/concepto.php(68): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 13:45:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 13:45:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 13:48:01 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 13:48:01 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 13:51:16 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 13:51:16 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 13:57:14 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 13:57:14 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/anticipoc.php(12): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 13:59:39 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 13:59:39 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 13:59:57 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 13:59:57 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/concepto.php(68): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:00:51 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:00:51 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:01:02 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:01:02 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/anticipoc.php(12): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:02:02 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:02:02 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:06:43 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:06:43 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:06:52 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:06:52 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/concepto.php(68): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:06:52 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:06:52 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:04 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:04 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:06 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:06 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:07 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:07 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/concepto.php(68): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:16 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:16 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:30 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:30 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/conceptocontribuyente.php(6): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:32 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:32 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:41 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:41 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/concepto.php(68): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:07:51 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:07:51 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:08:28 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:08:28 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuentahacienda.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:09:41 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:09:41 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/concepto.php(8): include('/home/surtribc/...')
+#2 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:11:41 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:11:41 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuenta.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:13:44 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 14:13:47 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:13:47 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/empambientead.php(12): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:13:58 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 14:13:58 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/conceptocontribuyente.php(65): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 14:26:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 14:26:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 14:47:07 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 14:47:07 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 15:00:02 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 15:00:02 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 15:00:43 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[12-Apr-2024 15:00:43 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[12-Apr-2024 15:12:44 America/Caracas] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/surtribc/public_html/config/Conexion.php on line 4
+[12-Apr-2024 15:12:44 America/Caracas] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/surtribc/public_html/config/Conexion.php:6
+Stack trace:
+#0 /home/surtribc/public_html/config/Conexion.php(6): mysqli_query(Object(mysqli), 'SET NAMES "utf8...')
+#1 /home/surtribc/public_html/vistas/header.php(3): include('/home/surtribc/...')
+#2 /home/surtribc/public_html/vistas/estadocuenta.php(11): require('/home/surtribc/...')
+#3 {main}
+  thrown in /home/surtribc/public_html/config/Conexion.php on line 6
+[12-Apr-2024 16:13:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 16:13:35 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 16:56:05 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[12-Apr-2024 16:56:05 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[12-Apr-2024 17:09:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[12-Apr-2024 19:48:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[13-Apr-2024 08:56:32 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[13-Apr-2024 08:56:32 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[13-Apr-2024 09:41:28 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[13-Apr-2024 09:41:28 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[13-Apr-2024 10:28:22 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[13-Apr-2024 10:28:22 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[13-Apr-2024 11:26:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[13-Apr-2024 12:50:35 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[13-Apr-2024 12:56:10 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 10
+[13-Apr-2024 12:56:10 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/conceptocontribuyente.php on line 54
+[13-Apr-2024 13:11:14 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[13-Apr-2024 13:11:14 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[13-Apr-2024 13:11:15 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[13-Apr-2024 13:11:15 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56
+[13-Apr-2024 13:45:51 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/anticipoc.php on line 5
+[13-Apr-2024 14:28:33 America/Caracas] PHP Warning:  Undefined array key "rfc" in /home/surtribc/public_html/vistas/concepto.php on line 11
+[13-Apr-2024 14:28:33 America/Caracas] PHP Warning:  Undefined array key "rol" in /home/surtribc/public_html/vistas/concepto.php on line 56

@@ -10,9 +10,9 @@ Class Definitiva
 		
 	}
 	//Implementamos un método para insertar registros
-	public function insertar($rfc2,$montobrutoanual,$representante,$rcedula,$rtelefono)
+	public function insertar($rfc2,$montobrutoanual,$representante,$rcedula,$rtelefono,$correlativo,$nacionalidad)
 	{
-		$sql="INSERT INTO `definitiva`(`rfc`, `montobruto`,`representante`, `rcedula`, `rtelefono`,`correlativo`) VALUES ('$rfc2','$montobrutoanual','$representante','$rcedula','$rtelefono',((SELECT MAX(correlativo) FROM `definitiva` as de)+1))";
+		$sql="INSERT INTO `definitiva`(`rfc`, `montobruto`,`representante`, `rcedula`, `rtelefono`,`correlativo`,nacionalidad) VALUES ('$rfc2','$montobrutoanual','$representante','$rcedula','$rtelefono',((SELECT MAX(correlativo) FROM `definitiva` as de)+1),'$nacionalidad')";
 		return ejecutarConsulta($sql);
 	}
    

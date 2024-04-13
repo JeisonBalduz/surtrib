@@ -128,12 +128,38 @@ if ($_SESSION['Clientes']==1)
            <h6 class="modal-title"></h6>
                                 <div class="row">
 
-                                 <div class="form-group col-sm-4 col-xs-12">
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                                                 <label>Tipo Pago</label>
+                         <select class="form-control" name="tipopago" id="tipopago" placeholder="Tipo Documento" onchange="tipo_pago(this.value)" required>
+            <option value="">Seleccione su documento</option>
+            <option value="0">Punto de Venta</option>
+             <option value="2">Transferencia Bancaria/Pago Movil</option>
+             <option value="8">Efectivo</option>
+             
+          </select> 
+                                                            </div> 
+
+
+                                <div class="form-group col-sm-12 col-xs-12" id="divbanco">
+                                <label>Banco</label>
+                         <select class="form-control" name="banco" id="banco" placeholder="Banco" required>
+            <option value="0">Seleccione el Banco</option>
+            <option value="6">VENEZUELA</option>
+             <option value="29">BICENTENARIO</option>
+             <option value="33">BNC</option>
+             <option value="10">BANCARIBE</option>
+             
+          </select> 
+                                                            </div> 
+
+                                                            
+
+                                 <div class="form-group col-sm-4 col-xs-12" id="divreferencia">
                                           <label>Referencia</label>
-                                            <input type="text" class="form-control" name="txtreferencia" id="txtreferencia" required/> 
+                                            <input type="text" class="form-control" name="txtreferencia" id="txtreferencia" maxlength="20" size="10" onblur="consultarReferencia(this.value);" required/> 
                                     </div> 
 
-                                             <div class="form-group col-sm-4 col-xs-12">
+                                             <div class="form-group col-sm-4 col-xs-12" id="divaprovado">
                                                      <label>Aprobado</label>
                          <input type="text" name="txtaprobado" id="txtaprobado" class="form-control"  required/> 
                                                             </div>
@@ -141,6 +167,9 @@ if ($_SESSION['Clientes']==1)
                                                                  <label>Monto</label>
                          <input type="numeric" name="txtmonto"  class="form-control" id="txtmonto" onkeypress="return NumCheck(event, this)" value="" onblur="CarcularPagoTramite();"  required/> 
                                                             </div> 
+                                                            
+                                                            
+                                                            
 
 
 

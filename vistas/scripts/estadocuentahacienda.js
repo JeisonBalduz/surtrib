@@ -212,6 +212,7 @@ function mostrartotal(rfc) {
         document.getElementById('sdescuento').innerHTML = data.sdescuento;
         document.getElementById('stotalp').innerHTML = data.stotalp;
         document.getElementById('stotaltotal').innerHTML = data.stotaltotal;
+        document.getElementById('saldo').innerHTML = data.saldo;
        
     })
    

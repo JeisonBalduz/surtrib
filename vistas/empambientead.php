@@ -46,7 +46,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Opciones</th>
                                                       <th>Tipo Serv.</th>
                                                       <th>Direccion</th>
-                                                      <th>Fecha de Pago</th>
+                                                      <th>Periodo Pagado</th>
                                                       <th>Tasa</th>                                   
                                                 </tr>
                                           </thead>
@@ -57,7 +57,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Opciones</th>
                                                       <th>Tipo Serv.</th>
                                                       <th>Direccion</th>
-                                                      <th>Fecha de Pago</th>
+                                                      <th>Periodo Pagado</th>
                                                       <th>Tasa</th>   
                                                       			
                                           </tfoot>
@@ -73,9 +73,9 @@ if ($_SESSION['Escritorio']==1)
                   <div class="card-body">
                         <div class="row">
                               <div class="form-group col-sm-2 col-xs-12">
-                                    <label>RUF</label>
+                                    <label>RUC</label>
                                           <input type="hidden" name="id" id="id">
-                                          <input type="text" name="rfc" id="rfc" class="form-control" placeholder="Ingrese RUF" onkeyup="this.value = this.value.toUpperCase();" required>
+                                          <input type="text" name="rfc" id="rfc" class="form-control" placeholder="Ingrese RUC" onkeyup="this.value = this.value.toUpperCase();" required>
                               </div>       
                               <div class="form-group col-sm-10 col-xs-12">
                                     <label>Nombre</label>
@@ -93,11 +93,11 @@ if ($_SESSION['Escritorio']==1)
                                           <input type="text" name="calle" id="calle" class="form-control" placeholder="Ingre la direccion segun RIF" onkeyup="this.value = this.value.toUpperCase();" required>
                               </div> 
                               <div class="form-group col-sm-3 col-xs-12">
-                                    <label>Edificio</label>
+                                    <label>Edificio/Casa</label>
                                           <input type="text" name="edificio" id="edificio" class="form-control" placeholder="Ingre la direccion segun RIF" onkeyup="this.value = this.value.toUpperCase();" required>
                               </div>
                               <div class="form-group col-sm-3 col-xs-12">
-                                                      <label>N° Edificio</label>
+                                                      <label>Nro Edificio/Casa</label>
                                                       <input type="text" name="numeroedif" id="numeroedif" class="form-control" placeholder="Ingre la direccion segun RIF" onkeyup="this.value = this.value.toUpperCase();" required>
                               </div> 
                         </div>
@@ -107,7 +107,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <input type="text" name="direccion" id="direccion" class="form-control" placeholder="Ingre la direccion segun RIF" onkeyup="this.value = this.value.toUpperCase();" required>
                               </div>
                               <div class="form-group col-sm-3 col-xs-12">
-                                          <label>Ultima Fecha de Pago</label>
+                                          <label>Ultimo Periodo Pagado</label>
                                                       <input type="date" name="ultima_declaracion" id="ultima_declaracion" class="form-control" required>
                               </div>
 	                  </div>

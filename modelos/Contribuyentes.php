@@ -93,7 +93,7 @@ Class Contrih
 
 	public function mostrartotal($rfc)
 	{
-		$sql="SELECT SUM(m.totliq) AS stotaliq,SUM(m.deferred) AS sdiferido,(SUM(m.totliq)-SUM(m.deferred)-SUM(m.descuento)-SUM(m.totpag)) AS stotaltotal,SUM(m.descuento) AS sdescuento,SUM(m.totpag) AS stotalp FROM mayor m INNER JOIN 
+		$sql="SELECT SUM(m.totliq) AS stotaliq,SUM(m.deferred) AS sdiferido,(SUM(m.totliq)-SUM(m.deferred)-SUM(m.descuento)-SUM(m.totpag)) AS stotaltotal,SUM(m.descuento) AS sdescuento,SUM(m.totpag) AS stotalp,((SUM(totpag)+SUM(m.descuento))-SUM(totliq)) AS saldo FROM mayor m INNER JOIN 
 		tributes t ON m.idt=t.idt INNER JOIN users c ON m.idrfc=c.rfc WHERE m.idrfc='$rfc'";
 		return ejecutarConsultaSimpleFila($sql);
 	}

@@ -15,6 +15,8 @@ if ($_SESSION['Escritorio']==1)
 ?>
     <!-- Inicio Contenido PHP-->
 	
+
+	
 <section class="content">
       <div class="container-fluid">
             <div class="row">
@@ -23,17 +25,9 @@ if ($_SESSION['Escritorio']==1)
                               <div class="card-header">
                                     <h3 class="card-title">Tasa de Servicios Residencial, Empresas, Comercios e Instituciones</h3>
                               </div>
-			            <div class="card-header">
-			                  <div class="row">
-                                          <div class="form-group col-md-12 col-sm-12 col-xs-1">
-						          <!--   <button class="btn btn-info" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Registrar Nueva Tasa </button>
-				                        <a href="http://localhost/surtri/vistas/tasaempresa.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
-                                          </div>
-				            </div>
-				      </div>
-                              <div class="card-header">
-                                    <h3 class="card-title">Listado de Tsas de Empresa, Comercios e Instituciones </h3>
-                              </div>-->
+                              
+                                    <div class="row">
+                                          <div class="form-group col-md-12 col-sm-12 col-xs-1">                      
                               <div class="card-body" id="lista">
                                     <table id="tbllistado" class="table table-bordered table-hover">
                                           <thead>
@@ -59,7 +53,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Categoria o Zona</th>
                                                       <th>Tasa</th>
                                                       <th>Estado</th>
-                                                </tr>     					
+                                                </tr>                               
                                           </tfoot>
                                     </table>
                               </div>
@@ -68,45 +62,43 @@ if ($_SESSION['Escritorio']==1)
             </div>
         
 
-
+            
 
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro y Modificacion de Tasas</h3>
+                        <h3 class="card-title">Formulario de Registro y Modificacion de Bancos</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
-			            <div class="row">
+                              <div class="row">
                                     <div class="form-group col-sm-3 col-xs-4">
-                                          <label>Ramo</label>
-                                                <input type="hidden" name="idtaxempamb" id="idtaxempamb" class="form-control" placeholder="Ingrese Tipo de Tasa">
-                                                <input type="text" name="ramotax" id="ramotax" class="form-control" placeholder="Ingrese Tipo de Ramo" readonly>
+                                          <label>Tipo</label>
+                                                <input type="hidden" name="id" id="id" class="form-control" placeholder="Ingrese Tipo de Tasa">
+                                                <input type="text" name="tipotax" id="tipotax" class="form-control" placeholder="Ingrese Tipo de Ramo" readonly>
                                     </div>
                                     
                                     <div class="form-group col-sm-3 col-xs-4">
-                                          <label>Categoria</label>
-                                          <input type="text" name="categoriatax" id="categoriatax" class="form-control" placeholder="Ingrese Tipo de Categoria" readonly>
-                                    </div>	 
-			                  <div class="form-group col-sm-3 col-xs-12">
-                                          <label>Tipo Tasa</label>
-                                                <input type="text" name="tipotax" id="tipotax" class="form-control" placeholder="Ingrese Tipo de Tasa" readonly>
-                                    </div>
+                                          <label>Ramo</label>
+                                          <input type="text" name="ramotax" id="ramotax" class="form-control" placeholder="Ingrese Tipo de Categoria" readonly>
+                                    </div>       
                                     <div class="form-group col-sm-3 col-xs-12">
-                                          <label>Monto Tasa</label>
-                                                <input type="number" name="tax" id="tax" class="form-control" placeholder="Ingrese Monto de la Tasa">
-                                    </div>     
-                              </div>				   
+                                          <label>Categoria</label>
+                                                <input type="text" name="categoriatax" id="categoriatax" class="form-control" placeholder="Ingrese Tipo de Tasa" readonly>
+                                    </div> 
+                                     <div class="form-group col-sm-3 col-xs-12">
+                                          <label>Tasa</label>
+                                                <input type="text" name="tax" id="tax" class="form-control" placeholder="Ingrese Tipo de Tasa">
+                                    </div>  
+                              </div>                           
                          </div>
                         <div class="card-footer">
-					<button type="submit" id="btnGuardar" class="btn btn-info">Guardar</button>
+                              <button type="submit" id="btnGuardar" class="btn btn-info">Guardar</button>
                               <button type="button"onclick="cancelarform()" class="btn btn-danger float-right">Cancelar</button>
                         </div>
-			</form>
-            </div>	
-	</div>
+                  </form>
+            </div>      
+      </div>
 </section>
-	
-	
 	
 	
 

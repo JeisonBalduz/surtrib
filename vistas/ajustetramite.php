@@ -20,19 +20,19 @@ if ($_SESSION['Escritorio']==1)
                   <div class="col-12">
 		            <div class="card" id="listadoregistros">
                               <div class="card-header">
-                                    <h3 class="card-title">Ajuste de Trámite </h3>
+                                    <h3 class="card-title">Ajuste de Tramite </h3>
                               </div>
             
 			            <div class="card-header">
 			                  <div class="row">
                                           <div class="form-group col-md-4 col-sm-6 col-xs-1">
-                                                <input type="text" name="tramite" id="tramite" class="form-control" placeholder="Ingrese N Trámite" required> 
+                                                <input type="text" name="tramite" id="tramite" class="form-control" placeholder="Ingrese N Tramite" required> 
                                           </div> 
 						      <div class="form-group col-md-8 col-sm-12 col-xs-1">
                                         
 						            <button type="submit" onclick="listar()" class="btn btn-info">Mostrar</button>
                            
-                                                <label>Búsqueda Trámite</label>
+                                                <label>Busqueda Tramite</label>
 				                        <a href="http://localhost/surtri2/vistas/estadocuentahacienda.php" type="submit" class="btn btn-danger float-right">Limpiar</a>
                                           </div>
 				            </div>
@@ -46,7 +46,7 @@ if ($_SESSION['Escritorio']==1)
                                                       <th>Opciones</th>
                                                       <th>Contribuyente</th>
                                                       <th>Tributo</th>
-                                                      <th>Condición</th>
+                                                      <th>Condicion</th>
                                                       <th>Fecha Decla.</th>
                                                        <th>Monto Liq.</th>
                                                       <th>Monto Dif.</th>
@@ -65,7 +65,7 @@ if ($_SESSION['Escritorio']==1)
                                                      <th>Opciones</th>
                                                       <th>Contribuyente</th>
                                                       <th>Tributo</th>
-                                                      <th>Condición</th>
+                                                      <th>Condicion</th>
                                                       <th>Fecha Decla.</th>
                                                        <th>Monto Liq.</th>
                                                       <th>Monto Dif.</th>
@@ -82,7 +82,7 @@ if ($_SESSION['Escritorio']==1)
 
             <div class="card card-info" id="formularioregistros">  
                   <div class="card-header">
-                        <h3 class="card-title">Formulario de Registro y Modificación de Bancos</h3>
+                        <h3 class="card-title">Formulario de Registro y Modificacion de Bancos</h3>
                   </div>
                   <form role="form" name="formulario" id="formulario" method="POST">
                         <div class="card-body"> 
@@ -90,22 +90,39 @@ if ($_SESSION['Escritorio']==1)
                                     <div class="form-group col-sm-3 col-xs-12">
                                           <label>Periodo</label>
                                                 <input type="hidden" name="id" id="id" class="form-control">
-                                                <input type="text" name="period" id="period" class="form-control" required>
+                                                <input type="hidden" name="rfc2" id="rfc2" class="form-control">
+                                                <input type="hidden" name="tramite2" id="tramite2" class="form-control">
+                                                <input type="hidden" name="periodoviejo" id="periodoviejo" class="form-control">
+                                                <input type="hidden" name="montoliqviejo" id="montoliqviejo" class="form-control">
+                                                <input type="hidden" name="montodifviejo" id="montodifviejo" class="form-control">
+                                                <input type="hidden" name="montopagviejo" id="montopagviejo" class="form-control">
+                                                <input type="text" name="periodonuevo" id="periodonuevo" class="form-control" required>
                         
                                     </div>
                                     <div class="form-group col-sm-3 col-xs-12">
                                           <label>Monto Declarado</label>
-                                                <input type="text" name="totliq" id="totliq" class="form-control" required>
+                                                <input type="text" name="montoliqnuevo" id="montoliqnuevo" class="form-control" required>
                         
                                     </div>
                                     <div class="form-group col-sm-3 col-xs-12">
                                           <label>Monto Diferido</label>
-                                                <input type="text" name="deferred" id="deferred" class="form-control" required>
+                                                <input type="text" name="montodifnuevo" id="montodifnuevo" class="form-control" required>
                                                 
                                     </div>
                                     <div class="form-group col-sm-3 col-xs-12">
                                           <label>Monto Pagado</label>
-                                                <input type="text" name="totpag" id="totpag" class="form-control" required>
+                                                <input type="text" name="montopagnuevo" id="montopagnuevo" class="form-control" required>
+                                    </div>
+
+
+
+                  
+                              </div>
+                              <div class="row">
+                                    
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                          <label>Observacion</label>
+                                                <input type="text" name="obs" id="obs" class="form-control" required>
                                     </div>
 
 

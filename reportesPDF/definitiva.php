@@ -12,7 +12,8 @@ $correlativo = $_GET['correlativo'];
 
 
 
-$tramite = "SELECT * FROM users u LEFT JOIN definitiva d ON u.rfc=d.rfc LEFT JOIN citizen c ON c.rfc=u.rfc WHERE u.rfc='$codigo2'";
+$tramite = "SELECT *, DATE_FORMAT(d.moment,'%d/%m/%Y') as moment FROM users u LEFT JOIN definitiva d ON u.rfc=d.rfc LEFT JOIN citizen c ON c.rfc=u.rfc WHERE u.rfc='$codigo2'";
+$tramite = "SELECT *, (case when (DATE_FORMAT(d.moment,'%Y-%m-%d')<='2024-04-09') then '' when (DATE_FORMAT(d.moment,'%Y-%m-%d')>'2024-04-09') then DATE_FORMAT(d.moment,'%d/%m/%Y') end) as moment FROM users u LEFT JOIN definitiva d ON u.rfc=d.rfc LEFT JOIN citizen c ON c.rfc=u.rfc WHERE u.rfc='$codigo2'";
 $tramite2 = "SELECT a.codigo_grupo,a.detalles,a.alicuota,ROUND((SUM(c.income)),2) AS tbruto,ROUND((SUM(c.tax)),2) AS ttax FROM companyeib c LEFT JOIN 
 companye cc ON c.idrelcompanye =cc.id LEFT JOIN activities2023 a ON c.idactivity=a.id LEFT JOIN users u ON u.rfc=cc.rfc LEFT JOIN mayor m ON m.tramite=cc.tramite
  WHERE cc.rfc='$codigo2' AND m.idt=1024 AND CONVERT(`annomm` USING utf8) LIKE '%2023%' GROUP BY a.codigo_grupo";
@@ -44,7 +45,8 @@ while ($obj = mysqli_fetch_object($result)) {
     $cedula=$obj->cedularif;
     $tipocedula=$obj->tiponac;
     $correo=$obj->correo;
-  
+    $nacionalidad=$obj->nacionalidad;
+    $moment=$obj->moment;
 
     
  }
@@ -178,9 +180,9 @@ $pdf->SetY(51);
 $pdf->SetTextColor(0,0,0);
 $pdf->Cell(196, 7, utf8_decode('Razon Social: '.$nombre.''),1,0,'L',0);
 */
-$pdf->SetAligns(array('J'));
-$pdf->SetWidths(array(196));
-$pdf->Row(array(utf8_decode('Razon Social: '.$nombre.'')));
+$pdf->SetAligns(array('J','J'));
+$pdf->SetWidths(array(147,49));
+$pdf->Row(array(utf8_decode('Razon Social: '.$nombre.''),'Fecha:'.$moment));
 
 /*
 $pdf->SetX(10);
@@ -217,7 +219,7 @@ $pdf->SetTextColor(0,0,0);
 $pdf->SetFont('Arial','B',8);
 $pdf->SetAligns(array('J','J'));
 $pdf->SetWidths(array(147,49));
-$pdf->Row(array(utf8_decode('Representante Legal:'.$representante.''),utf8_decode('Cedula: '.$rcedula.'')));
+$pdf->Row(array(utf8_decode('Representante Legal:'.$representante.''),utf8_decode('Cedula: '.$nacionalidad.$rcedula.'')));
 
 //$pdf->Ln(10);
 

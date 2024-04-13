@@ -15,7 +15,6 @@ $sql = "SELECT COUNT(id) AS nvehiculos FROM `vehicle` WHERE `rfc`='$rfc'";
 $sql2 = "SELECT COUNT(id) AS nactividades FROM `relcompanyactivity` WHERE `rfc`='$rfc'";
 $sql3 = "SELECT COUNT(Id_Inm) AS ninmuebles FROM `inmuebles` WHERE `rfc`='$rfc'";
 
-
 $link = $conexion;
 
 
@@ -53,10 +52,12 @@ while ($obj = mysqli_fetch_object($result)) {
   mysqli_free_result($result);
 }
 
-if ($_SESSION['Escritorio']==1 & $_SESSION['rol']==2) 
+
+if ($_SESSION['rol']==2) 
 {
   header("Location: conceptocontribuyente.php");
 }
+
 
 if (!isset($_SESSION["nombre"]))
 {
@@ -72,12 +73,15 @@ if ($_SESSION['Escritorio']==1)
 
 <style>
   /* estilos para contenedor: de las imagenes dentro del modal de anuncios */
+  img{
+    object-fit: cover;
+  }
   #anuncio img {
     width: 90%;
     height: 100%;
   }
     
-    .contenedor_img img{
+    .carousel-item img{
     height: 500px;
     width: 470px;
   }
@@ -99,17 +103,13 @@ if ($_SESSION['Escritorio']==1)
   .modal-footer{
     background:#001f3f;
   }
-  .img-data{
-    height: 300px;
-    width: 100%;
-  }
    /* estilos para contenedor MEDIACUERY: de las imagenes dentro del modal de anuncios */
   @media only screen and (max-width: 410px) {
     #anuncio img {
       width: 110%;
       height: auto;
     }
-    .contenedor_img img{
+    .carousel-item img{
     height: 400px;
     width: 310px;
     }
@@ -126,73 +126,32 @@ require './anuncio.php';
 <div class="row">
 
 <div class="col-md-12">
-            
-              <!-- Add the bg color to the header using any of the bg-* classes -->
-              <!-- Widget: user widget style 1 -->
+            <!-- Widget: user widget style 1 -->
             <div class="card card-widget widget-user">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
-                            <div class="carousel-inner">
-                                <div class="carousel-item hacienda active " style="height:300px; ">
-                                  <img class="img-data" src="../public/images/campo.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item ambiente" style="height:300px; ">
-                                  <img class="img-data" src="../public/images/carrete/ambiente.jpg" alt="Second slide">
-                                </div>
-                              
-                              </div>
-                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                        </div>
-
-                <figure class="widget-user-image" style="top: 249px;">
-                  <img class="img-circle" src="../public/images/libertador.jpg" alt="User Avatar">
-                </figure>
               <!-- Add the bg color to the header using any of the bg-* classes -->
-                <div class="widget-user-header text-white" style="position: absolute; width: 100%;">
-                        
-                  <h3 class="widget-user-username text-right">Alcaldía del Municipio Libertador</h3>
-                  <h5 class="widget-user-desc text-right" id="municipal">Hacienda Municipal</h5>
-                 
-                </div>
-                
-             
+              <div class="widget-user-header text-white"
+                   style="background: url('../public/images/campo.jpg') center center;">
+                <h3 class="widget-user-username text-right">Alcaldía del Municipio Libertador</h3>
+                <h5 class="widget-user-desc text-right">Hacienda Municipal</h5>
+              </div>
+              
+              <div class="widget-user-image">
+                <img class="img-circle" src="../public/images/libertador.jpg" alt="User Avatar">
+              </div>
               <div class="card-footer">
                 <div class="row">
-                  <div class="col-sm-6 border-right haciendaTexto">
+                  <div class="col-sm-6 border-right">
                     <div class="description-block">
-                      <h5 class="description-header">RECUERDE PAGAR SUS IMPUESTOS ANTES DEL: 15/03/2024</h5>
+                      <h5 class="description-header">RECUERDE PAGAR SUS IMPUESTOS ANTES DEL: 15/04/2024</h5>
                       <span class="description-text">Evite Sanciones, Estimado contribuyente mantener sus obligaciones tributarias al dia es importante</span>
                     </div>
                 
                   </div>
-                  <div class="col-sm-6 border-right haciendaTexto">
+                  <div class="col-sm-6 border-right">
                     <div class="description-block">
-                      <h5 class="description-header monedaITM"></h5>
+                      <h5 class="description-header">39,26 Bs</h5>
                       <span class="description-text">Valor del ITM</span>
-                      <span class="description-text">En Fecha 11/03/2024</span>
-                    </div>
-                  </div>
-
-                  <!-- ambiente -->
-                  <div class="col-sm-6 border-right ambienteTexto">
-                    <div class="description-block">
-                      <h5 class="description-header" id="descripcion">RECUERDE PAGAR SUS IMPUESTOS DE ASEO ANTES DEL: 05/03/2024</h5>
-                      <span class="description-text textoambiente">Evite Sanciones, Estimado contribuyente mantener sus obligaciones tributarias al dia es importante</span>
-                    </div>
-                
-                  </div>
-
-                  <div class="col-sm-6 border-right ambienteTexto">
-                    <div class="description-block">
-                      <h5 class="description-header  monedaITM"></h5>
-                      <span class="description-text">Valor del ITM</span>
-                      <span class="description-text">En Fecha 11/03/2024</span>
+                      <span class="description-text">En Fecha 01/04/2024</span>
                     </div>
                     
                   </div>
